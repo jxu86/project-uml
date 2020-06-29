@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T03:43:58.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="tWqYsRYV50Ts-peyPYl6" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-29T07:57:31.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="8xCZG83AC_Ig9c_fmFSy" version="13.3.5" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1026" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,19 +11,19 @@
           <mxGeometry x="80" y="282" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-1" value="投资人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="512.5" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-2" value="商家" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-3" value="会员系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="214" width="105" height="40" as="geometry" />
+          <mxGeometry x="320" y="214" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-4" value="消费者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-5" value="分账系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="214" width="110" height="40" as="geometry" />
+          <mxGeometry x="447.5" y="214" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="370" width="580" height="70" as="geometry" />
@@ -40,7 +40,7 @@
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-12" value="运通链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="495" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CiEnmBUkbcF6pbJvg2K4-13" value="资产合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiEnmBUkbcF6pbJvg2K4-13" value="数字资产合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="385" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -59,13 +59,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-18" value="运营系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="214" width="110" height="40" as="geometry" />
+          <mxGeometry x="610" y="214" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-19" value="web3.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="296" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiEnmBUkbcF6pbJvg2K4-20" value="设备接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="296" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CiEnmBUkbcF6pbJvg2K4-22" value="设备管理系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="214" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CiEnmBUkbcF6pbJvg2K4-23" value="设备接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="296" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
