@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T07:14:50.983Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="3PUPakCLTGDIeERtN6ag" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-30T07:17:21.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="MJ55ABsGPCdkXP_pZfz1" version="13.3.5" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1666" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -209,19 +209,43 @@
           <mxGeometry x="40" y="313" width="10" height="47" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-3" value="分账系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="4160" y="130" width="90" height="510" as="geometry" />
+          <mxGeometry x="4160" y="130" width="90" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pLI54Sb4RbXRS2hWNbkI-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-3">
+          <mxGeometry x="40" y="550" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLI54Sb4RbXRS2hWNbkI-95" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-3">
+          <mxGeometry x="40" y="230" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-4" value="票务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3680" y="130" width="90" height="680" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-4">
-          <mxGeometry x="40" y="250" width="10" height="50" as="geometry" />
+          <mxGeometry x="40" y="220" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-4">
           <mxGeometry x="40" y="86" width="10" height="94" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-4">
           <mxGeometry x="40" y="350" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pLI54Sb4RbXRS2hWNbkI-94" value="门票收益分账" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="pLI54Sb4RbXRS2hWNbkI-4" target="pLI54Sb4RbXRS2hWNbkI-3">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="570" as="sourcePoint" />
+            <mxPoint x="110" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLI54Sb4RbXRS2hWNbkI-96" value="门票分账规则" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pLI54Sb4RbXRS2hWNbkI-4" target="pLI54Sb4RbXRS2hWNbkI-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="230" as="sourcePoint" />
+            <mxPoint x="130" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLI54Sb4RbXRS2hWNbkI-97" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="pLI54Sb4RbXRS2hWNbkI-4" source="pLI54Sb4RbXRS2hWNbkI-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="sourcePoint" />
+            <mxPoint x="50" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-6" value="数字资产app后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2420" y="130" width="100" height="670" as="geometry" />
@@ -312,7 +336,7 @@
           <mxGeometry x="3430" y="130" width="90" height="680" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-47">
-          <mxGeometry x="40" y="244" width="10" height="66" as="geometry" />
+          <mxGeometry x="40" y="220" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pLI54Sb4RbXRS2hWNbkI-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pLI54Sb4RbXRS2hWNbkI-47">
           <mxGeometry x="40" y="340" width="10" height="250" as="geometry" />
