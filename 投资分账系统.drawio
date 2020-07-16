@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-16T05:57:19.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="4Sn0XCHO2L3lKBe5TbU1" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-16T07:23:58.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="G4Bb8wscIa2Jy4ZIp7bv" version="13.3.9" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1831" dy="869" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -928,44 +928,41 @@
         <mxCell id="HrBJv-KyF8DuoJu8Pti4-181" value="存储层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4240" y="2250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hFvRFUYeogGbBl0AptH3-1" value="运通链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5953" y="2070" width="475" height="130" as="geometry" />
+        <mxCell id="hFvRFUYeogGbBl0AptH3-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5947" y="2060" width="501" height="224" as="geometry" />
         </mxCell>
-        <mxCell id="hFvRFUYeogGbBl0AptH3-2" value="智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6130.5" y="1934" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hFvRFUYeogGbBl0AptH3-4" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="6189.79" y="2072" as="sourcePoint" />
-            <mxPoint x="6190" y="1992" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-2" value="分账智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5976" y="2107" width="118.37" height="37" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5950" y="1716" width="478" height="137" as="geometry" />
+          <mxGeometry x="5947" y="1718" width="491" height="262.01" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-8" value="业务后台程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6145" y="1716" width="91" height="20" as="geometry" />
+          <mxGeometry x="6140" y="1717.49" width="91" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="6189.79" y="1934" as="sourcePoint" />
-            <mxPoint x="6190" y="1854" as="targetPoint" />
+            <mxPoint x="6196.79" y="2060.01" as="sourcePoint" />
+            <mxPoint x="6197" y="1980.01" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6197" y="2016.01" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-10" value="web3.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6141" y="1814" width="99" height="39" as="geometry" />
+          <mxGeometry x="6863" y="1809.26" width="99" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="hFvRFUYeogGbBl0AptH3-11" value="分账业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5995" y="1761" width="99" height="39" as="geometry" />
+        <mxCell id="hFvRFUYeogGbBl0AptH3-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5974" y="1743.26" width="126.25" height="216" as="geometry" />
         </mxCell>
-        <mxCell id="hFvRFUYeogGbBl0AptH3-12" value="上链存证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6139.5" y="1761" width="99" height="39" as="geometry" />
+        <mxCell id="hFvRFUYeogGbBl0AptH3-12" value="P2P网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="2169" width="99" height="39" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-13" value="缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6289" y="1761" width="99" height="39" as="geometry" />
+          <mxGeometry x="7102" y="1790.26" width="99" height="39" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-15" value="南航直销平台购票系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5950" y="1518" width="476.5" height="117.33" as="geometry" />
+          <mxGeometry x="5950" y="1518" width="487" height="117" as="geometry" />
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -975,6 +972,72 @@
         </mxCell>
         <mxCell id="hFvRFUYeogGbBl0AptH3-17" value="REST API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6193" y="1665.01" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-20" value="运通链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6175.75" y="2060" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-23" value="消费者管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6301.75" y="1799.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-24" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;分账业务&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6008.13" y="1746.26" width="56" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-25" value="获取机票数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5985.6900000000005" y="1777" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-26" value="计算收益分成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5985.6900000000005" y="1892.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-27" value="计算收益分成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6880" y="1962" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-28" value="机票信息管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6300.25" y="1746.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6129.25" y="1742.26" width="129" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-30" value="入驻审批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6143" y="1777" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-31" value="渠道管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6144.25" y="1835" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-32" value="合同管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6144.25" y="1892.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-33" value="获取合同数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5985.6900000000005" y="1835" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-34" value="机票信息生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7158" y="1947.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-35" value="检票记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6301.75" y="1853.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-36" value="退票记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6301.75" y="1908.26" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-37" value="代理渠道管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6154" y="1743.76" width="77" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-44" value="渠道智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6136.56" y="2107" width="118.37" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-45" value="信息管理智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6294.06" y="2107" width="118.37" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-50" value="EVM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5987.63" y="2164" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-53" value="加密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6301.75" y="2171" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-54" value="日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6066" y="2227" width="99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvRFUYeogGbBl0AptH3-55" value="level" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6243.25" y="2227" width="99" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
