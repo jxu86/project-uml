@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T01:00:35.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="9tkEdBrR-qxzFuyXmgQd" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-27T01:01:14.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Y76ZHb5yOOtyamkjXS4K" version="13.6.2" type="github">
   <diagram id="VjnDuAETOl2htQ0PQwQe" name="Page-1">
     <mxGraphModel dx="770" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,6 +244,9 @@
         </mxCell>
         <mxCell id="ycZ-OousBWEmaGHV2r1z-4" value="&lt;span&gt;门票发行&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="210" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ycZ-OousBWEmaGHV2r1z-5" value="用户购买" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="327" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
