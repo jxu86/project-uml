@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T13:54:01.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="1n5e8M8Ue3BsCSK8Y2vz" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T13:59:27.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="tYZRUM-gyhH8t4DRQHKb" version="13.8.2" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1022" dy="404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1722,7 +1722,7 @@
           <mxGeometry x="9071.25" y="987" width="346.75" height="111" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8625" y="981" width="354" height="122" as="geometry" />
+          <mxGeometry x="8629" y="933" width="350" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1799,9 +1799,6 @@
         <mxCell id="WMdrJ3ezLO9owboC7TKo-47" value="自然资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8540" y="1540" width="52" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="WMdrJ3ezLO9owboC7TKo-48" value="税局应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8776.5" y="981" width="59" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-49" value="资源局应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9207" y="987" width="75.25" height="20" as="geometry" />
         </mxCell>
@@ -1867,6 +1864,18 @@
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-70" value="数据共享" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10353" y="1469" width="51" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-71" value="不动产登记机构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8629" y="761" width="121" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-72" value="不动产审批、交易机构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8763" y="761" width="132" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-73" value="社会公众" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8909" y="761" width="80" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-74" value="金融、税务、公安等部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9004" y="761" width="151" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
