@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T14:19:06.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="mzG3H103FUBo_LIaERy_" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T14:27:15.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="mlrtY1ceDv1bhiA01aHt" version="13.8.2" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1022" dy="404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1718,11 +1718,8 @@
         <mxCell id="WMdrJ3ezLO9owboC7TKo-25" value="区块链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8540" y="1346.11" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WMdrJ3ezLO9owboC7TKo-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="9268" y="761" width="346.75" height="111" as="geometry" />
-        </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8671" y="966" width="246" height="151" as="geometry" />
+          <mxGeometry x="8676" y="952" width="246" height="151" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1796,9 +1793,6 @@
         <mxCell id="WMdrJ3ezLO9owboC7TKo-47" value="自然资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8540" y="1540" width="52" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="WMdrJ3ezLO9owboC7TKo-49" value="资源局应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="9207" y="987" width="75.25" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-51" value="不动产信息管理平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9954.800000000001" y="1356.9999999999998" width="205" height="87" as="geometry" />
         </mxCell>
@@ -1869,31 +1863,40 @@
           <mxGeometry x="8807" y="884" width="132" height="41" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-73" value="社会公众" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8953" y="884" width="80" height="41" as="geometry" />
+          <mxGeometry x="9078" y="884" width="80" height="41" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-74" value="金融、税务、公安等部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="9048" y="884" width="151" height="41" as="geometry" />
+          <mxGeometry x="9173" y="884" width="151" height="41" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-75" value="首次登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8694" y="981" width="91" height="32" as="geometry" />
+          <mxGeometry x="8699" y="967" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-78" value="变更登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8694" y="1023.5" width="91" height="32" as="geometry" />
+          <mxGeometry x="8699" y="1009.5" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-79" value="转移登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8694" y="1065" width="91" height="32" as="geometry" />
+          <mxGeometry x="8699" y="1051" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-80" value="注销登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8803" y="1023.5" width="91" height="32" as="geometry" />
+          <mxGeometry x="8808" y="1009.5" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-81" value="预告登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8803" y="981" width="91" height="32" as="geometry" />
+          <mxGeometry x="8808" y="967" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-82" value="其他登记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8803" y="1064" width="91" height="32" as="geometry" />
+          <mxGeometry x="8808" y="1050" width="91" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WMdrJ3ezLO9owboC7TKo-80" target="WMdrJ3ezLO9owboC7TKo-80">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-86" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8800.5" y="1175" as="sourcePoint" />
+            <mxPoint x="8800.5" y="1104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-87" value="数据上链&lt;br&gt;数据获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8819" y="1131" width="57" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
