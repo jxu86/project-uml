@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T14:33:06.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="wKWMhQtV-PLEqzQpm2yJ" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T14:35:24.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="13EIi7SZ1Tgmplih7v0T" version="13.8.2" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1022" dy="404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1918,6 +1918,9 @@
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-92" value="数据上链&lt;br&gt;数据获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9255" y="1121" width="57" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="WMdrJ3ezLO9owboC7TKo-94" value="用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8534" y="891" width="52" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
