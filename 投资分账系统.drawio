@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T02:41:10.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="gXOSL3eKj_DOA0nGeS4T" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-26T03:17:00.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="4wuSsCaRNHc-41Eo3xa2" version="13.8.1" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
-    <mxGraphModel dx="906" dy="492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="597" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1758,67 +1758,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-51" value="不动产信息管理平台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9954.800000000001" y="1356.9999999999998" width="205" height="87" as="geometry" />
+          <mxGeometry x="10499.300000000001" y="1350.9999999999998" width="205" height="87" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-52" value="社会公众&lt;br&gt;(权利人、利害关系人等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9734" y="1358" width="165" height="83.92" as="geometry" />
+          <mxGeometry x="10278.5" y="1352" width="165" height="83.92" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-55" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9730" y="1514" width="693" height="93" as="geometry" />
+          <mxGeometry x="10274.5" y="1508" width="693" height="93" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-56" value="区块链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10056.5" y="1514" width="40" height="20" as="geometry" />
+          <mxGeometry x="10601" y="1508" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-57" value="税务节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9751" y="1542.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10295.5" y="1536.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-58" value="财务节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9868.6" y="1542.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10413.1" y="1536.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-59" value="民政节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9987" y="1543.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10531.5" y="1537.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-60" value="&amp;nbsp; &amp;nbsp;公安、民政、财政、&lt;br&gt;税务和工商等部门" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10216" y="1358.9999999999998" width="205" height="87" as="geometry" />
+          <mxGeometry x="10760.5" y="1352.9999999999998" width="205" height="87" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-61" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.124;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WMdrJ3ezLO9owboC7TKo-55" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="9766" y="1491.92" as="sourcePoint" />
-            <mxPoint x="9816" y="1441.92" as="targetPoint" />
+            <mxPoint x="10310.5" y="1485.92" as="sourcePoint" />
+            <mxPoint x="10360.5" y="1435.92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-62" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10056" y="1516" as="sourcePoint" />
-            <mxPoint x="10055.57" y="1444" as="targetPoint" />
+            <mxPoint x="10600.5" y="1510" as="sourcePoint" />
+            <mxPoint x="10600.07" y="1438" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10055.57" y="1476.08" />
+              <mxPoint x="10600.07" y="1470.08" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-63" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10327" y="1513" as="sourcePoint" />
-            <mxPoint x="10327.07" y="1445.92" as="targetPoint" />
+            <mxPoint x="10871.5" y="1507" as="sourcePoint" />
+            <mxPoint x="10871.57" y="1439.92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-64" value="社保节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10105" y="1542.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10649.5" y="1536.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-65" value="资源局节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10223" y="1542.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10767.5" y="1536.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-66" value="其他节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10335" y="1542.99" width="80" height="46" as="geometry" />
+          <mxGeometry x="10879.5" y="1536.99" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-68" value="不动产&lt;br&gt;数据上链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10079" y="1469" width="51" height="16" as="geometry" />
+          <mxGeometry x="10623.5" y="1463" width="51" height="16" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-69" value="信息查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="9833.5" y="1470" width="51" height="16" as="geometry" />
+          <mxGeometry x="10378" y="1464" width="51" height="16" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-70" value="数据共享" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10353" y="1469" width="51" height="16" as="geometry" />
+          <mxGeometry x="10897.5" y="1463" width="51" height="16" as="geometry" />
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-71" value="不动产登记机构" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="8645" y="854" width="121" height="41" as="geometry" />
@@ -2001,7 +2001,7 @@
           <mxGeometry x="10667" y="611" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-29" value="资源局节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="10645" y="654.5" width="92" height="32" as="geometry" />
+          <mxGeometry x="10696" y="616" width="92" height="32" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-30" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
           <mxGeometry x="10551" y="459" width="42.599999999999994" height="54" as="geometry" />
@@ -2050,7 +2050,7 @@
           <mxGeometry x="10645" y="378" width="92" height="32" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-73" value="区块链网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10585" y="618" width="40" height="20" as="geometry" />
+          <mxGeometry x="10593.6" y="607" width="64" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
