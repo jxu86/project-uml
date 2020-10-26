@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T01:28:11.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="2jDdGyLcDT6oBprsg5qs" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-26T01:31:30.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="BsO5iJJOyn1V9Zb8xbrJ" version="13.8.1" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1100" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1669,8 +1669,8 @@
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="8605" y="1489" as="sourcePoint" />
-            <mxPoint x="9424" y="1489" as="targetPoint" />
+            <mxPoint x="8605" y="1415" as="sourcePoint" />
+            <mxPoint x="9424" y="1415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WMdrJ3ezLO9owboC7TKo-3" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
@@ -1912,6 +1912,21 @@
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-11" value="接口层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8535" y="1157.5" width="51" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8629" y="1424" width="799" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-13" value="基础设施层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8539.5" y="1440" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-14" value="硬件设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8741" y="1433" width="101" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-15" value="网络设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8981" y="1435" width="101" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-16" value="系统软件设施" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9206" y="1435" width="101" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
