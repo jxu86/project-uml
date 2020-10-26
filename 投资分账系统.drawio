@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T02:27:19.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="ZicrNQa5fghHKuq8_9um" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-26T02:30:52.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="XI418v55k9iGUl-ALohM" version="13.8.1" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="1283" dy="640" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1929,34 +1929,58 @@
           <mxGeometry x="9206" y="1435" width="101" height="39" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-17" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="10733.6" y="654.5" width="42.599999999999994" height="54" as="geometry" />
+          <mxGeometry x="11066" y="732.25" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-18" value="税局节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="10706.6" y="698.5" width="92" height="32" as="geometry" />
+          <mxGeometry x="11039" y="776.25" width="92" height="32" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-20" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="10756" y="520" width="42.599999999999994" height="54" as="geometry" />
+          <mxGeometry x="11088.4" y="597.75" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-21" value="财务节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="10729" y="564" width="92" height="32" as="geometry" />
+          <mxGeometry x="11061.4" y="641.75" width="92" height="32" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-24" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="10943" y="528" width="42.599999999999994" height="54" as="geometry" />
+          <mxGeometry x="11275.4" y="605.75" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-25" value="民政节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="10916" y="572" width="92" height="32" as="geometry" />
+          <mxGeometry x="11248.4" y="649.75" width="92" height="32" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-26" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="10940" y="628.5" width="42.99" height="54.5" as="geometry" />
+          <mxGeometry x="11272.4" y="706.25" width="42.99" height="54.5" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-27" value="社保节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="10913" y="674" width="92" height="30.5" as="geometry" />
+          <mxGeometry x="11245.4" y="751.75" width="92" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-28" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
           <mxGeometry x="10514" y="654.5" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
         <mxCell id="KH0SOko7IyuTAIr8Eb1_-29" value="资源局节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="10487" y="698.5" width="92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-30" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="10551" y="459" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-31" value="应用节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10524" y="503" width="92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-38" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="460" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-39" value="应用节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10653" y="504" width="92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-40" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="10810" y="461.5" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-41" value="应用节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10783" y="505.5" width="92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-42" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="10672" y="334" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KH0SOko7IyuTAIr8Eb1_-43" value="负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10645" y="378" width="92" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
