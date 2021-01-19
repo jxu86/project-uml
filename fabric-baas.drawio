@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T06:09:06.027Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="w8oUBoa629BSBcf-WPXX" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-19T06:18:54.952Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eDsDGrcl9Qp2sUYnswjF" version="14.1.8" type="github" pages="2">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="770" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="120" width="370" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-1" value="fabricengine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="230" width="120" height="60" as="geometry" />
         </mxCell>
@@ -27,6 +30,21 @@
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="190" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-11" value="cryptogen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-12" value="configtxgen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-13" value="configtxlator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-14" value="discover" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1162.5" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-15" value="idxmingen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1277.5" y="190" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
