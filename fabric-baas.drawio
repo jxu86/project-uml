@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T07:00:16.568Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bWnkETTA2pXhnxm28Sox" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-19T07:20:35.842Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4X2AMqgHeGWtB6Ni662v" version="14.1.8" type="github" pages="2">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="770" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="240" width="370" height="110" as="geometry" />
+          <mxGeometry x="1170" y="290" width="370" height="110" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-1" value="fabricengine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
@@ -29,22 +29,22 @@
           <mxGeometry x="90" y="630" width="550" height="230" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-11" value="cryptogen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="1190" y="320" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-12" value="configtxgen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="1310" y="320" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-13" value="configtxlator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="1430" y="320" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-14" value="discover" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1262.5" y="310" width="90" height="30" as="geometry" />
+          <mxGeometry x="1252.5" y="360" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-15" value="idxmingen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1377.5" y="310" width="90" height="30" as="geometry" />
+          <mxGeometry x="1367.5" y="360" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-17" value="tools (docker)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1325" y="240" width="100" height="20" as="geometry" />
+          <mxGeometry x="1315" y="290" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-18" value="kubeengine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
@@ -62,25 +62,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-24" value="fabric-sdk-go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="490" width="120" height="30" as="geometry" />
+          <mxGeometry x="585" y="520" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-25" value="fabric-sdk-go-gm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="520" width="120" height="30" as="geometry" />
+          <mxGeometry x="720" y="520" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-26" value="models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="410" width="110" height="40" as="geometry" />
+          <mxGeometry x="915" y="430" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-27" value="tools" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="490" width="110" height="40" as="geometry" />
+          <mxGeometry x="915" y="320" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-28" value="fabric service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="205" width="440" height="35" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-30" value="config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="585" y="360" width="110" height="40" as="geometry" />
+          <mxGeometry x="915" y="270" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-31" value="common" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="390" width="110" height="40" as="geometry" />
+          <mxGeometry x="915" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-32" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-33" value="client-gm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
