@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T09:21:44.234Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Sv2VbOWURlYCjmHp6McF" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-19T10:30:51.732Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ccmYzkgCDH7sEf8TCdbN" version="14.1.8" type="github" pages="2">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="770" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ht5ad0jB9F0IEHcvdERb" name="文件目录">
-    <mxGraphModel dx="906" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="K3c31UwAeXaa2C5wNBHY-0" />
         <mxCell id="K3c31UwAeXaa2C5wNBHY-1" parent="K3c31UwAeXaa2C5wNBHY-0" />
@@ -191,6 +191,12 @@
         </mxCell>
         <mxCell id="iDAbwn3xDW4LlBX44mfe-4" value="baas-fabric-data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
           <mxGeometry x="900" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H5mi-u0W2vnvrC1jFvkL-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K3c31UwAeXaa2C5wNBHY-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959.41" y="70" as="sourcePoint" />
+            <mxPoint x="959.41" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
