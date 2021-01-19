@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T08:08:21.840Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zcMU0rZ7her9m21dwOlY" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-19T08:10:48.052Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="b_vCLsXl9j6SyCyl4hSL" version="14.1.8" type="github" pages="2">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="770" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -114,8 +114,11 @@
       <root>
         <mxCell id="K3c31UwAeXaa2C5wNBHY-0" />
         <mxCell id="K3c31UwAeXaa2C5wNBHY-1" parent="K3c31UwAeXaa2C5wNBHY-0" />
+        <mxCell id="cV8B6gMV1Za4FO06hOwl-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K3c31UwAeXaa2C5wNBHY-1" source="cV8B6gMV1Za4FO06hOwl-0" target="cV8B6gMV1Za4FO06hOwl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cV8B6gMV1Za4FO06hOwl-0" value="baas-k8s-config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
-          <mxGeometry x="590" y="120" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="120" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cV8B6gMV1Za4FO06hOwl-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="K3c31UwAeXaa2C5wNBHY-1" source="cV8B6gMV1Za4FO06hOwl-1" target="cV8B6gMV1Za4FO06hOwl-4">
           <mxGeometry relative="1" as="geometry" />
@@ -126,8 +129,11 @@
         <mxCell id="cV8B6gMV1Za4FO06hOwl-1" value="baas-artifacts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
           <mxGeometry x="310" y="120" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cV8B6gMV1Za4FO06hOwl-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K3c31UwAeXaa2C5wNBHY-1" source="cV8B6gMV1Za4FO06hOwl-2" target="cV8B6gMV1Za4FO06hOwl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cV8B6gMV1Za4FO06hOwl-2" value="baas-fabric-data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
-          <mxGeometry x="750" y="120" width="120" height="30" as="geometry" />
+          <mxGeometry x="900" y="120" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cV8B6gMV1Za4FO06hOwl-3" value="chainName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
           <mxGeometry x="190" y="280" width="120" height="30" as="geometry" />
@@ -164,6 +170,12 @@
         </mxCell>
         <mxCell id="cV8B6gMV1Za4FO06hOwl-9" value="peerOrgName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
           <mxGeometry x="530" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cV8B6gMV1Za4FO06hOwl-17" value="chainName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
+          <mxGeometry x="690" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cV8B6gMV1Za4FO06hOwl-18" value="chainName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K3c31UwAeXaa2C5wNBHY-1">
+          <mxGeometry x="900" y="200" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
