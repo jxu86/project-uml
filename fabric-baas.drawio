@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T07:41:18.855Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="H_euV4OSFEYGTEVcmPck" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-19T07:43:13.867Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0qz7vH0t8eSnE0nDnA_G" version="14.1.8" type="github" pages="2">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="770" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="500" width="440" height="80" as="geometry" />
+          <mxGeometry x="585" y="570" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-11" value="cryptogen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="320" width="90" height="30" as="geometry" />
@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-24" value="fabric-sdk-go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="535" width="120" height="30" as="geometry" />
+          <mxGeometry x="655" y="605" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-25" value="fabric-sdk-go-gm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="535" width="120" height="30" as="geometry" />
+          <mxGeometry x="825" y="605" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-26" value="models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="390" width="110" height="40" as="geometry" />
@@ -92,10 +92,16 @@
           <mxGeometry x="687.5" y="270" width="75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-38" value="vendor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="795" y="500" width="40" height="20" as="geometry" />
+          <mxGeometry x="790" y="570" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-39" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="325" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-40" value="template" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AWBpsYUG6O1ACRKMcPw6-41" value="template-gm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="450" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
