@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T03:17:29.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="NV8IWPMcIdgYwyzW4sJU" version="14.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-24T03:21:18.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="n4X7EJSWFupMCLgUZ5RK" version="14.2.4" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,6 +84,18 @@
         </mxCell>
         <mxCell id="x0ZERsFfSaKW7o8ltKrM-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-6">
           <mxGeometry y="178" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-10" value="ServerConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="650" width="310" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-11" value="ConnectionTimeout     time.Duration&#xa;SecOpts                      SecureOptions&#xa;KaOpts                        KeepaliveOptions&#xa;StreamInterceptors     []grpc.StreamServerInterceptor&#xa;UnaryInterceptors       []grpc.UnaryServerInterceptor&#xa;Logger                        *flogging.FabricLogger&#xa;HealthCheckEnabled  bool&#xa;ServerStatsHandler    *ServerStatsHandler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-10">
+          <mxGeometry y="26" width="310" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-10">
+          <mxGeometry y="170" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-10">
+          <mxGeometry y="178" width="310" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
