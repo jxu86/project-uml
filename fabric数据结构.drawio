@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T04:18:31.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="6PNbTNJwku-rTpGTxIqv" version="14.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-24T05:04:54.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="r6TJJQ7dHzliG5hdePfn" version="14.2.4" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
           <mxGeometry y="148" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="x0ZERsFfSaKW7o8ltKrM-18" value="fileLedgerFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="890" width="240" height="134" as="geometry" />
+          <mxGeometry x="920" y="1030" width="240" height="134" as="geometry" />
         </mxCell>
         <mxCell id="x0ZERsFfSaKW7o8ltKrM-19" value="blkstorageProvider  blockStoreProvider&#xa;ledgers                    map[string]*FileLedger&#xa;mutex                      sync.Mutex&#xa;removeFileRepo     *filerepo.Repo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-18">
           <mxGeometry y="26" width="240" height="74" as="geometry" />
@@ -120,6 +120,21 @@
         </mxCell>
         <mxCell id="x0ZERsFfSaKW7o8ltKrM-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-18">
           <mxGeometry y="108" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-22" value="Repo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1030" width="240" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-23" value="mu                  sync.Mutex&#xa;fileRepoDir         string&#xa;fileSuffix          string&#xa;transientFileMarker string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-22">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-22">
+          <mxGeometry y="100" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x0ZERsFfSaKW7o8ltKrM-22">
+          <mxGeometry y="108" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ZERsFfSaKW7o8ltKrM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ZERsFfSaKW7o8ltKrM-19" target="x0ZERsFfSaKW7o8ltKrM-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
