@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T02:53:34.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="8RUvE3TO37B3t8cZeQXs" version="14.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-21T03:20:15.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="20xUQc1BekuT8_qhkNv8" version="14.2.7" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -252,10 +252,10 @@
         <mxCell id="a9T5DmJsWgHofTxcQmCY-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a9T5DmJsWgHofTxcQmCY-25">
           <mxGeometry y="208" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a9T5DmJsWgHofTxcQmCY-29" value="identityOptions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="VI7J5G-gRqkJTRrY1DoW-1">
+        <mxCell id="a9T5DmJsWgHofTxcQmCY-29" value="ChannelService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="VI7J5G-gRqkJTRrY1DoW-1">
           <mxGeometry x="2230" y="550" width="220" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="a9T5DmJsWgHofTxcQmCY-30" value="    signingIdentity      msp.SigningIdentity&#xa;    orgName              string&#xa;    username             string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a9T5DmJsWgHofTxcQmCY-29">
+        <mxCell id="a9T5DmJsWgHofTxcQmCY-30" value="    provider    *ChannelProvider&#xa;    context      context.Client&#xa;    channelID  string&#xa;    ctxtCache  *contextCache" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a9T5DmJsWgHofTxcQmCY-29">
           <mxGeometry y="26" width="220" height="74" as="geometry" />
         </mxCell>
         <mxCell id="a9T5DmJsWgHofTxcQmCY-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="a9T5DmJsWgHofTxcQmCY-29">
