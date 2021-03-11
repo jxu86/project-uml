@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:07:09.916Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="X70zRFqXouaAeudxsdjD" version="14.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-11T01:11:19.357Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="kGI6ANrLP1k0Po6b_JO1" version="14.4.4" type="github" pages="4">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1026" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -289,6 +289,12 @@
       <root>
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-0" />
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-1" parent="DP0BoOvjuz9fBtDQ0MuO-0" />
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1073" y="263" width="486" height="428" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1139" y="495" width="346" height="173" as="geometry" />
+        </mxCell>
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
           <mxGeometry x="180" y="70" width="590" height="390" as="geometry" />
         </mxCell>
@@ -354,6 +360,51 @@
         </mxCell>
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-24" value="内网区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
           <mxGeometry x="310" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-27" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1280" y="153" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-28" value="区块链管理平台baas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1330" y="167" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-29" value="API gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1139" y="278" width="345" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-30" value="baas前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1258.5" y="339" width="106" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-31" value="baas后端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1258.5" y="412" width="106" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-32" value="orderer节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1270" y="530" width="83" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-35" value="peer0节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1155" y="615" width="83" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-36" value="peer1节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1270.5" y="615" width="83" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-37" value="peer2节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1388" y="615" width="83" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-38" value="区块链网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1159" y="504" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-43" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1293" y="198" width="24" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-45" value="外网访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1325" y="215" width="58" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-46" value="业务上链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1658" y="263" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-47" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1508" y="278" width="146" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DP0BoOvjuz9fBtDQ0MuO-48" value="内网访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DP0BoOvjuz9fBtDQ0MuO-1">
+          <mxGeometry x="1559" y="263" width="63" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
