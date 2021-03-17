@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T13:10:20.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LQBA0owwubFxeR7adMcc" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-17T13:13:09.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="oy8-JD24hRDgYHlddX_x" version="14.4.2" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -816,6 +816,9 @@
             <mxPoint x="2690" y="3370" as="sourcePoint" />
             <mxPoint x="2863" y="3330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ffjoukd8IEINGp_GsbRu-40" value="&lt;div&gt;&lt;span&gt;CurrentHash=hash(&lt;/span&gt;&lt;span&gt;Number+&lt;/span&gt;&lt;span&gt;PreviousHash+&lt;/span&gt;&lt;span&gt;DataHash)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="3200" width="310" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
