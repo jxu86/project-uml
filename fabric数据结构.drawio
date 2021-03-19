@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T06:24:31.434Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="iLec577w1LuPJdWC8IF9" version="14.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-19T06:34:09.058Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="TqVlzh5u7CxVC00xoiAu" version="14.4.8" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1026" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -941,6 +941,18 @@
           <mxGeometry y="60" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Ar24mUO2EbXa4zLN5KqU-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ar24mUO2EbXa4zLN5KqU-30">
+          <mxGeometry y="68" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar24mUO2EbXa4zLN5KqU-35" value="ConfigEnvelope " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2700" width="170" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar24mUO2EbXa4zLN5KqU-36" value="Config               *Config  &#xa;LastUpdate       *Envelope" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ar24mUO2EbXa4zLN5KqU-35">
+          <mxGeometry y="26" width="170" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar24mUO2EbXa4zLN5KqU-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Ar24mUO2EbXa4zLN5KqU-35">
+          <mxGeometry y="60" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar24mUO2EbXa4zLN5KqU-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ar24mUO2EbXa4zLN5KqU-35">
           <mxGeometry y="68" width="170" height="26" as="geometry" />
         </mxCell>
       </root>
