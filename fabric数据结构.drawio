@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T03:44:14.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="0h-deoJx-JvFs8_1WKiT" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-27T03:46:26.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sV4kI8IqxwE9c6hGG3PW" version="14.4.2" type="github" pages="2">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1112,6 +1112,41 @@
               <mxPoint x="2230" y="3955" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KaezIniT6kOnSoi0LeY_-15" target="KaezIniT6kOnSoi0LeY_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="4167" />
+              <mxPoint x="1780" y="3975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-15" value="Consortium" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="4120" width="190" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-16" value="Organizations    []*Organization" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-15">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-15">
+          <mxGeometry y="60" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-15">
+          <mxGeometry y="68" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-20" value="Policy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="4250" width="120" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-21" value="Type      string&#xa;Rule       string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-20">
+          <mxGeometry y="26" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-20">
+          <mxGeometry y="80" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KaezIniT6kOnSoi0LeY_-20">
+          <mxGeometry y="88" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KaezIniT6kOnSoi0LeY_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KaezIniT6kOnSoi0LeY_-21" target="KaezIniT6kOnSoi0LeY_-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
