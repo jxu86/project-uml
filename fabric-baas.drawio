@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T06:42:38.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OHNiXOAlocHqCZhgKv7r" version="14.6.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-14T08:24:22.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="8FB2MRM1tefijWt4VepH" version="14.6.11" type="github" pages="6">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1026" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCv79utN9RzwSItYEBk-" name="国土">
-    <mxGraphModel dx="1346" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="555" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3_beQVz15otzNYUmEsoD-0" />
         <mxCell id="3_beQVz15otzNYUmEsoD-1" parent="3_beQVz15otzNYUmEsoD-0" />
@@ -525,10 +525,10 @@
           <mxGeometry x="395" y="460" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F6wXTfdYguVX2q_DuKdU-11" value="数据读/写&lt;br&gt;抽象接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3_beQVz15otzNYUmEsoD-1">
-          <mxGeometry x="329" y="396" width="100" height="50" as="geometry" />
+          <mxGeometry x="280" y="396" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F6wXTfdYguVX2q_DuKdU-12" value="数据同步模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3_beQVz15otzNYUmEsoD-1">
-          <mxGeometry x="469" y="396" width="100" height="50" as="geometry" />
+          <mxGeometry x="510" y="396" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F6wXTfdYguVX2q_DuKdU-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="3_beQVz15otzNYUmEsoD-1" source="F6wXTfdYguVX2q_DuKdU-13" target="F6wXTfdYguVX2q_DuKdU-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -556,6 +556,9 @@
         </mxCell>
         <mxCell id="F6wXTfdYguVX2q_DuKdU-19" value="跨链同步服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3_beQVz15otzNYUmEsoD-1">
           <mxGeometry x="232" y="298" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F6wXTfdYguVX2q_DuKdU-20" value="数据格式化模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3_beQVz15otzNYUmEsoD-1">
+          <mxGeometry x="395" y="396" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
