@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T06:44:30.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wg4YK4WZ3nRoOQUBH26c" version="14.8.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-21T09:37:22.405Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jP1BGJGQA7P_MgGnDq6M" version="14.8.0" type="github" pages="6">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="1026" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,60 @@
         </mxCell>
         <mxCell id="YpB1rWFP9e4cjNuX4pEk-34" value="service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1931" y="1236" width="361" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-35" value="创建组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1550" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-36" value="删除组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1596" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-37" value="创建区块链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1643" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-38" value="部署区块链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1689" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-39" value="删除区块链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1735" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-40" value="创建通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1781" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-41" value="安装链码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1828" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-42" value="部署链码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1874" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-43" value="操作链码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1921" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-44" value="获取通道区块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1967" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-45" value="区块链增加组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="2015" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-46" value="区块链删除组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="2063" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-47" value="区块链增加节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="2111" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-49" value="区块链删除节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="2155" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-50" value="区块链网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2332" y="1590" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-51" value="区块链新建通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2332" y="1655" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-52" value="区块链新建通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2332" y="1720" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpB1rWFP9e4cjNuX4pEk-53" value="区块链新建通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2353" y="1806" width="133" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
