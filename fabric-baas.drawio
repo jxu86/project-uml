@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T02:13:26.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="LEaUT14rwFtGcv9zmS-6" version="14.8.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-14T02:19:05.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="YVS2NGS-WDV0PX3C59X6" version="14.8.4" type="github" pages="7">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1426" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -248,10 +248,10 @@
           <mxGeometry x="2353" y="1806" width="133" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hW7hrUV0_uZZB12w6uu_-1" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2819" y="1062" width="1199" height="40" as="geometry" />
+          <mxGeometry x="2820" y="1060" width="1190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hW7hrUV0_uZZB12w6uu_-2" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3358" y="992" width="120" height="30" as="geometry" />
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-2" value="前端界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3358" y="940" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hW7hrUV0_uZZB12w6uu_-3" value="baas后端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2822" y="1190" width="1350" height="60" as="geometry" />
@@ -366,6 +366,24 @@
         </mxCell>
         <mxCell id="hW7hrUV0_uZZB12w6uu_-86" value="区块链网络访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3147" y="1695" width="92" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-87" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4100.5" y="1253" width="45" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-88" value="区块链网络、&lt;br&gt;通道、链码等&lt;br&gt;信息存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4134" y="1475" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-89" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3395.5" y="1100" width="45" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-90" value="REST API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3434" y="1134" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-92" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3395.5" y="970.5" width="45" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-93" value="REST API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3434" y="1004.5" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
