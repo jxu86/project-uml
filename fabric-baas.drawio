@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T01:30:52.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="s7-8j2BY4ThcNGcj1gnh" version="14.8.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-14T01:27:48.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4nSAuAeKU7UOH0hnGVT9" version="14.8.4" type="github" pages="7">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="1026" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="1337" width="363" height="218" as="geometry" />
+        </mxCell>
         <mxCell id="AWBpsYUG6O1ACRKMcPw6-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="585" y="470" width="265" height="70" as="geometry" />
         </mxCell>
@@ -243,6 +246,24 @@
         </mxCell>
         <mxCell id="YpB1rWFP9e4cjNuX4pEk-53" value="区块链新建通道" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2353" y="1806" width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-1" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2821" y="1060" width="454" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-2" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2988" y="990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-3" value="baas后端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2822" y="1152" width="453" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2625" y="1291" width="363" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-5" value="fabric engine server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2725.5" y="1291" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hW7hrUV0_uZZB12w6uu_-6" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;kube engine server&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3234" y="1337" width="122.5" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
