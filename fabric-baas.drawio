@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T03:23:01.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="sQUQTNt593QHNX4uL_MZ" version="14.8.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-23T03:23:28.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="_u8Khb4b4U7NfGJ8NcMQ" version="14.8.6" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1395" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1264,6 +1264,9 @@
         </mxCell>
         <mxCell id="F7BWOIQFrFu0xW-HazVX-50" value="部署" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="F7BWOIQFrFu0xW-HazVX-1">
           <mxGeometry x="360" y="720" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F7BWOIQFrFu0xW-HazVX-51" value="链码管理状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="F7BWOIQFrFu0xW-HazVX-1">
+          <mxGeometry x="280" y="560" width="145" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
