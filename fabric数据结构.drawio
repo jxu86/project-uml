@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T06:59:01.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="yluvXcjT7W1GasYEVi7j" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-09T08:12:24.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="GjyrB4OApa8cTcQYnQeh" version="15.1.0" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
-    <mxGraphModel dx="1026" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1198,6 +1198,14 @@
         </mxCell>
         <mxCell id="JBB16DPDQN-CAF7zMr6X-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.604;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JBB16DPDQN-CAF7zMr6X-16" target="JBB16DPDQN-CAF7zMr6X-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1X5_ZZ1lmE6aGBJ_nFYp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlO_L6FjShkeWoTuuDt--27" target="DlO_L6FjShkeWoTuuDt--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1X5_ZZ1lmE6aGBJ_nFYp-2" value="接口实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1X5_ZZ1lmE6aGBJ_nFYp-1">
+          <mxGeometry x="0.2027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
