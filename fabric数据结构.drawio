@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:15:15.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LxGGnaWt2syKRv7Rmz8g" version="15.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-10T03:16:54.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LIGLKymYVCTgp3vT6jq0" version="15.1.0" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1574,6 +1574,9 @@
         </mxCell>
         <mxCell id="aw1rek3jc66vgLW9zp5N-55" value="系统通道线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="1240" y="100" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aw1rek3jc66vgLW9zp5N-57" value="创建通道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="262.5" y="100" width="65" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
