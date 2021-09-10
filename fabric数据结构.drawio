@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T05:46:52.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0OH_xfXInbtKuojXlV32" version="15.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-10T05:49:43.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="PHZo1Jfz7bB1rP2sj03-" version="15.1.0" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1452,16 +1452,6 @@
             <mxPoint x="296" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-19" target="aw1rek3jc66vgLW9zp5N-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-30" value="channel发送信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aw1rek3jc66vgLW9zp5N-29">
-          <mxGeometry x="0.0276" relative="1" as="geometry">
-            <mxPoint x="1" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aw1rek3jc66vgLW9zp5N-19" value="调用共识程序&lt;br&gt;发送消息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="235" y="530" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1569,11 +1559,6 @@
             <mxPoint x="800" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-48" target="aw1rek3jc66vgLW9zp5N-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1170" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aw1rek3jc66vgLW9zp5N-48" value="创建新通道线程" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="740" y="810" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1613,6 +1598,23 @@
         </mxCell>
         <mxCell id="aw1rek3jc66vgLW9zp5N-57" value="创建通道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="262.5" y="100" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3Kc3VOCyy43Dn1L07kyu-0" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" target="aw1rek3jc66vgLW9zp5N-53">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="861" y="830" as="sourcePoint" />
+            <mxPoint x="1110" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Kc3VOCyy43Dn1L07kyu-1" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" target="aw1rek3jc66vgLW9zp5N-21">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="355" y="550" as="sourcePoint" />
+            <mxPoint x="415" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Kc3VOCyy43Dn1L07kyu-2" value="channel发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Kc3VOCyy43Dn1L07kyu-1">
+          <mxGeometry x="-0.0422" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
