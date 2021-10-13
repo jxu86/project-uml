@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T03:37:48.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="xM7hfsvpTkQMrEw3vI4E" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-13T03:39:56.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="OtpZn0br9kPx_olrLD5U" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1691,16 +1691,29 @@
           <mxGeometry x="375" y="530" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-2" value="当前消息是否大于PerferredMaxBytes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
-          <mxGeometry x="1670" y="110" width="170" height="70" as="geometry" />
+          <mxGeometry x="1835" y="140" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-2" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="1960" y="145" as="targetPoint" />
+            <mxPoint x="2125" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-4" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-2" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="1755" y="270" as="targetPoint" />
+            <mxPoint x="1920" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-6" value="pendingBatch长度 &amp;gt; 0 ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="1835" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-7" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="VpZ2k9t5-znOCXMf8ULf-6">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2125" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="VpZ2k9t5-znOCXMf8ULf-6">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1920" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
