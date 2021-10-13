@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T06:19:02.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="3AYGq7anAnWrOS0Vquk3" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-13T06:38:11.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="nrH0oNXtHU2o7IrZbF9f" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1754,12 +1754,35 @@
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-17" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-16" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="2480" y="480" as="targetPoint" />
+            <mxPoint x="2290" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2460" y="480" />
+              <mxPoint x="2460" y="680" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-16" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="2290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxMessageCount: 一个block最大交易数&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;PreferredMaxBytes: 一个block最大容量&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="1640" y="230" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-22" value="取出缓冲区数据打包成一个batch" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="2230" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-22" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-24" value="把当前消息放到缓冲区" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="2230" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-24" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
