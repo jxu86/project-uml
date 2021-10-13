@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T09:29:47.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="eoMW7pWIwKgVBe_v_UjZ" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-13T09:45:35.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="beeoLhuRk-65DxWfn452" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1309,47 +1309,39 @@
         <mxCell id="_cW--wvI3YnGWfyoAL7x-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_cW--wvI3YnGWfyoAL7x-14" vertex="1">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-1" value="BlockWriter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="3630" y="3180" width="210" height="164" as="geometry" />
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-21" value="blockWriterSupport(interface)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3370" y="602" width="470" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-2" value="support            blockWriterSupport&#xa;    registrar          *Registrar&#xa;    lastConfigBlockNum uint64&#xa;    lastConfigSeq      uint64&#xa;    lastBlock          *cb.Block&#xa;    committingBlock    sync.Mutex" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-1">
-          <mxGeometry y="26" width="210" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-1">
-          <mxGeometry y="130" width="210" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-1">
-          <mxGeometry y="138" width="210" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-6" value="blockWriterSupport(interface)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="3991.88" y="3000" width="470" height="164" as="geometry" />
-        </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-7" value="identity.SignerSerializer&#xa;    blockledger.ReadWriter&#xa;    configtx.Validator&#xa;    Update(*newchannelconfig.Bundle)&#xa;    CreateBundle(channelID string, config *cb.Config) (*newchannelconfig.Bundle, error)&#xa;    SharedConfig() newchannelconfig.Orderer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-6">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-22" value="identity.SignerSerializer&#xa;    blockledger.ReadWriter&#xa;    configtx.Validator&#xa;    Update(*newchannelconfig.Bundle)&#xa;    CreateBundle(channelID string, config *cb.Config) (*newchannelconfig.Bundle, error)&#xa;    SharedConfig() newchannelconfig.Orderer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-21">
           <mxGeometry y="26" width="470" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-6">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-21">
           <mxGeometry y="130" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-6">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-21">
           <mxGeometry y="138" width="470" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-7" target="RMlnXKscG8bJJNY7n_sv-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-22" target="nlIa3rquKC6j2RtFnkfE-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3252.9399999999996" y="984.008" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-12" value="Registrar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="4060" y="3220" width="290" height="244" as="geometry" />
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-26" value="Registrar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3370" y="780" width="290" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-13" value="config localconfig.TopLevel&#xa;    lock   sync.RWMutex&#xa;    chains map[string]*ChainSupport&#xa;    consenters         map[string]consensus.Consenter&#xa;    ledgerFactory      blockledger.Factory&#xa;    signer             identity.SignerSerializer&#xa;    blockcutterMetrics *blockcutter.Metrics&#xa;    systemChannelID    string&#xa;    systemChannel      *ChainSupport&#xa;    templator          msgprocessor.ChannelConfigTemplator&#xa;    callbacks          []channelconfig.BundleActor&#xa;    bccsp              bccsp.BCCSP" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-12">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-27" value="config localconfig.TopLevel&#xa;    lock   sync.RWMutex&#xa;    chains map[string]*ChainSupport&#xa;    consenters         map[string]consensus.Consenter&#xa;    ledgerFactory      blockledger.Factory&#xa;    signer             identity.SignerSerializer&#xa;    blockcutterMetrics *blockcutter.Metrics&#xa;    systemChannelID    string&#xa;    systemChannel      *ChainSupport&#xa;    templator          msgprocessor.ChannelConfigTemplator&#xa;    callbacks          []channelconfig.BundleActor&#xa;    bccsp              bccsp.BCCSP" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-26">
           <mxGeometry y="26" width="290" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-12">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-26">
           <mxGeometry y="210" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-12">
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-29" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-26">
           <mxGeometry y="218" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RMlnXKscG8bJJNY7n_sv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-13" target="RMlnXKscG8bJJNY7n_sv-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-27" target="nlIa3rquKC6j2RtFnkfE-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3252.1000000000004" y="998.048" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
