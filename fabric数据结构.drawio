@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T06:12:10.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="sG8wJ46H4ixgFhCXboD9" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-13T06:17:46.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="LHruLjv2qM-RtlQAxX7f" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1690,12 +1690,12 @@
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-1" value="Configure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="375" y="530" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VpZ2k9t5-znOCXMf8ULf-2" value="当前消息是否大于PerferredMaxBytes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-2" value="当前消息是否大于PerferredMaxBytes?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="1835" y="140" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VpZ2k9t5-znOCXMf8ULf-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-2" parent="KemYwzoRY7KKPUjTFh2P-1">
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-2" parent="KemYwzoRY7KKPUjTFh2P-1" target="VpZ2k9t5-znOCXMf8ULf-14">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="2125" y="175" as="targetPoint" />
+            <mxPoint x="2180" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-4" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-2" parent="KemYwzoRY7KKPUjTFh2P-1">
@@ -1740,6 +1740,27 @@
         </mxCell>
         <mxCell id="VpZ2k9t5-znOCXMf8ULf-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="1905" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-14" value="缓冲区数据长度+当前消息长度=消息总长度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="2230" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-14" parent="KemYwzoRY7KKPUjTFh2P-1" target="VpZ2k9t5-znOCXMf8ULf-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-16" value="消息总长是否大于PerferredMaxBytes?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="2216" y="440" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-17" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-16" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpZ2k9t5-znOCXMf8ULf-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="VpZ2k9t5-znOCXMf8ULf-16" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2291" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
