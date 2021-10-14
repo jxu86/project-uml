@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T07:39:05.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="3iKWNmzy-CWpQ337Sw_I" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T07:44:58.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="owSakjIddLtlEje3hX2E" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
-    <mxGraphModel dx="1395" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1461,7 +1461,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-92" value="PeerLedgerProvider(interface)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="6320" y="1920" width="320" height="118" as="geometry" />
+          <mxGeometry x="6230" y="2400" width="320" height="118" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-93" value="Create(genesisBlock *common.Block) (PeerLedger, error)&#xa;Open(ledgerID string) (PeerLedger, error)&#xa;Exists(ledgerID string) (bool, error)&#xa;List() ([]string, error)&#xa;Close()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-92">
           <mxGeometry y="26" width="320" height="84" as="geometry" />
@@ -1471,7 +1471,7 @@
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-96">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="6470" y="2040" as="targetPoint" />
+            <mxPoint x="6380" y="2520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-101" value="接口实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RMlnXKscG8bJJNY7n_sv-100">
@@ -1480,7 +1480,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-96" value="Provider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="6330" y="2130" width="280" height="244" as="geometry" />
+          <mxGeometry x="6240" y="2610" width="280" height="244" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-97" value="    idStore              *idStore&#xa;    blkStoreProvider     *blkstorage.BlockStoreProvider&#xa;    pvtdataStoreProvider *pvtdatastorage.Provider&#xa;    dbProvider           *privacyenabledstate.DBProvider&#xa;    historydbProvider    *history.DBProvider&#xa;    configHistoryMgr     *confighistory.Mgr&#xa;    stateListeners       []ledger.StateListener&#xa;    bookkeepingProvider  bookkeeping.Provider&#xa;    initializer          *ledger.Initializer&#xa;    collElgNotifier      *collElgNotifier&#xa;    stats                *stats&#xa;    fileLock             *leveldbhelper.FileLock" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-96">
           <mxGeometry y="26" width="280" height="184" as="geometry" />
@@ -1492,7 +1492,7 @@
           <mxGeometry y="218" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-102" value="Initializer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="6900" y="2038" width="430" height="214" as="geometry" />
+          <mxGeometry x="7700" y="2490" width="430" height="214" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-103" value="    CustomTxProcessors              map[common.HeaderType]ledger.CustomTxProcessor&#xa;    StateListeners                  []ledger.StateListener&#xa;    DeployedChaincodeInfoProvider   ledger.DeployedChaincodeInfoProvider&#xa;    MembershipInfoProvider          ledger.MembershipInfoProvider&#xa;    ChaincodeLifecycleEventProvider ledger.ChaincodeLifecycleEventProvider&#xa;    MetricsProvider                 metrics.Provider&#xa;    HealthCheckRegistry             ledger.HealthCheckRegistry&#xa;    Config                          *ledger.Config&#xa;    HashProvider                    ledger.HashProvider&#xa;    EbMetadataProvider              MetadataProvider" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-102">
           <mxGeometry y="26" width="430" height="154" as="geometry" />
@@ -1502,6 +1502,36 @@
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-105" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-102">
           <mxGeometry y="188" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-106" target="RMlnXKscG8bJJNY7n_sv-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-106" value="LedgerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="6690" y="2360" width="260" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-107" value="lock               sync.Mutex&#xa;    openedLedgers      map[string]ledger.PeerLedger&#xa;    ledgerProvider     ledger.PeerLedgerProvider&#xa;    ebMetadataProvider MetadataProvider" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-106">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-108" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-106">
+          <mxGeometry y="100" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-109" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-106">
+          <mxGeometry y="108" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMlnXKscG8bJJNY7n_sv-93" target="RMlnXKscG8bJJNY7n_sv-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-111" value="Peer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="6700" y="2000" width="330" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-112" value="ServerConfig             comm.ServerConfig&#xa;    CredentialSupport        *comm.CredentialSupport&#xa;    StoreProvider            transientstore.StoreProvider&#xa;    GossipService            *gossipservice.GossipService&#xa;    LedgerMgr                *ledgermgmt.LedgerMgr&#xa;    OrdererEndpointOverrides map[string]*orderers.Endpoint&#xa;    CryptoProvider           bccsp.BCCSP&#xa;    validationWorkersSemaphore semaphore.Semaphore&#xa;    server             *comm.GRPCServer&#xa;    pluginMapper       plugin.Mapper&#xa;    channelInitializer func(cid string)&#xa;mutex    sync.RWMutex&#xa;    channels map[string]*Channel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-111">
+          <mxGeometry y="26" width="330" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-113" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-111">
+          <mxGeometry y="230" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-114" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-111">
+          <mxGeometry y="238" width="330" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
