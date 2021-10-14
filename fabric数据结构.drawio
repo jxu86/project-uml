@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T06:05:35.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="UQxuYurKth1tC6uzskpG" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T06:06:41.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="YkxrF6Hs_1NfJXTymDNZ" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1395" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -615,7 +615,7 @@
           <mxGeometry y="78" width="130" height="72" as="geometry" />
         </mxCell>
         <mxCell id="DlO_L6FjShkeWoTuuDt--69" value="blockfilesInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="2840" y="2940" width="200" height="134" as="geometry" />
+          <mxGeometry x="2840" y="2984" width="200" height="134" as="geometry" />
         </mxCell>
         <mxCell id="DlO_L6FjShkeWoTuuDt--70" value="    latestFileNumber    int&#xa;    latestFileSize          int&#xa;    noBlockFiles           bool&#xa;    lastPersistedBlock  uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DlO_L6FjShkeWoTuuDt--69" vertex="1">
           <mxGeometry y="26" width="200" height="74" as="geometry" />
@@ -711,7 +711,7 @@
           <mxGeometry x="4410" y="1470" width="185" height="220" as="geometry" />
         </mxCell>
         <mxCell id="zoJUYw9C51UAE-fwzPBv-1" value="BlockchainInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="3130" y="2932" width="170" height="130" as="geometry" />
+          <mxGeometry x="3130" y="2980" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zoJUYw9C51UAE-fwzPBv-2" value="Height                         uint64 &#xa;CurrentBlockHash      []byte &#xa;PreviousBlockHash    []byte " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zoJUYw9C51UAE-fwzPBv-1" vertex="1">
           <mxGeometry y="26" width="170" height="70" as="geometry" />
@@ -1281,7 +1281,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_cW--wvI3YnGWfyoAL7x-9" value="blockfileStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="3810" y="2660" width="160" height="130" as="geometry" />
+          <mxGeometry x="3300" y="2640" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_cW--wvI3YnGWfyoAL7x-10" value="fileNum       int&#xa;    file          *os.File&#xa;    reader        *bufio.Reader&#xa;    currentOffset int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_cW--wvI3YnGWfyoAL7x-9" vertex="1">
           <mxGeometry y="26" width="160" height="70" as="geometry" />
@@ -1305,7 +1305,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_cW--wvI3YnGWfyoAL7x-14" value="blockStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="3530" y="2660" width="200" height="130" as="geometry" />
+          <mxGeometry x="3000" y="2650" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_cW--wvI3YnGWfyoAL7x-15" value="rootDir           string&#xa;    currentFileNum    int&#xa;    endFileNum        int&#xa;    currentFileStream *blockfileStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_cW--wvI3YnGWfyoAL7x-14" vertex="1">
           <mxGeometry y="26" width="200" height="70" as="geometry" />
