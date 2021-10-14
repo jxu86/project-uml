@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T08:50:30.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="A5aVyUq-fOjFQkMePItY" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T08:51:46.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="5ui_OT8Q99GwkYIVSKCw" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1546,7 +1546,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-121" value="kvLedger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="7290" y="2200" width="280" height="244" as="geometry" />
+          <mxGeometry x="7840" y="1116" width="280" height="244" as="geometry" />
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-122" value="ledgerID               string&#xa;    blockStore             *blkstorage.BlockStore&#xa;    pvtdataStore           *pvtdatastorage.Store&#xa;    txmgr                  *txmgr.LockBasedTxMgr&#xa;    historyDB              *history.DB&#xa;    configHistoryRetriever *confighistory.Retriever&#xa;    blockAPIsRWLock        *sync.RWMutex&#xa;    stats                  *ledgerStats&#xa;    commitHash             []byte&#xa;    hashProvider           ledger.HashProvider&#xa;    snapshotsConfig        *ledger.SnapshotsConfig&#xa;    isPvtstoreAheadOfBlkstore atomic.Value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-121">
           <mxGeometry y="26" width="280" height="184" as="geometry" />
@@ -1556,6 +1556,9 @@
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-124" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RMlnXKscG8bJJNY7n_sv-121">
           <mxGeometry y="218" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlO_L6FjShkeWoTuuDt--56" target="RMlnXKscG8bJJNY7n_sv-122">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
