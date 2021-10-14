@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T02:40:08.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Y6vcWUM8s073hFsPV-2u" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T02:45:13.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Z-GRVl9ctn6r6tDDUzJK" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1396,6 +1396,9 @@
         </mxCell>
         <mxCell id="RMlnXKscG8bJJNY7n_sv-51" value="账本结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4405" y="823" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-52" value="file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4115" y="877" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
