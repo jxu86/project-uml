@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T02:36:52.421Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="AEg7mj897eEjW_S8gk_N" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T02:40:08.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Y6vcWUM8s073hFsPV-2u" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3810" y="820" width="1230" height="960" as="geometry" />
+        </mxCell>
         <mxCell id="vUPvUrYNH4exHd8G1ZU4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4040" y="1470" width="210" height="240" as="geometry" />
         </mxCell>
@@ -1390,6 +1393,9 @@
               <mxPoint x="3840" y="900" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RMlnXKscG8bJJNY7n_sv-51" value="账本结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4405" y="823" width="65" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
