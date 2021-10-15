@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:07:01.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="MHY5ZvA08v40MsacaPJS" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T06:08:19.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="BGNxA_UwGLNuggVmvWYm" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1851,12 +1851,12 @@
         <mxCell id="aw1rek3jc66vgLW9zp5N-21" value="是否接收到&lt;br&gt;信息" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="KemYwzoRY7KKPUjTFh2P-1" vertex="1">
           <mxGeometry x="2240" y="160" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-22" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;curved=1;" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-21" edge="1">
+        <mxCell id="aw1rek3jc66vgLW9zp5N-22" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-21" edge="1">
           <mxGeometry x="-0.25" y="20" relative="1" as="geometry">
             <mxPoint x="2280" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2390" y="180" />
-              <mxPoint x="2390" y="120" />
+              <mxPoint x="2360" y="180" />
+              <mxPoint x="2360" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1958,12 +1958,12 @@
         <mxCell id="aw1rek3jc66vgLW9zp5N-50" value="是否接收到&lt;br&gt;信息" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="KemYwzoRY7KKPUjTFh2P-1" vertex="1">
           <mxGeometry x="2724" y="160" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-51" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;curved=1;" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-50" edge="1">
+        <mxCell id="aw1rek3jc66vgLW9zp5N-51" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="KemYwzoRY7KKPUjTFh2P-1" source="aw1rek3jc66vgLW9zp5N-50" edge="1">
           <mxGeometry x="-0.25" y="20" relative="1" as="geometry">
             <mxPoint x="2764" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2874" y="180" />
-              <mxPoint x="2874" y="120" />
+              <mxPoint x="2840" y="180" />
+              <mxPoint x="2840" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
