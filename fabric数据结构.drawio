@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:59:06.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="aL0WuOfSJGKR8aVm9sWh" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T07:01:18.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="nm4J8m6GS9pOZoOfXP28" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2203,16 +2203,6 @@
             <mxPoint x="190" y="553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-14" target="SFcOwZjeYUoUTLkwTBUQ-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="395" y="530" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="395" y="520" />
-              <mxPoint x="475" y="520" />
-              <mxPoint x="475" y="373" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-14" value="发送通道信息recv" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="335" y="453" width="120" height="40" as="geometry" />
         </mxCell>
@@ -2483,6 +2473,17 @@
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-87" value="创建线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SFcOwZjeYUoUTLkwTBUQ-86">
           <mxGeometry x="-0.2706" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-14" target="SFcOwZjeYUoUTLkwTBUQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="targetPoint" />
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="520" />
+              <mxPoint x="500" y="520" />
+              <mxPoint x="500" y="373" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
