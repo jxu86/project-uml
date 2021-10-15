@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T07:01:18.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="nm4J8m6GS9pOZoOfXP28" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T07:02:06.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="hmIFgYyR4eqkjTN3QTn7" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2221,16 +2221,6 @@
             <mxPoint x="190" y="653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-23" target="SFcOwZjeYUoUTLkwTBUQ-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="720" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="190" y="820" />
-              <mxPoint x="110" y="820" />
-              <mxPoint x="110" y="473" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-23" value="通过gossip同步区块到其他peers" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="130" y="750" width="120" height="40" as="geometry" />
         </mxCell>
@@ -2483,6 +2473,17 @@
               <mxPoint x="395" y="520" />
               <mxPoint x="500" y="520" />
               <mxPoint x="500" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-89" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-23" target="SFcOwZjeYUoUTLkwTBUQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="473" as="targetPoint" />
+            <mxPoint x="415" y="413" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="820" />
+              <mxPoint x="80" y="820" />
+              <mxPoint x="80" y="473" />
             </Array>
           </mxGeometry>
         </mxCell>
