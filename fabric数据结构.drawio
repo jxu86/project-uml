@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:08:19.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="BGNxA_UwGLNuggVmvWYm" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T06:12:43.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="OMVd0tcK-Pzlo4Hnw_wE" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1984,8 +1984,8 @@
         <mxCell id="aw1rek3jc66vgLW9zp5N-55" value="应用通道线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KemYwzoRY7KKPUjTFh2P-1" vertex="1">
           <mxGeometry x="2720" y="50" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aw1rek3jc66vgLW9zp5N-57" value="创建通道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KemYwzoRY7KKPUjTFh2P-1" vertex="1">
-          <mxGeometry x="1827.5" y="50" width="65" height="20" as="geometry" />
+        <mxCell id="aw1rek3jc66vgLW9zp5N-57" value="orderer Broadcast流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="KemYwzoRY7KKPUjTFh2P-1" vertex="1">
+          <mxGeometry x="1790" y="50" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Kc3VOCyy43Dn1L07kyu-0" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="KemYwzoRY7KKPUjTFh2P-1" target="aw1rek3jc66vgLW9zp5N-53" edge="1">
           <mxGeometry width="60" height="60" relative="1" as="geometry">
