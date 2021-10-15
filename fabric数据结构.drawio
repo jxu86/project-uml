@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T03:28:33.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="tybht6jRyYxcmpyLR1Jl" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T03:28:51.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="wxFZc6tY8sC0AphLVlA-" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2169,7 +2169,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-2" value="DeliverBlocks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
-          <mxGeometry x="920" y="40" width="110" height="20" as="geometry" />
+          <mxGeometry x="920" y="50" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-3" value="获取本地区块高度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="915" y="160" width="120" height="40" as="geometry" />
