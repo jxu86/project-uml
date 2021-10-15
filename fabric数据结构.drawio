@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:41:01.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="mkQR1VXyKkSmlxZYDoeg" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T06:48:47.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="SjT9XfyG9yPpm8zd8-zM" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2414,6 +2414,45 @@
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-66" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1200" y="763" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-70" value="等待通道iterCh信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="899" y="764" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-70" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-72" value="检查访问控制策略" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="899" y="865" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-72" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-74" value="发送区块数据&lt;br&gt;(grpc)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="899" y="967" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-74" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="959" y="1040" />
+              <mxPoint x="780" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-76" value="返回block数据&lt;br&gt;(grpc)" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-74" target="SFcOwZjeYUoUTLkwTBUQ-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="870" as="sourcePoint" />
+            <mxPoint x="630" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="987" />
+              <mxPoint x="590" y="300" />
+              <mxPoint x="395" y="300" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
