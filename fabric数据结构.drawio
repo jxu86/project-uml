@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:23:51.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="dD8G5Lmpp_DzTmFAMxbq" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T06:29:30.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="YPgAUsfLd6eUWDR4UPYh" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2337,6 +2337,34 @@
         </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-51" value="orderer Deliver流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="906" y="50" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-53" value="等待接收grpc消息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="899" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-53" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-55" value="发送grpc消息" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" target="SFcOwZjeYUoUTLkwTBUQ-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="280" />
+              <mxPoint x="410" y="20" />
+              <mxPoint x="850" y="20" />
+              <mxPoint x="850" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-56" value="解析消息负载,检查负载投和通道头合法性" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="899" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-56" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
