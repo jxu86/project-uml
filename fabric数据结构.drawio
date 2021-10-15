@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T03:28:51.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="wxFZc6tY8sC0AphLVlA-" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T03:30:51.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="4kD0J-aUPiVCvfvf0eak" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2241,14 +2241,22 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="975" y="710" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="975" y="710" />
-              <mxPoint x="895" y="710" />
+              <mxPoint x="975" y="810" />
+              <mxPoint x="895" y="810" />
               <mxPoint x="895" y="463" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-23" value="增加区块到缓冲区&lt;br&gt;(AddPayload)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-23" value="通过gossip同步区块到其他peers" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="915" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-27" value="增加区块到缓冲区&lt;br&gt;(AddPayload)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="915" y="643" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-27" parent="KemYwzoRY7KKPUjTFh2P-1" target="SFcOwZjeYUoUTLkwTBUQ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
