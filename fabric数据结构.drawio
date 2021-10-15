@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T03:37:39.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="j86sJDSxE6-N0M3wD22r" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T05:49:52.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="a2_lYf1LQjBHZ3k3ffSm" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2305,6 +2305,16 @@
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-40" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="SFcOwZjeYUoUTLkwTBUQ-38" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="1415" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-42" value="发送readyChan" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KemYwzoRY7KKPUjTFh2P-1" source="SFcOwZjeYUoUTLkwTBUQ-27" target="SFcOwZjeYUoUTLkwTBUQ-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="660" as="sourcePoint" />
+            <mxPoint x="1280" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1250" y="663" />
+              <mxPoint x="1250" y="180" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
