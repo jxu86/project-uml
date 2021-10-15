@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T06:13:33.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="SbzE9ksiME6wPWzgRWHu" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T06:17:07.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="5rdxCum7cKeTrZbLUyFZ" version="15.2.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1799,7 +1799,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="163fs9Hak8Xc59Pd5Rej" name="流程图">
-    <mxGraphModel dx="1694" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="KemYwzoRY7KKPUjTFh2P-0" />
         <mxCell id="KemYwzoRY7KKPUjTFh2P-1" parent="KemYwzoRY7KKPUjTFh2P-0" />
@@ -2168,8 +2168,8 @@
             <mxPoint x="190" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-2" value="DeliverBlocks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
-          <mxGeometry x="135" y="50" width="110" height="20" as="geometry" />
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-2" value="leader peer 拉取区块流程(DeliverBlocks)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="117.5" y="50" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-3" value="获取本地区块高度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="130" y="160" width="120" height="40" as="geometry" />
@@ -2260,8 +2260,8 @@
             <mxPoint x="720" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-31" value="deliverPayloads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
-          <mxGeometry x="665" y="40" width="110" height="20" as="geometry" />
+        <mxCell id="SFcOwZjeYUoUTLkwTBUQ-31" value="peer写入区块流程&lt;br&gt;(deliverPayloads)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
+          <mxGeometry x="652.5" y="40" width="135" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SFcOwZjeYUoUTLkwTBUQ-32" value="等待通道&lt;br&gt;readyChan信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="KemYwzoRY7KKPUjTFh2P-1">
           <mxGeometry x="660" y="160" width="120" height="40" as="geometry" />
