@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T07:26:38.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ChyKY4B3XTxyJ0-UW3E-" version="15.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-19T07:30:33.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="S3zRJQoeKr0-U9UlSalg" version="15.5.4" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="565" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1681,6 +1681,26 @@
         </mxCell>
         <mxCell id="hvvV-V6uaVZh2-RVrVlz-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-13">
           <mxGeometry y="308" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-18" value="Node" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="8120" y="4130" width="250" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-19" value="selfIdentity          api.PeerIdentityType&#xa;    includeIdentityPeriod time.Time&#xa;    certStore             *certStore&#xa;    idMapper              identity.Mapper&#xa;    presumedDead          chan common.PKIidType&#xa;    disc                  discovery.Discovery&#xa;    comm                  comm.Comm&#xa;    selfOrg               api.OrgIdentityType&#xa;    *comm.ChannelDeMultiplexer&#xa;    logger            util.Logger&#xa;    stopSignal        *sync.WaitGroup&#xa;    conf              *Config&#xa;    toDieChan         chan struct{}&#xa;    stopFlag          int32&#xa;    emitter           batchingEmitter&#xa;    discAdapter       *discoveryAdapter&#xa;    secAdvisor        api.SecurityAdvisor&#xa;    chanState         *channelState&#xa;    disSecAdap        *discoverySecurityAdapter&#xa;    mcs               api.MessageCryptoService&#xa;    stateInfoMsgStore msgstore.MessageStore&#xa;    certPuller        pull.Mediator&#xa;    gossipMetrics     *metrics.GossipMetrics" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-18">
+          <mxGeometry y="26" width="250" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-18">
+          <mxGeometry y="360" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-18">
+          <mxGeometry y="368" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hvvV-V6uaVZh2-RVrVlz-19" target="hvvV-V6uaVZh2-RVrVlz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-23" value="接口实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hvvV-V6uaVZh2-RVrVlz-22">
+          <mxGeometry x="0.0106" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
