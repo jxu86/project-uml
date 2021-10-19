@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T07:13:13.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="HddiifgjRYmawGpDhSOs" version="15.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-19T07:22:24.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="hymc4WknCR_lQyxvWRHl" version="15.5.4" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
-    <mxGraphModel dx="395" dy="197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="565" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1654,6 +1654,18 @@
         </mxCell>
         <mxCell id="hvvV-V6uaVZh2-RVrVlz-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-5">
           <mxGeometry y="68" width="520" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-9" value="GossipService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="7050" y="4130" width="320" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-10" value="gossipSvc&#xa;    privateHandlers   map[string]privateHandler&#xa;    chains            map[string]state.GossipStateProvider&#xa;    leaderElection    map[string]election.LeaderElectionService&#xa;    deliveryService   map[string]deliverservice.DeliverService&#xa;    deliveryFactory   DeliveryServiceFactory&#xa;    lock              sync.RWMutex&#xa;    mcs               api.MessageCryptoService&#xa;    peerIdentity      []byte&#xa;    secAdv            api.SecurityAdvisor&#xa;    metrics           *gossipmetrics.GossipMetrics&#xa;    serviceConfig     *ServiceConfig&#xa;    privdataConfig    *gossipprivdata.PrivdataConfig&#xa;    anchorPeerTracker *anchorPeerTracker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-9">
+          <mxGeometry y="26" width="320" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-9">
+          <mxGeometry y="230" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvV-V6uaVZh2-RVrVlz-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hvvV-V6uaVZh2-RVrVlz-9">
+          <mxGeometry y="238" width="320" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
