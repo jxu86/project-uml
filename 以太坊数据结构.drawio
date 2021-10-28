@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T02:11:30.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="qCyWVNDMZctX0AkpFov4" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T05:55:43.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="cwyHD90M-xAkqdhLa2Yc" version="15.5.9" type="github" pages="2">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="2886" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3736" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-82" value="Ethereum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-1470" y="1210" width="280" height="364" as="geometry" />
+          <mxGeometry x="-1350" y="1468" width="280" height="364" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-83" value="config *ethconfig.Config&#xa;    txPool             *core.TxPool&#xa;    blockchain         *core.BlockChain&#xa;    handler            *handler&#xa;    ethDialCandidates  enode.Iterator&#xa;    snapDialCandidates enode.Iterator&#xa;    chainDb ethdb.Database &#xa;    eventMux       *event.TypeMux&#xa;    engine         consensus.Engine&#xa;    accountManager *accounts.Manager&#xa;    bloomRequests     chan chan *bloombits.Retrieval &#xa;    bloomIndexer      *core.ChainIndexer&#xa;    closeBloomHandler chan struct{}&#xa;    APIBackend *EthAPIBackend&#xa;    miner     *miner.Miner&#xa;    gasPrice  *big.Int&#xa;    etherbase common.Address&#xa;    networkID     uint64&#xa;    netRPCService *ethapi.PublicNetAPI&#xa;    p2pServer *p2p.Server&#xa;    lock sync.RWMutex " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-82">
           <mxGeometry y="26" width="280" height="304" as="geometry" />
@@ -242,6 +242,24 @@
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-85" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-82">
           <mxGeometry y="338" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-86" value="Config" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="780" width="200" height="534" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-87" value="Name string &#xa;UserIdent string &#xa;Version string &#xa;DataDir string&#xa;P2P p2p.Config&#xa;KeyStoreDir string &#xa;ExternalSigner string &#xa;UseLightweightKDF bool&#xa;InsecureUnlockAllowed bool&#xa;NoUSB bool &#xa;USB bool &#xa;SmartCardDaemonPath string&#xa;IPCPath string&#xa;HTTPHost string&#xa;HTTPPort int &#xa;HTTPCors []string &#xa;HTTPVirtualHosts []string &#xa;HTTPModules []string&#xa;HTTPTimeouts rpc.HTTPTimeouts&#xa;HTTPPathPrefix string&#xa;WSHost string&#xa;WSPort int&#xa;WSPathPrefix string &#xa;WSOrigins []string &#xa;WSModules []string&#xa;WSExposeAll bool &#xa;GraphQLCors []string &#xa;GraphQLVirtualHosts []string &#xa;Logger log.Logger&#xa;staticNodesWarning     bool&#xa;trustedNodesWarning    bool&#xa;oldGethResourceWarning bool&#xa;AllowUnprotectedTxs bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-86">
+          <mxGeometry y="26" width="200" height="474" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-86">
+          <mxGeometry y="500" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-89" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-86">
+          <mxGeometry y="508" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-90" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" target="URf5ottizoxrgOfwgMAj-87">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1470" y="837" as="sourcePoint" />
+            <mxPoint x="-1500" y="950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
