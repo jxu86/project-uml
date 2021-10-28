@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T05:55:43.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="cwyHD90M-xAkqdhLa2Yc" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T06:25:41.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="1XxNBZB1ijvklHpmeDLE" version="15.5.9" type="github" pages="2">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="3736" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -260,6 +260,12 @@
             <mxPoint x="-1470" y="837" as="sourcePoint" />
             <mxPoint x="-1500" y="950" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-91" value="«interface»&#xa;Backend" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-2390" y="350" width="210" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-92" value="Downloader() &#xa;SuggestGasTipCap()&#xa;FeeHistory()&#xa;ChainDb()&#xa;AccountManager() &#xa;ExtRPCEnabled() &#xa;RPCGasCap()&#xa;RPCTxFeeCap() &#xa;UnprotectedAllowed()&#xa;SetHead()&#xa;HeaderByNumber() &#xa;HeaderByHash()&#xa;HeaderByNumberOrHash()&#xa;CurrentHeader()&#xa;CurrentBlock() &#xa;BlockByNumber()&#xa;BlockByHash()&#xa;BlockByNumberOrHash()&#xa;StateAndHeaderByNumber()&#xa;StateAndHeaderByNumberOrHash()&#xa;GetReceipts()&#xa;GetTd() &#xa;GetEVM()&#xa;SubscribeChainEvent() &#xa;SubscribeChainHeadEvent() &#xa;SubscribeChainSideEvent()&#xa;SendTx() &#xa;GetTransaction()&#xa;GetPoolTransactions()&#xa;GetPoolTransaction() &#xa;GetPoolNonce()&#xa;Stats()&#xa;TxPoolContent() &#xa;TxPoolContentFrom()&#xa;SubscribeNewTxsEvent()&#xa;BloomStatus()&#xa;GetLogs()&#xa;ServiceFilter()&#xa;SubscribeLogsEvent()&#xa;SubscribePendingLogsEvent() &#xa;SubscribeRemovedLogsEvent()&#xa;ChainConfig()&#xa;Engine()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-91">
+          <mxGeometry y="26" width="210" height="624" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
