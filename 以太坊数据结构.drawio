@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T01:19:51.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="K1slIuTs1CHBA-8qc28n" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T01:25:22.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="YcBRYz1-BlsADzEyIWmv" version="15.5.9" type="github" pages="2">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="2886" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -212,6 +212,24 @@
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-76" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-73">
           <mxGeometry y="318" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-77" value="API" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="936" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-78" value="Namespace string &#xa;Version   string &#xa;Service   interface{}&#xa;Public    bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-77">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-77">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-80" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="URf5ottizoxrgOfwgMAj-77">
+          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="URf5ottizoxrgOfwgMAj-81" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URf5ottizoxrgOfwgMAj-78">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1220" y="998.5" as="sourcePoint" />
+            <mxPoint x="-1060" y="998.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
