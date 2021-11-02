@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T06:38:18.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="gXK1QPQocEkBiQX6hzbs" version="15.5.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-02T06:41:00.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="sdMQy3Gk6_PCXnBQxTgF" version="15.5.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1748,7 +1748,7 @@
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kJTVhN6wXuqy5O149U1R-18" value="signingidentity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="3470" y="3522" width="160" height="104" as="geometry" />
+          <mxGeometry x="3520" y="3606" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="kJTVhN6wXuqy5O149U1R-19" value="identity&#xa;signer crypto.Signer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kJTVhN6wXuqy5O149U1R-18">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -1793,6 +1793,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="3290" y="3550" as="sourcePoint" />
             <mxPoint x="3450" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJTVhN6wXuqy5O149U1R-27" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.763;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kJTVhN6wXuqy5O149U1R-19" target="kJTVhN6wXuqy5O149U1R-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3490" y="3590" as="sourcePoint" />
+            <mxPoint x="3650" y="3590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
