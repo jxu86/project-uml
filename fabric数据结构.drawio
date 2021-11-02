@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T05:40:32.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="GiI06uHsIB84OTZPIp99" version="15.5.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-02T05:45:05.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="iD8IItOt_4ejgywISurO" version="15.5.9" type="github" pages="3">
   <diagram id="P-viX5Zmih55GboETz_U" name="fabric2.2.0">
     <mxGraphModel dx="1395" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1706,7 +1706,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kJTVhN6wXuqy5O149U1R-1" value="bccspmsp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="4421.88" y="3658" width="410" height="354" as="geometry" />
+          <mxGeometry x="3740" y="3660" width="410" height="354" as="geometry" />
         </mxCell>
         <mxCell id="kJTVhN6wXuqy5O149U1R-2" value="version MSPVersion&#xa;internalSetupFunc mspSetupFuncType&#xa;internalValidateIdentityOusFunc validateIdentityOUsFuncType&#xa;internalSatisfiesPrincipalInternalFunc satisfiesPrincipalInternalFuncType&#xa;internalSetupAdmin setupAdminInternalFuncType&#xa;rootCerts []Identity&#xa;intermediateCerts []Identity&#xa;tlsRootCerts [][]byte&#xa;tlsIntermediateCerts [][]byte&#xa;certificationTreeInternalNodesMap map[string]bool&#xa;signer SigningIdentity&#xa;admins []Identity&#xa;bccsp bccsp.BCCSP&#xa;name string&#xa;opts *x509.VerifyOptions&#xa;CRL []*pkix.CertificateList&#xa;ouIdentifiers map[string][][]byte&#xa;cryptoConfig *m.FabricCryptoConfig&#xa;ouEnforcement bool&#xa;clientOU, peerOU, adminOU, ordererOU *OUIdentifier" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kJTVhN6wXuqy5O149U1R-1">
           <mxGeometry y="26" width="410" height="294" as="geometry" />
@@ -1716,6 +1716,18 @@
         </mxCell>
         <mxCell id="kJTVhN6wXuqy5O149U1R-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kJTVhN6wXuqy5O149U1R-1">
           <mxGeometry y="328" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kJTVhN6wXuqy5O149U1R-5" value="«interface»&#xa;MSP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="3300" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kJTVhN6wXuqy5O149U1R-6" value="IdentityDeserializer&#xa;Setup() &#xa;GetVersion() &#xa;GetType() &#xa;GetIdentifier()&#xa;GetSigningIdentity()&#xa;GetDefaultSigningIdentity()&#xa;GetTLSRootCerts()&#xa;GetTLSIntermediateCerts() &#xa;Validate(id Identity) &#xa;SatisfiesPrincipal()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kJTVhN6wXuqy5O149U1R-5">
+          <mxGeometry y="26" width="210" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="kJTVhN6wXuqy5O149U1R-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="kJTVhN6wXuqy5O149U1R-1" target="kJTVhN6wXuqy5O149U1R-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3950" y="3640" as="sourcePoint" />
+            <mxPoint x="4110" y="3640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
