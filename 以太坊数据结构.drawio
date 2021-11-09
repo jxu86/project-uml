@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T06:03:32.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="z3Nmszis9Is8hRETBjHD" version="15.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-09T06:07:30.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="uqBcGr1747Qc1tWpppnj" version="15.7.0" type="github" pages="2">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="3736" dy="2791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -837,6 +837,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="1330" as="sourcePoint" />
             <mxPoint x="330" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-207" value="TxPoolConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="840" width="190" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-208" value="Locals    []common.Address &#xa;NoLocals  bool             &#xa;Journal   string           &#xa;Rejournal time.Duration    &#xa;PriceLimit uint64 &#xa;PriceBump  uint64 &#xa;AccountSlots uint64&#xa;GlobalSlots  uint64&#xa;AccountQueue uint64&#xa;GlobalQueue  uint64&#xa;Lifetime time.Duration " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-207">
+          <mxGeometry y="26" width="190" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-209" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-207">
+          <mxGeometry y="200" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-210" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-207">
+          <mxGeometry y="208" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-211" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fBb_ADaK_HotsHeqHCVb-208">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="880" as="sourcePoint" />
+            <mxPoint x="810" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
