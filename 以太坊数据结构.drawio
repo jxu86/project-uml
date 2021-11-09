@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:12:48.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="UH1XiQInhACzX87fa6Ht" version="15.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-09T06:03:32.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="z3Nmszis9Is8hRETBjHD" version="15.7.0" type="github" pages="2">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="3736" dy="2791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="URf5ottizoxrgOfwgMAj-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="URf5ottizoxrgOfwgMAj-18" vertex="1">
           <mxGeometry y="158" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="URf5ottizoxrgOfwgMAj-22" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="URf5ottizoxrgOfwgMAj-22" value="Header" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1750" y="150" width="170" height="294" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-23" value="    ParentHash  common.Hash &#xa;    UncleHash   common.Hash &#xa;    Coinbase    common.Address &#xa;    Root        common.Hash &#xa;    TxHash      common.Hash &#xa;    ReceiptHash common.Hash &#xa;    Bloom       Bloom &#xa;    Difficulty  *big.Int&#xa;    Number      *big.Int &#xa;    GasLimit    uint64&#xa;    GasUsed     uint64 &#xa;    Time        uint64&#xa;    Extra       []byte&#xa;    MixDigest   common.Hash &#xa;    Nonce       BlockNonce &#xa;BaseFee *big.Int &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="URf5ottizoxrgOfwgMAj-22" vertex="1">
@@ -789,6 +789,54 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1280" y="230" as="sourcePoint" />
             <mxPoint x="1410" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-193" value="TxPool" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="840" width="250" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-194" value="config      TxPoolConfig        &#xa;chainconfig *params.ChainConfig &#xa;chain       blockChain          &#xa;gasPrice    *big.Int&#xa;txFeed      event.Feed&#xa;scope       event.SubscriptionScope&#xa;signer      types.Signer&#xa;mu          sync.RWMutex&#xa;istanbul bool &#xa;eip2718  bool &#xa;eip1559  bool &#xa;currentState  *state.StateDB &#xa;pendingNonces *txNoncer      &#xa;currentMaxGas uint64         &#xa;locals  *accountSet &#xa;journal *txJournal  &#xa;pending map[common.Address]*txList &#xa;queue map[common.Address]*txList   &#xa;beats map[common.Address]time.Time &#xa;all *txLookup    &#xa;priced *txPricedList &#xa;chainHeadCh     chan ChainHeadEvent&#xa;chainHeadSub    event.Subscription&#xa;reqResetCh      chan *txpoolResetRequest&#xa;reqPromoteCh    chan *accountSet&#xa;queueTxEventCh  chan *types.Transaction&#xa;reorgDoneCh     chan chan struct{}&#xa;reorgShutdownCh chan struct{} &#xa;wg              sync.WaitGroup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-193">
+          <mxGeometry y="26" width="250" height="434" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-195" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-193">
+          <mxGeometry y="460" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-196" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-193">
+          <mxGeometry y="468" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-197" value="txList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1160" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-198" value="strict bool&#xa;txs *txSortedMap&#xa;costcap *big.Int&#xa;gascap uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-197">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-199" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-197">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-200" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-197">
+          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-201" value="txSortedMap" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1450" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-202" value="items map[uint64]*types.Transaction&#xa;index *nonceHeap&#xa;cache types.Transactions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-201">
+          <mxGeometry y="26" width="220" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-203" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-201">
+          <mxGeometry y="100" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-204" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fBb_ADaK_HotsHeqHCVb-201">
+          <mxGeometry y="108" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-205" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.004;exitY=0.553;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fBb_ADaK_HotsHeqHCVb-194" target="fBb_ADaK_HotsHeqHCVb-198">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1120" as="sourcePoint" />
+            <mxPoint x="370" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBb_ADaK_HotsHeqHCVb-206" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.475;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fBb_ADaK_HotsHeqHCVb-200" target="fBb_ADaK_HotsHeqHCVb-201">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="1330" as="sourcePoint" />
+            <mxPoint x="330" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
