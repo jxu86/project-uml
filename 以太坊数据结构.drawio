@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T07:17:24.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="N9LPdnuUPWmj8ngfjQ6x" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T07:19:48.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cUlMUEGUCpmCLlpGzOlq" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="4244" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1338,6 +1338,9 @@
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
+        <mxCell id="fn0iNzFgPWtPh3gmGL_K-75" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="120" y="370" width="250" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-70" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1580" y="590" width="380" height="500" as="geometry" />
         </mxCell>
@@ -1349,12 +1352,16 @@
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-4" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" target="fn0iNzFgPWtPh3gmGL_K-7">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="20" y="370" as="sourcePoint" />
+            <mxPoint x="20" y="330" as="sourcePoint" />
             <mxPoint x="270" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="330" />
+              <mxPoint x="250" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-6" value="&lt;span&gt;发起交易&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="110" y="350" width="60" height="20" as="geometry" />
+          <mxGeometry x="20" y="310" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="fn0iNzFgPWtPh3gmGL_K-7" target="fn0iNzFgPWtPh3gmGL_K-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1559,8 +1566,8 @@
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-71" value="入口函数:&amp;nbsp;txBroadcastLoop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1580" y="590" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fn0iNzFgPWtPh3gmGL_K-72" value="入口函数: SendTransaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="250" y="380" width="150" height="30" as="geometry" />
+        <mxCell id="fn0iNzFgPWtPh3gmGL_K-72" value="入口函数&lt;br&gt;&amp;nbsp;SendTransaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="110" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-73" value="Keccak-256(RLP(sender,nonce))[12:]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="740" y="723" width="210.5" height="30" as="geometry" />
