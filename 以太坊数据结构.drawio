@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T03:41:50.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vtrEbxkIgCoHdPnPGiTA" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T03:42:15.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ItXCBiPduy2zWRHJmO9o" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="4244" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1338,6 +1338,9 @@
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
+        <mxCell id="fn0iNzFgPWtPh3gmGL_K-70" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1020" y="610" width="380" height="500" as="geometry" />
+        </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-54" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="500" y="400" width="380" height="540" as="geometry" />
         </mxCell>
@@ -1513,45 +1516,45 @@
           <mxGeometry x="699.5" y="420" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-57" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1080" y="560" width="30" height="30" as="geometry" />
+          <mxGeometry x="1140" y="670" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="fn0iNzFgPWtPh3gmGL_K-57" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1095" y="650" as="targetPoint" />
+            <mxPoint x="1155" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="fn0iNzFgPWtPh3gmGL_K-59" target="fn0iNzFgPWtPh3gmGL_K-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-59" value="获取没有此交易的peer列表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1035" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="1095" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-60" value="通道txsCh订阅NewTxsEvent,消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1110" y="607" width="200" height="26" as="geometry" />
+          <mxGeometry x="1170" y="717" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-61" value="广播交易" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1065" y="530" width="60" height="30" as="geometry" />
+          <mxGeometry x="1125" y="640" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="fn0iNzFgPWtPh3gmGL_K-62" target="fn0iNzFgPWtPh3gmGL_K-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-62" value="异步发送交易给异步没有此交易的peer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1035" y="740" width="120" height="40" as="geometry" />
+          <mxGeometry x="1095" y="850" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="fn0iNzFgPWtPh3gmGL_K-63" target="fn0iNzFgPWtPh3gmGL_K-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-63" value="异步告诉另一部分peer产生这个交易" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1035" y="830" width="120" height="40" as="geometry" />
+          <mxGeometry x="1095" y="940" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-64" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1080" y="930" width="30" height="30" as="geometry" />
+          <mxGeometry x="1140" y="1040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-68" value="sqrt(len(peers))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1160" y="745" width="100" height="30" as="geometry" />
+          <mxGeometry x="1220" y="855" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-69" value="len(peers) - sqrt(len(peers))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1155" y="835" width="165" height="30" as="geometry" />
+          <mxGeometry x="1215" y="945" width="165" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
