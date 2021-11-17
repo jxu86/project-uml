@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T02:56:51.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xla7XZ_adPa75tbFIeGy" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T02:59:19.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3gS4TxW9HXqrWEgHo-5g" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="4244" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1523,8 +1523,8 @@
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-59" value="验证交易费" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1035" y="650" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fn0iNzFgPWtPh3gmGL_K-60" value="h.txsCh = make(chan core.NewTxsEvent, txChanSize)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="1110" y="614" width="320" height="26" as="geometry" />
+        <mxCell id="fn0iNzFgPWtPh3gmGL_K-60" value="通道txsCh订阅NewTxsEvent,消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1110" y="607" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-61" value="广播交易" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1065" y="530" width="60" height="30" as="geometry" />
