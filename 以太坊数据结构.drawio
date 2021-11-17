@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T09:39:00.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="js3WM1zIyVw0tca2Jf1S" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T09:50:33.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3wYlToipgE5-DVrwWhn5" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="3736" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1626,9 +1626,12 @@
         <mxCell id="o47wOoH5dR6szgwGzrBZ-6" value="pending池里面是有存在&lt;br&gt;同nonce的交易" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1200" y="860" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o47wOoH5dR6szgwGzrBZ-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-6">
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-6" target="o47wOoH5dR6szgwGzrBZ-12">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="1450" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="890" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o47wOoH5dR6szgwGzrBZ-8" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-6">
@@ -1647,6 +1650,35 @@
         </mxCell>
         <mxCell id="o47wOoH5dR6szgwGzrBZ-9" value="丢弃价格过低的交易" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1380" y="782" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1415" y="1190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-12" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;交易设置的gasprice是否超过设置的PriceBump百分比?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1340" y="930" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-12" target="o47wOoH5dR6szgwGzrBZ-15">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint x="1620" y="970" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-14" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-12" target="o47wOoH5dR6szgwGzrBZ-11">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1430" y="1110" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="o47wOoH5dR6szgwGzrBZ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1610" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o47wOoH5dR6szgwGzrBZ-15" value="替代旧的交易,放queue列表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1550" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
