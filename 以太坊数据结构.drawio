@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T03:00:11.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="BbDs87CFxKVCInQZP07d" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-18T03:01:22.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eMehc0IrQGyEO9voXsaG" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="3736" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1089,6 +1089,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2790" y="1288" as="sourcePoint" />
             <mxPoint x="2920" y="1288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-19" value="Node" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3180" y="1230" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-20" value="r  enr.Record&#xa;    id ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cY_TxtfDw9ctM1oQoCaZ-19">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cY_TxtfDw9ctM1oQoCaZ-19">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cY_TxtfDw9ctM1oQoCaZ-19">
+          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-23" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3080" y="1290" as="sourcePoint" />
+            <mxPoint x="3180" y="1290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
