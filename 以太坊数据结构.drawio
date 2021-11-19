@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T02:55:42.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yALIyxg6ifrgzAfc0dwl" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T06:07:10.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="UWTlWiImThB8MyLZ_QyR" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2002,6 +2002,20 @@
         </mxCell>
         <mxCell id="o47wOoH5dR6szgwGzrBZ-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.learnblockchain.cn/book_geth/image-20190617002144274.png;" parent="fn0iNzFgPWtPh3gmGL_K-1" vertex="1">
           <mxGeometry x="1700" y="-157" width="520" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="59Qw4GRh_fXQkg1JYlz9-0" value="AddLocals" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="-0.3913" width="80" relative="1" as="geometry">
+            <mxPoint x="1110" y="-247" as="sourcePoint" />
+            <mxPoint x="1250" y="-157" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59Qw4GRh_fXQkg1JYlz9-1" value="AddRemotes" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="-0.3913" width="80" relative="1" as="geometry">
+            <mxPoint x="1580" y="-247" as="sourcePoint" />
+            <mxPoint x="1445" y="-157" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
