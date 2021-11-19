@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:45:06.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yTVkzTgVu3ZueqMfF8mR" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T09:48:47.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="30Dfi8oYLXeLYUIJ4bpA" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6286" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1608,6 +1608,9 @@
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1130" y="1060" width="1420" height="810" as="geometry" />
+        </mxCell>
         <mxCell id="59Qw4GRh_fXQkg1JYlz9-14" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="2340" y="300" width="380" height="500" as="geometry" />
         </mxCell>
@@ -2218,6 +2221,12 @@
         </mxCell>
         <mxCell id="43EMeSZu8ZQFkqq4PnSx-45" value="定时检查是否有新交易需要打包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1630" y="1180" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-49" value="挖矿核心流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1800" y="1070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-50" value="入口函数:&amp;nbsp;newWorker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1130" y="1060" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
