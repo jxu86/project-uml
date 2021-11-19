@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T10:08:18.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="gPiawJ5C1_xggsdB1pRk" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T10:09:10.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Iu8sEvT33_kZhvXrdZQR" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6794" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-2895" y="2290" width="1385" height="910" as="geometry" />
+        </mxCell>
         <mxCell id="fBb_ADaK_HotsHeqHCVb-110" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="3380" y="-887" width="290" height="170" as="geometry" />
         </mxCell>
@@ -1396,6 +1399,9 @@
             <mxPoint x="-2100" y="2990" as="sourcePoint" />
             <mxPoint x="-1940" y="2990" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-30" value="挖矿相关数据结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2895" y="2290" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
