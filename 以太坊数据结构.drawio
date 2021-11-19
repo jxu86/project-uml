@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T01:59:43.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="5D62mhkoMvG0LCLB58VO" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T02:20:30.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="r0Dor67k12RLeNOkDjNQ" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-82" value="Ethereum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1510" y="1410" width="280" height="364" as="geometry" />
+          <mxGeometry x="-1210" y="1330" width="280" height="364" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-83" value="config *ethconfig.Config&#xa;    txPool             *core.TxPool&#xa;    blockchain         *core.BlockChain&#xa;    handler            *handler&#xa;    ethDialCandidates  enode.Iterator&#xa;    snapDialCandidates enode.Iterator&#xa;    chainDb ethdb.Database &#xa;    eventMux       *event.TypeMux&#xa;    engine         consensus.Engine&#xa;    accountManager *accounts.Manager&#xa;    bloomRequests     chan chan *bloombits.Retrieval &#xa;    bloomIndexer      *core.ChainIndexer&#xa;    closeBloomHandler chan struct{}&#xa;    APIBackend *EthAPIBackend&#xa;    miner     *miner.Miner&#xa;    gasPrice  *big.Int&#xa;    etherbase common.Address&#xa;    networkID     uint64&#xa;    netRPCService *ethapi.PublicNetAPI&#xa;    p2pServer *p2p.Server&#xa;    lock sync.RWMutex " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="URf5ottizoxrgOfwgMAj-82" vertex="1">
           <mxGeometry y="26" width="280" height="304" as="geometry" />
@@ -1170,7 +1170,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cY_TxtfDw9ctM1oQoCaZ-42" value="UDPv5" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-2240" y="1420" width="390" height="424" as="geometry" />
+          <mxGeometry x="-2330" y="1420" width="390" height="424" as="geometry" />
         </mxCell>
         <mxCell id="cY_TxtfDw9ctM1oQoCaZ-43" value="conn         UDPConn&#xa;    tab          *Table&#xa;    netrestrict  *netutil.Netlist&#xa;    priv         *ecdsa.PrivateKey&#xa;    localNode    *enode.LocalNode&#xa;    db           *enode.DB&#xa;    log          log.Logger&#xa;    clock        mclock.Clock&#xa;    validSchemes enr.IdentityScheme&#xa;    trlock     sync.Mutex&#xa;    trhandlers map[string]TalkRequestHandler&#xa;    packetInCh    chan ReadPacket&#xa;    readNextCh    chan struct{}&#xa;    callCh        chan *callV5&#xa;    callDoneCh    chan *callV5&#xa;    respTimeoutCh chan *callTimeout&#xa;    codec            codecV5&#xa;    activeCallByNode map[enode.ID]*callV5&#xa;    activeCallByAuth map[v5wire.Nonce]*callV5&#xa;    callQueue        map[enode.ID][]*callV5&#xa;    closeOnce      sync.Once&#xa;    closeCtx       context.Context&#xa;    cancelCloseCtx context.CancelFunc&#xa;    wg             sync.WaitGroup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cY_TxtfDw9ctM1oQoCaZ-42">
           <mxGeometry y="26" width="390" height="364" as="geometry" />
@@ -1212,7 +1212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-12" value="gethConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1860" y="800" width="160" height="134" as="geometry" />
+          <mxGeometry x="-1680" y="1330" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-13" value="Eth      ethconfig.Config&#xa;    Node     node.Config&#xa;    Ethstats ethstatsConfig&#xa;    Metrics  metrics.Config" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-12">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -1222,6 +1222,24 @@
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-12">
           <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-16" value="Config(ethconfig)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="1570" width="280" height="664" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-17" value="Genesis *core.Genesis &#xa;NetworkId uint64 &#xa;SyncMode  downloader.SyncMode&#xa;EthDiscoveryURLs  []string&#xa;SnapDiscoveryURLs []string&#xa;NoPruning  bool &#xa;NoPrefetch bool &#xa;TxLookupLimit uint64 &#xa;Whitelist map[uint64]common.Hash &#xa;LightServ          int  &#xa;LightIngress       int  &#xa;LightEgress        int  &#xa;LightPeers         int  &#xa;LightNoPrune       bool &#xa;LightNoSyncServe   bool &#xa;SyncFromCheckpoint bool &#xa;UltraLightServers      []string &#xa;UltraLightFraction     int      &#xa;UltraLightOnlyAnnounce bool     &#xa;SkipBcVersionCheck bool&#xa;DatabaseHandles    int &#xa;DatabaseCache      int&#xa;DatabaseFreezer    string&#xa;TrieCleanCache          int&#xa;TrieCleanCacheJournal   string        &#xa;TrieCleanCacheRejournal time.Duration &#xa;TrieDirtyCache          int&#xa;TrieTimeout             time.Duration&#xa;SnapshotCache           int&#xa;Preimages               bool&#xa;Miner miner.Config&#xa;Ethash ethash.Config&#xa;TxPool core.TxPoolConfig&#xa;GPO gasprice.Config&#xa;EnablePreimageRecording bool&#xa;DocRoot string `toml:&quot;-&quot;`&#xa;RPCGasCap uint64&#xa;RPCTxFeeCap float64&#xa;Checkpoint *params.TrustedCheckpoint&#xa;CheckpointOracle *params.CheckpointOracleConfig&#xa;OverrideLondon *big.Int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-16">
+          <mxGeometry y="26" width="280" height="604" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-16">
+          <mxGeometry y="630" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-19" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-16">
+          <mxGeometry y="638" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-20" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.434;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SNHdrIyIotBaw3_VGWw-15" target="3SNHdrIyIotBaw3_VGWw-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1910" y="1640" as="sourcePoint" />
+            <mxPoint x="-1750" y="1640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
