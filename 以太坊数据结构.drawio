@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T02:36:10.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O5HElQiVjEnGkAHfsRso" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T02:39:14.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_N8vrlVyfh58ywEWH6pT" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1031,7 +1031,7 @@
         <mxCell id="dPSJ6BxrvEtRARj9bk2a-34" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dPSJ6BxrvEtRARj9bk2a-31" vertex="1">
           <mxGeometry y="208" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-1" value="Protocol" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="cY_TxtfDw9ctM1oQoCaZ-1" value="Protocol(p2p)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-3390" y="840" width="280" height="194" as="geometry" />
         </mxCell>
         <mxCell id="cY_TxtfDw9ctM1oQoCaZ-2" value="Name string&#xa;Version uint&#xa;Length uint64&#xa;Run func(peer *Peer, rw MsgReadWriter) error&#xa;NodeInfo func() interface{}&#xa;PeerInfo func(id enode.ID) interface{}&#xa;DialCandidates enode.Iterator&#xa;Attributes []enr.Entry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cY_TxtfDw9ctM1oQoCaZ-1">
@@ -1193,7 +1193,7 @@
             <mxPoint x="-1630" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SNHdrIyIotBaw3_VGWw-3" value="Config" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-3" value="Config(p2p)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-2960" y="810" width="250" height="364" as="geometry" />
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-4" value="PrivateKey *ecdsa.PrivateKey &#xa;MaxPeers int&#xa;MaxPendingPeers int&#xa;DialRatio int&#xa;NoDiscovery bool&#xa;DiscoveryV5 bool&#xa;Name string &#xa;BootstrapNodes []*enode.Node&#xa;BootstrapNodesV5 []*enode.Node &#xa;StaticNodes []*enode.Node&#xa;TrustedNodes []*enode.Node&#xa;NetRestrict *netutil.Netlist &#xa;NodeDatabase string &#xa;Protocols []Protocol &#xa;ListenAddr string&#xa;NAT nat.Interface &#xa;Dialer NodeDialer &#xa;NoDial bool&#xa;EnableMsgEvents bool&#xa;clock mclock.Clock" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-3">
