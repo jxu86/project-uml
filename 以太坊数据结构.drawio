@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T02:54:07.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="boLezrcff-vDE8G5nOVF" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T02:55:42.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yALIyxg6ifrgzAfc0dwl" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1281,6 +1281,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-1090" y="1340" as="sourcePoint" />
             <mxPoint x="-930" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-30" value="handler(eth)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1670" width="260" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-31" value="networkID  uint64&#xa;forkFilter forkid.Filter &#xa;fastSync  uint32&#xa;snapSync  uint32&#xa;acceptTxs uint32 &#xa;checkpointNumber uint64     &#xa;checkpointHash   common.Hash&#xa;database ethdb.Database&#xa;txpool   txPool&#xa;chain    *core.BlockChain&#xa;maxPeers int&#xa;downloader   *downloader.Downloader&#xa;stateBloom   *trie.SyncBloom&#xa;blockFetcher *fetcher.BlockFetcher&#xa;txFetcher    *fetcher.TxFetcher&#xa;peers        *peerSet&#xa;eventMux      *event.TypeMux&#xa;txsCh         chan core.NewTxsEvent&#xa;txsSub        event.Subscription&#xa;minedBlockSub *event.TypeMuxSubscription&#xa;whitelist map[uint64]common.Hash&#xa;txsyncCh chan *txsync&#xa;quitSync chan struct{}&#xa;chainSync *chainSyncer&#xa;wg        sync.WaitGroup&#xa;peerWG    sync.WaitGroup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-30">
+          <mxGeometry y="26" width="260" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-30">
+          <mxGeometry y="430" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-30">
+          <mxGeometry y="438" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-34" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=-0.008;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3SNHdrIyIotBaw3_VGWw-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1090" y="1370" as="sourcePoint" />
+            <mxPoint x="-930" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
