@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:49:34.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cwh5wYpI5LtbfXwBpaoQ" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T09:56:01.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HdumS1VonsH0B8Fpw2Th" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="6286" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6794" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1301,6 +1301,36 @@
             <mxPoint x="-930" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-1" value="Miner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2290" y="2370" width="210" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-2" value="mux      *event.TypeMux&#xa;    worker   *worker&#xa;    coinbase common.Address&#xa;    eth      Backend&#xa;    engine   consensus.Engine&#xa;    exitCh   chan struct{}&#xa;    startCh  chan common.Address&#xa;    stopCh   chan struct{}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-1">
+          <mxGeometry y="26" width="210" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-1">
+          <mxGeometry y="160" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-1">
+          <mxGeometry y="168" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-5" value="Miner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2880" y="2370" width="330" height="664" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-6" value="config      *Config&#xa;    chainConfig *params.ChainConfig&#xa;    engine      consensus.Engine&#xa;    eth         Backend&#xa;    chain       *core.BlockChain&#xa;    pendingLogsFeed event.Feed&#xa;    mux          *event.TypeMux&#xa;    txsCh        chan core.NewTxsEvent&#xa;    txsSub       event.Subscription&#xa;    chainHeadCh  chan core.ChainHeadEvent&#xa;    chainHeadSub event.Subscription&#xa;    chainSideCh  chan core.ChainSideEvent&#xa;    chainSideSub event.Subscription&#xa;    newWorkCh          chan *newWorkReq&#xa;    taskCh             chan *task&#xa;    resultCh           chan *types.Block&#xa;    startCh            chan struct{}&#xa;    exitCh             chan struct{}&#xa;    resubmitIntervalCh chan time.Duration&#xa;    resubmitAdjustCh   chan *intervalAdjust&#xa;    current      *environment &#xa;    localUncles  map[common.Hash]*types.Block &#xa;    remoteUncles map[common.Hash]*types.Block &#xa;    unconfirmed  *unconfirmedBlocks &#xa;    mu       sync.RWMutex &#xa;    coinbase common.Address&#xa;    extra    []byte&#xa;    pendingMu    sync.RWMutex&#xa;    pendingTasks map[common.Hash]*task&#xa;    snapshotMu       sync.RWMutex &#xa;    snapshotBlock    *types.Block&#xa;    snapshotReceipts types.Receipts&#xa;    snapshotState    *state.StateDB&#xa;    running int32 &#xa;    newTxs  int32 &#xa;    noempty uint32&#xa;    isLocalBlock func(block *types.Block) bool &#xa;    newTaskHook  func(*task) &#xa;    skipSealHook func(*task) bool &#xa;    fullTaskHook func() &#xa;    resubmitHook func(time.Duration, time.Duration) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-5">
+          <mxGeometry y="26" width="330" height="604" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-5">
+          <mxGeometry y="630" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-5">
+          <mxGeometry y="638" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-9" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HrHw9LuxpDt4kP_So_Dy-2" target="HrHw9LuxpDt4kP_So_Dy-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2420" y="2490" as="sourcePoint" />
+            <mxPoint x="-2280" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1604,7 +1634,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="2372" dy="2350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1694" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
