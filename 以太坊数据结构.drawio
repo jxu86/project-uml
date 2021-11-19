@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T02:28:26.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fpjHzazmv7TcTcU7ujWe" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T02:31:05.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vjIyRlejq2w_jsIts7mM" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -383,13 +383,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-91" value="«interface»&#xa;Backend" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-2420" y="10" width="210" height="650" as="geometry" />
+          <mxGeometry x="-1375" y="1660" width="210" height="650" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-92" value="Downloader() &#xa;SuggestGasTipCap()&#xa;FeeHistory()&#xa;ChainDb()&#xa;AccountManager() &#xa;ExtRPCEnabled() &#xa;RPCGasCap()&#xa;RPCTxFeeCap() &#xa;UnprotectedAllowed()&#xa;SetHead()&#xa;HeaderByNumber() &#xa;HeaderByHash()&#xa;HeaderByNumberOrHash()&#xa;CurrentHeader()&#xa;CurrentBlock() &#xa;BlockByNumber()&#xa;BlockByHash()&#xa;BlockByNumberOrHash()&#xa;StateAndHeaderByNumber()&#xa;StateAndHeaderByNumberOrHash()&#xa;GetReceipts()&#xa;GetTd() &#xa;GetEVM()&#xa;SubscribeChainEvent() &#xa;SubscribeChainHeadEvent() &#xa;SubscribeChainSideEvent()&#xa;SendTx() &#xa;GetTransaction()&#xa;GetPoolTransactions()&#xa;GetPoolTransaction() &#xa;GetPoolNonce()&#xa;Stats()&#xa;TxPoolContent() &#xa;TxPoolContentFrom()&#xa;SubscribeNewTxsEvent()&#xa;BloomStatus()&#xa;GetLogs()&#xa;ServiceFilter()&#xa;SubscribeLogsEvent()&#xa;SubscribePendingLogsEvent() &#xa;SubscribeRemovedLogsEvent()&#xa;ChainConfig()&#xa;Engine()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="URf5ottizoxrgOfwgMAj-91" vertex="1">
           <mxGeometry y="26" width="210" height="624" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-93" value="EthAPIBackend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1970" y="284" width="170" height="134" as="geometry" />
+          <mxGeometry x="-925" y="1934" width="170" height="134" as="geometry" />
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-94" value="extRPCEnabled       bool&#xa;    allowUnprotectedTxs bool&#xa;    eth                 *Ethereum&#xa;    gpo                 *gasprice.Oracle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="URf5ottizoxrgOfwgMAj-93" vertex="1">
           <mxGeometry y="26" width="170" height="74" as="geometry" />
@@ -402,8 +402,8 @@
         </mxCell>
         <mxCell id="URf5ottizoxrgOfwgMAj-97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="URf5ottizoxrgOfwgMAj-94" target="URf5ottizoxrgOfwgMAj-92" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2140" y="470" as="sourcePoint" />
-            <mxPoint x="-1980" y="470" as="targetPoint" />
+            <mxPoint x="-1095" y="2120" as="sourcePoint" />
+            <mxPoint x="-935" y="2120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fBb_ADaK_HotsHeqHCVb-1" value="«interface»&#xa;Trie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -858,7 +858,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fBb_ADaK_HotsHeqHCVb-212" value="LesApiBackend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1970" y="455" width="170" height="134" as="geometry" />
+          <mxGeometry x="-925" y="2105" width="170" height="134" as="geometry" />
         </mxCell>
         <mxCell id="fBb_ADaK_HotsHeqHCVb-213" value="extRPCEnabled       bool&#xa;    allowUnprotectedTxs bool&#xa;    eth                 *LightEthereum&#xa;    gpo                 *gasprice.Oracle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fBb_ADaK_HotsHeqHCVb-212" vertex="1">
           <mxGeometry y="26" width="170" height="74" as="geometry" />
@@ -871,8 +871,8 @@
         </mxCell>
         <mxCell id="fBb_ADaK_HotsHeqHCVb-216" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fBb_ADaK_HotsHeqHCVb-213" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2110" y="500" as="sourcePoint" />
-            <mxPoint x="-2210" y="518" as="targetPoint" />
+            <mxPoint x="-1065" y="2150" as="sourcePoint" />
+            <mxPoint x="-1165" y="2168" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="du5zmAaU5nBbYAQZdcaN-1" value="nodeIterator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -1251,6 +1251,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-1530" y="1250" as="sourcePoint" />
             <mxPoint x="-1370" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-23" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="URf5ottizoxrgOfwgMAj-83" target="URf5ottizoxrgOfwgMAj-93">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1030" y="1760" as="sourcePoint" />
+            <mxPoint x="-870" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
