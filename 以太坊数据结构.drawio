@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T06:18:20.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="n_Rvi-1aMQOxSut9_1nI" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T08:46:13.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WNK2zGX7t3xZxok0KuM2" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6286" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1604,7 +1604,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="1186" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
@@ -2069,6 +2069,18 @@
         </mxCell>
         <mxCell id="59Qw4GRh_fXQkg1JYlz9-18" value="从其他peer接收到tx信息(P2P)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="2540" y="300" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1200" y="1250" width="590" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-1" value="newWorkLoop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1440" y="1250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1205" y="1570" width="590" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-3" value="mainLoop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1445" y="1570" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
