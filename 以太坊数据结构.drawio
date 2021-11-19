@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T02:39:14.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_N8vrlVyfh58ywEWH6pT" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T02:42:10.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="c31zkBcjRWsC5P36Zr8m" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1264,6 +1264,18 @@
             <mxPoint x="-3120" y="1110" as="sourcePoint" />
             <mxPoint x="-2960" y="1110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-25" value="BlockChain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1180" width="200" height="594" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-26" value="chainConfig *params.ChainConfig&#xa;    cacheConfig *CacheConfig &#xa;    db     ethdb.Database &#xa;    snaps  *snapshot.Tree &#xa;    triegc *prque.Prque &#xa;    gcproc time.Duration &#xa;    txLookupLimit uint64&#xa;    hc            *HeaderChain&#xa;    rmLogsFeed    event.Feed&#xa;    chainFeed     event.Feed&#xa;    chainSideFeed event.Feed&#xa;    chainHeadFeed event.Feed&#xa;    logsFeed      event.Feed&#xa;    blockProcFeed event.Feed&#xa;    scope         event.SubscriptionScope&#xa;    genesisBlock  *types.Block&#xa;    chainmu sync.RWMutex &#xa;    currentBlock     atomic.Value &#xa;    currentFastBlock atomic.Value &#xa;    stateCache    state.Database &#xa;    bodyCache     *lru.Cache &#xa;    bodyRLPCache  *lru.Cache &#xa;    receiptsCache *lru.Cache &#xa;    blockCache    *lru.Cache &#xa;    txLookupCache *lru.Cache&#xa;    futureBlocks  *lru.Cache&#xa;    quit          chan struct{} &#xa;    wg            sync.WaitGroup &#xa;    running       int32 &#xa;    procInterrupt int32 &#xa;    engine     consensus.Engine&#xa;    validator  Validator &#xa;    prefetcher Prefetcher&#xa;    processor  Processor &#xa;    vmConfig   vm.Config&#xa;    shouldPreserve  func(*types.Block) bool &#xa;    terminateInsert func(common.Hash, uint64) bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-25">
+          <mxGeometry y="26" width="200" height="534" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-25">
+          <mxGeometry y="560" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3SNHdrIyIotBaw3_VGWw-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3SNHdrIyIotBaw3_VGWw-25">
+          <mxGeometry y="568" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
