@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:57:35.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="r4fjkiZehPS6PKabgUE0" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T10:06:12.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="C5G6CW9fZe5tlHoigIxr" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="5778" dy="2557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5665" dy="2498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1314,7 +1314,7 @@
           <mxGeometry y="168" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HrHw9LuxpDt4kP_So_Dy-5" value="Miner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-2890" y="2470" width="330" height="664" as="geometry" />
+          <mxGeometry x="-2850" y="2370" width="330" height="664" as="geometry" />
         </mxCell>
         <mxCell id="HrHw9LuxpDt4kP_So_Dy-6" value="config      *Config&#xa;    chainConfig *params.ChainConfig&#xa;    engine      consensus.Engine&#xa;    eth         Backend&#xa;    chain       *core.BlockChain&#xa;    pendingLogsFeed event.Feed&#xa;    mux          *event.TypeMux&#xa;    txsCh        chan core.NewTxsEvent&#xa;    txsSub       event.Subscription&#xa;    chainHeadCh  chan core.ChainHeadEvent&#xa;    chainHeadSub event.Subscription&#xa;    chainSideCh  chan core.ChainSideEvent&#xa;    chainSideSub event.Subscription&#xa;    newWorkCh          chan *newWorkReq&#xa;    taskCh             chan *task&#xa;    resultCh           chan *types.Block&#xa;    startCh            chan struct{}&#xa;    exitCh             chan struct{}&#xa;    resubmitIntervalCh chan time.Duration&#xa;    resubmitAdjustCh   chan *intervalAdjust&#xa;    current      *environment &#xa;    localUncles  map[common.Hash]*types.Block &#xa;    remoteUncles map[common.Hash]*types.Block &#xa;    unconfirmed  *unconfirmedBlocks &#xa;    mu       sync.RWMutex &#xa;    coinbase common.Address&#xa;    extra    []byte&#xa;    pendingMu    sync.RWMutex&#xa;    pendingTasks map[common.Hash]*task&#xa;    snapshotMu       sync.RWMutex &#xa;    snapshotBlock    *types.Block&#xa;    snapshotReceipts types.Receipts&#xa;    snapshotState    *state.StateDB&#xa;    running int32 &#xa;    newTxs  int32 &#xa;    noempty uint32&#xa;    isLocalBlock func(block *types.Block) bool &#xa;    newTaskHook  func(*task) &#xa;    skipSealHook func(*task) bool &#xa;    fullTaskHook func() &#xa;    resubmitHook func(time.Duration, time.Duration) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-5">
           <mxGeometry y="26" width="330" height="604" as="geometry" />
@@ -1348,6 +1348,30 @@
             <mxPoint x="-2060" y="2470" as="sourcePoint" />
             <mxPoint x="-1900" y="2470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-15" value="«interface»&#xa;Engine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-2265" y="2710" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-16" value="Author() &#xa;VerifyHeader() &#xa;VerifyHeaders()&#xa;VerifyUncles() &#xa;Prepare() &#xa;Finalize()&#xa;FinalizeAndAssemble() &#xa;Seal() &#xa;SealHash() &#xa;CalcDifficulty() &#xa;APIs()&#xa;Close() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-15">
+          <mxGeometry y="26" width="160" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-17" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.473;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HrHw9LuxpDt4kP_So_Dy-4" target="HrHw9LuxpDt4kP_So_Dy-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2200" y="2590" as="sourcePoint" />
+            <mxPoint x="-2040" y="2590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-18" value="Ethash" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1960" y="2710" width="210" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-19" value="config Config&#xa;caches   *lru &#xa;datasets *lru &#xa;rand     *rand.Rand   &#xa;threads  int          &#xa;update   chan struct{} &#xa;hashrate metrics.Meter &#xa;remote   *remoteSealer&#xa;shared    *Ethash      &#xa;fakeFail  uint64       &#xa;fakeDelay time.Duration &#xa;lock      sync.Mutex&#xa;closeOnce sync.Once  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-18">
+          <mxGeometry y="26" width="210" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-18">
+          <mxGeometry y="220" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HrHw9LuxpDt4kP_So_Dy-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HrHw9LuxpDt4kP_So_Dy-18">
+          <mxGeometry y="228" width="210" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
