@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T09:32:34.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WNqz5VK4qbDYSoYnqffN" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-19T09:39:09.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fUAHtOlAQZm_Vdo9-vuy" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6286" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2194,6 +2194,27 @@
         </mxCell>
         <mxCell id="43EMeSZu8ZQFkqq4PnSx-38" value="unconfirmed.Insert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="1895" y="1680" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="43EMeSZu8ZQFkqq4PnSx-39" target="43EMeSZu8ZQFkqq4PnSx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-39" value="miner.worker.start()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1260" y="1170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-41" value="开始挖矿指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1290" y="1130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="43EMeSZu8ZQFkqq4PnSx-43" target="43EMeSZu8ZQFkqq4PnSx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-43" value="新区块出现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1455" y="1175" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="43EMeSZu8ZQFkqq4PnSx-45" target="43EMeSZu8ZQFkqq4PnSx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43EMeSZu8ZQFkqq4PnSx-45" value="定时检查是否有新交易需要打包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1630" y="1180" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
