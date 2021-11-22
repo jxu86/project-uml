@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T02:50:58.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="A-pMUcGHUUzZ9X4R4oy6" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T02:54:15.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lDK8BcLFc7q135UmYhxB" version="15.7.3" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="818" dy="408" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2105,6 +2105,12 @@
         </mxCell>
         <mxCell id="z834vwwQ2eUxjHN7GpSd-19" value="订单管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="12085.5" y="1349.0000000000002" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="z834vwwQ2eUxjHN7GpSd-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12019" y="1245" width="524" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="z834vwwQ2eUxjHN7GpSd-22" value="积分客户端(app、小程序)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12235.25" y="1258.34" width="91.5" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
