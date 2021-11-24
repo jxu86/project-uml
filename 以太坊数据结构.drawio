@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T07:28:13.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IQ2hAhrNcPY-3O9BGP3D" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-24T07:29:44.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="EFEuZHz1LCsUULc6Z5Hd" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2528,7 +2528,7 @@
         <mxCell id="VZIDhlwnKxo4PRa1Rtq7-111" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="VZIDhlwnKxo4PRa1Rtq7-107" target="VZIDhlwnKxo4PRa1Rtq7-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VZIDhlwnKxo4PRa1Rtq7-107" value="组织区块头" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+        <mxCell id="VZIDhlwnKxo4PRa1Rtq7-107" value="组装区块头" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="850" y="1180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VZIDhlwnKxo4PRa1Rtq7-112" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="VZIDhlwnKxo4PRa1Rtq7-109" target="VZIDhlwnKxo4PRa1Rtq7-110">
@@ -2572,11 +2572,20 @@
         <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-4" value="执行交易" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="850" y="1660" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-5" target="Y8tRXFJGPqfiAJ4WQ0Rq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-5" value="发送taskCh消息&lt;br&gt;进行共识" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="850" y="1740" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-5" target="Y8tRXFJGPqfiAJ4WQ0Rq-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="895" y="1820" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-14" value="commitNewWork" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="960" y="1060" width="100.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
