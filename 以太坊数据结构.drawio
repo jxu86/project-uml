@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T07:57:34.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QmXZ32014Vd-QKyidtr_" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-24T07:59:21.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xhG8dA0xfOedJMkvm0T_" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1710,6 +1710,9 @@
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="60" y="1100" width="200" height="315" as="geometry" />
+        </mxCell>
         <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="350" y="1100" width="200" height="650" as="geometry" />
         </mxCell>
@@ -2687,6 +2690,12 @@
         </mxCell>
         <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-42" value="&lt;span&gt;客户端发起挖矿/停止/退出挖矿命令&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#00FF00;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="-210" y="1310" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-45" value="newWorker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="470" y="1104" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-46" value="miner.New" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="70" y="1104" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
