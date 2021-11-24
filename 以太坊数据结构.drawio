@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T03:32:38.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QsIIe8BZdgOSWhTysdJ-" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-24T07:28:13.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IQ2hAhrNcPY-3O9BGP3D" version="15.7.3" type="github" pages="3">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="6286" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6088" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2537,8 +2537,46 @@
         <mxCell id="VZIDhlwnKxo4PRa1Rtq7-109" value="设置挖矿地址到&lt;br&gt;区块头" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="850" y="1260" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="VZIDhlwnKxo4PRa1Rtq7-110" target="Y8tRXFJGPqfiAJ4WQ0Rq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VZIDhlwnKxo4PRa1Rtq7-110" value="初始化共识引擎" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="850" y="1340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="1720" y="1120" width="1420" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-1" target="Y8tRXFJGPqfiAJ4WQ0Rq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-1" value="为挖矿新任务&lt;br&gt;创建环境" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="850" y="1420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-2" target="Y8tRXFJGPqfiAJ4WQ0Rq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-2" value="添加叔块" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="850" y="1500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-3" target="Y8tRXFJGPqfiAJ4WQ0Rq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-3" value="获取交易池&lt;br&gt;pending交易" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="850" y="1580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-4" value="执行交易" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="850" y="1660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-5" value="发送taskCh消息&lt;br&gt;进行共识" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="850" y="1740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8tRXFJGPqfiAJ4WQ0Rq-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Y8tRXFJGPqfiAJ4WQ0Rq-5" target="Y8tRXFJGPqfiAJ4WQ0Rq-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
