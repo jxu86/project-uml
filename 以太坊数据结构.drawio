@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T03:02:07.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Y7c9cKjrN6mxGc9qOrAo" version="15.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-27T03:17:04.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JZPjVv-y0GpDmsO85NHF" version="15.7.3" type="github" pages="4">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="7077" dy="3242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1404,7 +1404,7 @@
           <mxGeometry x="-2895" y="2290" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4dp1CFNKM306ohA61AvC-1" value="StateDB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3230" y="806" width="340" height="594" as="geometry" />
+          <mxGeometry x="2790" y="870" width="340" height="594" as="geometry" />
         </mxCell>
         <mxCell id="4dp1CFNKM306ohA61AvC-2" value="db           Database&#xa;    prefetcher   *triePrefetcher&#xa;    originalRoot common.Hash&#xa;    trie         Trie&#xa;    hasher       crypto.KeccakState&#xa;    snaps         *snapshot.Tree&#xa;    snap          snapshot.Snapshot&#xa;    snapDestructs map[common.Hash]struct{}&#xa;    snapAccounts  map[common.Hash][]byte&#xa;    snapStorage   map[common.Hash]map[common.Hash][]byte&#xa;stateObjects        map[common.Address]*stateObject&#xa;&#xa;    stateObjectsPending map[common.Address]struct{} &#xa;    stateObjectsDirty   map[common.Address]struct{} &#xa;    dbErr error&#xa;    refund uint64&#xa;    thash   common.Hash&#xa;    txIndex int&#xa;    logs    map[common.Hash][]*types.Log&#xa;    logSize uint&#xa;    preimages map[common.Hash][]byte&#xa;    accessList *accessList&#xa;    journal        *journal&#xa;    validRevisions []revision&#xa;    nextRevisionId int&#xa;AccountReads         time.Duration&#xa;&#xa;    AccountHashes        time.Duration&#xa;    AccountUpdates       time.Duration&#xa;    AccountCommits       time.Duration&#xa;    StorageReads         time.Duration&#xa;    StorageHashes        time.Duration&#xa;    StorageUpdates       time.Duration&#xa;    StorageCommits       time.Duration&#xa;    SnapshotAccountReads time.Duration&#xa;    SnapshotStorageReads time.Duration&#xa;    SnapshotCommits      time.Duration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4dp1CFNKM306ohA61AvC-1">
           <mxGeometry y="26" width="340" height="534" as="geometry" />
@@ -1414,6 +1414,18 @@
         </mxCell>
         <mxCell id="4dp1CFNKM306ohA61AvC-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4dp1CFNKM306ohA61AvC-1">
           <mxGeometry y="568" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4dp1CFNKM306ohA61AvC-5" value="stateObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="886" width="250" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="4dp1CFNKM306ohA61AvC-6" value="    address  common.Address&#xa;    addrHash common.Hash&#xa;    data     Account&#xa;    db       *StateDB&#xa;    dbErr error&#xa;    trie Trie &#xa;    code Code &#xa;    originStorage  Storage &#xa;    pendingStorage Storage &#xa;    dirtyStorage   Storage &#xa;    fakeStorage    Storage &#xa;    suicided  bool&#xa;    deleted   bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4dp1CFNKM306ohA61AvC-5">
+          <mxGeometry y="26" width="250" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="4dp1CFNKM306ohA61AvC-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4dp1CFNKM306ohA61AvC-5">
+          <mxGeometry y="240" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4dp1CFNKM306ohA61AvC-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4dp1CFNKM306ohA61AvC-5">
+          <mxGeometry y="248" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
