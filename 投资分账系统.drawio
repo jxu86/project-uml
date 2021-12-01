@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T10:02:18.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YlJVluX-Qs06FA1f9DKD" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-01T02:43:56.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="srFFhO1lu_mhN9XyW0CG" version="15.7.3" type="github">
   <diagram id="gWS3yvvaSbKcGtaQ78_x" name="Page-1">
     <mxGraphModel dx="818" dy="408" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2111,6 +2111,27 @@
         </mxCell>
         <mxCell id="z834vwwQ2eUxjHN7GpSd-22" value="积分客户端(app、小程序)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="12235.25" y="1258.34" width="91.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-1" value="交易#001" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12881" y="1331" width="513" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-3" value="from:商家A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12881" y="1357" width="82" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-4" value="to:消费者A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12963" y="1357" width="82" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-5" value="积分:100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13045" y="1357" width="82" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-6" value="有效期:2020-01-01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13127" y="1357" width="104" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-7" value="已使用标志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13231" y="1357" width="82" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="E7aGbbgDYTqpkF-drGXF-8" value="其他备注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13312" y="1357" width="82" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
