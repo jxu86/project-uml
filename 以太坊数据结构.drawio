@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T06:57:51.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="BmZzGnrPaxK16eQdENwB" version="15.8.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-28T02:36:01.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="61JsE2v92mGSrq9CHqsT" version="15.8.9" type="github" pages="4">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="6088" dy="2693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6286" dy="2791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6W6yHQBVkqojg14WnuRl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2560" y="-2100" width="1250" height="990" as="geometry" />
+        </mxCell>
         <mxCell id="HuRJZfud0MzCTdcWiuq2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4920" y="920" width="1240" height="577" as="geometry" />
         </mxCell>
@@ -1029,7 +1032,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dPSJ6BxrvEtRARj9bk2a-31" value="Contract" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-2200" y="-1260" width="220" height="234" as="geometry" />
+          <mxGeometry x="-2150" y="-1370" width="220" height="234" as="geometry" />
         </mxCell>
         <mxCell id="dPSJ6BxrvEtRARj9bk2a-32" value="CallerAddress common.Address&#xa;caller        ContractRef&#xa;self          ContractRef&#xa;jumpdests map[common.Hash]bitvec&#xa;analysis  bitvec                &#xa;Code     []byte&#xa;CodeHash common.Hash&#xa;CodeAddr *common.Address&#xa;Input    []byte&#xa;Gas   uint64&#xa;value *big.Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dPSJ6BxrvEtRARj9bk2a-31" vertex="1">
           <mxGeometry y="26" width="220" height="174" as="geometry" />
@@ -1574,6 +1577,9 @@
         <mxCell id="HuRJZfud0MzCTdcWiuq2-2" value="P2P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4920" y="920" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6W6yHQBVkqojg14WnuRl-2" value="智能合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2560" y="-2100" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1877,7 +1883,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="2544" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2245" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
