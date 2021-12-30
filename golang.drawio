@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T11:10:36.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="YLeTn-NFtqrEgu8nJ-xO" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T11:15:48.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="adK85U_tZWq-3AIUAGeu" version="15.8.9" type="github">
   <diagram id="Fawr2cNaJOEuSB37mbMz" name="Page-1">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="IIpFHa_1jI1vyUHgiyEp-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="590" y="425" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IIpFHa_1jI1vyUHgiyEp-17" value="检查接收列队是否有接受者？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-17" value="检查接收列队是否&lt;br&gt;有接收者？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="180" y="520" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IIpFHa_1jI1vyUHgiyEp-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="IIpFHa_1jI1vyUHgiyEp-17" parent="1">
@@ -113,6 +113,42 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="255" y="1140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIpFHa_1jI1vyUHgiyEp-27" target="IIpFHa_1jI1vyUHgiyEp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-27" value="获取接收者" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IIpFHa_1jI1vyUHgiyEp-28" target="IIpFHa_1jI1vyUHgiyEp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-28" value="把发送数据copy到接收者指定的内存上" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IIpFHa_1jI1vyUHgiyEp-30" target="IIpFHa_1jI1vyUHgiyEp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-30" value="唤醒接收者协程" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIpFHa_1jI1vyUHgiyEp-34" target="IIpFHa_1jI1vyUHgiyEp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-34" value="把发送数据copy到buf" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIpFHa_1jI1vyUHgiyEp-35" target="IIpFHa_1jI1vyUHgiyEp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-35" value="sendx++&lt;br&gt;qcount++" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIpFHa_1jI1vyUHgiyEp-37" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="870" y="705" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
