@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T03:28:46.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OcUBTABQ0PRM7iJzobuv" version="16.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-11T10:09:31.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ETQXVeYMUdszHKoUj5Xk" version="16.1.2" type="github" pages="4">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="5979" dy="2663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5891" dy="2617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1278,7 +1278,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-25" value="BlockChain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="1050" width="200" height="594" as="geometry" />
+          <mxGeometry x="-420" y="1020" width="200" height="594" as="geometry" />
         </mxCell>
         <mxCell id="3SNHdrIyIotBaw3_VGWw-26" value="chainConfig *params.ChainConfig&#xa;    cacheConfig *CacheConfig &#xa;    db     ethdb.Database &#xa;    snaps  *snapshot.Tree &#xa;    triegc *prque.Prque &#xa;    gcproc time.Duration &#xa;    txLookupLimit uint64&#xa;    hc            *HeaderChain&#xa;    rmLogsFeed    event.Feed&#xa;    chainFeed     event.Feed&#xa;    chainSideFeed event.Feed&#xa;    chainHeadFeed event.Feed&#xa;    logsFeed      event.Feed&#xa;    blockProcFeed event.Feed&#xa;    scope         event.SubscriptionScope&#xa;    genesisBlock  *types.Block&#xa;    chainmu sync.RWMutex &#xa;    currentBlock     atomic.Value &#xa;    currentFastBlock atomic.Value &#xa;    stateCache    state.Database &#xa;    bodyCache     *lru.Cache &#xa;    bodyRLPCache  *lru.Cache &#xa;    receiptsCache *lru.Cache &#xa;    blockCache    *lru.Cache &#xa;    txLookupCache *lru.Cache&#xa;    futureBlocks  *lru.Cache&#xa;    quit          chan struct{} &#xa;    wg            sync.WaitGroup &#xa;    running       int32 &#xa;    procInterrupt int32 &#xa;    engine     consensus.Engine&#xa;    validator  Validator &#xa;    prefetcher Prefetcher&#xa;    processor  Processor &#xa;    vmConfig   vm.Config&#xa;    shouldPreserve  func(*types.Block) bool &#xa;    terminateInsert func(common.Hash, uint64) bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3SNHdrIyIotBaw3_VGWw-25" vertex="1">
           <mxGeometry y="26" width="200" height="534" as="geometry" />
@@ -1579,6 +1579,54 @@
         </mxCell>
         <mxCell id="6W6yHQBVkqojg14WnuRl-2" value="智能合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2560" y="-2100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-1" value="serviceRegistry" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1875" y="495" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-2" value="mu       sync.Mutex&#xa;    services map[string]service" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-1">
+          <mxGeometry y="88" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-5" value="service" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="583" width="200" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-6" value="name          string &#xa;    callbacks     map[string]*callback &#xa;    subscriptions map[string]*callback " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-5">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-5">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-5">
+          <mxGeometry y="88" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-9" value="callback" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1875" y="732" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-10" value="fn          reflect.Value &#xa;rcvr        reflect.Value &#xa;argTypes    []reflect.Type&#xa;hasCtx      bool          &#xa;errPos      int           &#xa;isSubscribe bool          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-9">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-9">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OQiexTonot44Uh37AcX1-9">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-13" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OQiexTonot44Uh37AcX1-2" target="OQiexTonot44Uh37AcX1-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1710" y="550" as="sourcePoint" />
+            <mxPoint x="-1550" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQiexTonot44Uh37AcX1-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.482;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OQiexTonot44Uh37AcX1-8" target="OQiexTonot44Uh37AcX1-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1600" y="740" as="sourcePoint" />
+            <mxPoint x="-1440" y="740" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1883,7 +1931,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="2208" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1980" dy="1695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
