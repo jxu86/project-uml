@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T03:25:58.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="quUKbaVMyf2NFG8pZQj3" version="16.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-11T03:28:46.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OcUBTABQ0PRM7iJzobuv" version="16.1.2" type="github" pages="4">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="5979" dy="2663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1883,12 +1883,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="1980" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2208" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="k_UEnN09tc6f12XJt1lq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3040" y="-740" width="930" height="520" as="geometry" />
+          <mxGeometry x="2695" y="-727" width="930" height="520" as="geometry" />
         </mxCell>
         <mxCell id="_THhk1pXUsMzAuZIyaNC-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" parent="fn0iNzFgPWtPh3gmGL_K-1" vertex="1">
           <mxGeometry x="1740" y="1970" width="634.5" height="1040" as="geometry" />
@@ -3011,48 +3011,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3315" y="-528" width="70" height="70" as="geometry" />
+          <mxGeometry x="2970" y="-515" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-2" target="k_UEnN09tc6f12XJt1lq-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-2" value="scrypt&lt;br&gt;(Key Derivation Function)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3280" y="-690" width="160" height="60" as="geometry" />
+          <mxGeometry x="2935" y="-677" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-5" target="k_UEnN09tc6f12XJt1lq-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-5" value="" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3575" y="-672" width="50" height="22.5" as="geometry" />
+          <mxGeometry x="3230" y="-659" width="50" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-6" target="k_UEnN09tc6f12XJt1lq-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3600" y="-570" />
-              <mxPoint x="3350" y="-570" />
+              <mxPoint x="3255" y="-557" />
+              <mxPoint x="3005" y="-557" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-6" value="decryption key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3570" y="-642" width="60" height="30" as="geometry" />
+          <mxGeometry x="3225" y="-629" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-8" target="k_UEnN09tc6f12XJt1lq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-8" value="kdfparams&lt;br&gt;dklen,n,r,p and salt&lt;br&gt;(Functions parameters)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3050" y="-630" width="140" height="50" as="geometry" />
+          <mxGeometry x="2705" y="-617" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-10" target="k_UEnN09tc6f12XJt1lq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-10" value="Passphrase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="2895" y="-690" width="80" height="30" as="geometry" />
+          <mxGeometry x="2550" y="-677" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-12" target="k_UEnN09tc6f12XJt1lq-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-12" value="aes-128-ctr&lt;br&gt;(symmetric algorithm)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3765" y="-580" width="120" height="60" as="geometry" />
+          <mxGeometry x="3420" y="-567" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-13" target="k_UEnN09tc6f12XJt1lq-0">
           <mxGeometry relative="1" as="geometry" />
@@ -3061,51 +3061,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-13" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#2072B8;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3587.5" y="-520" width="25" height="53" as="geometry" />
+          <mxGeometry x="3242.5" y="-507" width="25" height="53" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-14" value="ciphertext&lt;br&gt;(Encrypted Ethereum private key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3506.5" y="-464" width="187" height="30" as="geometry" />
+          <mxGeometry x="3161.5" y="-451" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-17" target="k_UEnN09tc6f12XJt1lq-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-17" value="SHA3-256&lt;br&gt;(Hash Function)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3290" y="-380" width="120" height="60" as="geometry" />
+          <mxGeometry x="2945" y="-367" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3760" y="-350" as="targetPoint" />
+            <mxPoint x="3415" y="-337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-19" value="compared&lt;br&gt;with" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3560" y="-390" width="80" height="80" as="geometry" />
+          <mxGeometry x="3215" y="-377" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-21" value="hash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3446.5" y="-380" width="60" height="30" as="geometry" />
+          <mxGeometry x="3101.5" y="-367" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-22" target="k_UEnN09tc6f12XJt1lq-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-22" value="mac" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3570" y="-250" width="60" height="30" as="geometry" />
+          <mxGeometry x="3225" y="-237" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-25" value="if mac == hsh then password is valid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3640" y="-390" width="110" height="30" as="geometry" />
+          <mxGeometry x="3295" y="-377" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3765" y="-380" width="60" height="60" as="geometry" />
+          <mxGeometry x="3420" y="-367" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="k_UEnN09tc6f12XJt1lq-29" target="k_UEnN09tc6f12XJt1lq-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-29" value="iv&lt;br&gt;(Initialisation Vector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="3768" y="-464" width="115" height="30" as="geometry" />
+          <mxGeometry x="3423" y="-451" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-31" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/vpc/Key.svg;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="4030" y="-580" width="60" height="60" as="geometry" />
+          <mxGeometry x="3685" y="-567" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_UEnN09tc6f12XJt1lq-33" value="Decrypted Ethereum private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
-          <mxGeometry x="4000" y="-520" width="120" height="30" as="geometry" />
+          <mxGeometry x="3655" y="-507" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
