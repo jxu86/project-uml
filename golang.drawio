@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T07:58:42.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="w-26ZxaYrjnR1vXEcivD" version="16.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-13T08:56:24.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FCLwvwzgKrFINx6orcM1" version="16.1.2" type="github" pages="2">
   <diagram id="Fawr2cNaJOEuSB37mbMz" name="Page-1">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -448,7 +448,7 @@
         <mxCell id="ruA95NtTYl-0B72FDkmp-0" />
         <mxCell id="ruA95NtTYl-0B72FDkmp-1" parent="ruA95NtTYl-0B72FDkmp-0" />
         <mxCell id="ruA95NtTYl-0B72FDkmp-2" value="ServeMux" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
-          <mxGeometry x="370" y="120" width="160" height="134" as="geometry" />
+          <mxGeometry x="440" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="ruA95NtTYl-0B72FDkmp-3" value="mu    sync.RWMutex&#xa;    m     map[string]muxEntry&#xa;    es    []muxEntry &#xa;    hosts bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-2">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -460,7 +460,7 @@
           <mxGeometry y="108" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ruA95NtTYl-0B72FDkmp-6" value="muxEntry" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
-          <mxGeometry x="210" y="320" width="160" height="104" as="geometry" />
+          <mxGeometry x="280" y="206" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ruA95NtTYl-0B72FDkmp-7" value="h       Handler&#xa;    pattern string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-6">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -487,7 +487,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ruA95NtTYl-0B72FDkmp-13" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
-          <mxGeometry x="850" y="-140" width="390" height="384" as="geometry" />
+          <mxGeometry x="760" y="-120" width="390" height="384" as="geometry" />
         </mxCell>
         <mxCell id="ruA95NtTYl-0B72FDkmp-14" value="Addr string&#xa;Handler Handler &#xa;TLSConfig *tls.Config&#xa;ReadTimeout time.Duration&#xa;ReadHeaderTimeout time.Duration&#xa;WriteTimeout time.Duration&#xa;IdleTimeout time.Duration&#xa;MaxHeaderBytes int&#xa;TLSNextProto map[string]func(*Server, *tls.Conn, Handler)&#xa;ConnState func(net.Conn, ConnState)&#xa;ErrorLog *log.Logger&#xa;BaseContext func(net.Listener) context.Context&#xa;ConnContext func(ctx context.Context, c net.Conn) context.Context&#xa;disableKeepAlives int32     &#xa;inShutdown        int32     &#xa;nextProtoOnce     sync.Once &#xa;nextProtoErr      error     &#xa;mu         sync.Mutex&#xa;listeners  map[*net.Listener]struct{}&#xa;activeConn map[*conn]struct{}&#xa;doneChan   chan struct{}&#xa;onShutdown []func()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-13">
           <mxGeometry y="26" width="390" height="324" as="geometry" />
@@ -503,6 +503,71 @@
             <mxPoint x="830" y="260" as="sourcePoint" />
             <mxPoint x="990" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-19" target="ruA95NtTYl-0B72FDkmp-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-19" value="ListenAndServe" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1540" y="-1" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-21" target="ruA95NtTYl-0B72FDkmp-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-21" value="net.Listen" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1540" y="105" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-22" target="ruA95NtTYl-0B72FDkmp-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010" y="320" />
+              <mxPoint x="1600" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-22" value="conn.Serve" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1950" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-23" value="conn" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="440" y="-480" width="220" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-24" value="server *Server&#xa;cancelCtx context.CancelFunc&#xa;rwc net.Conn&#xa;remoteAddr string&#xa;tlsState *tls.ConnectionState&#xa;werr error&#xa;r *connReader&#xa;bufr *bufio.Reader&#xa;bufw *bufio.Writer&#xa;lastMethod string&#xa;curReq atomic.Value &#xa;curState struct{ atomic uint64 } &#xa;mu sync.Mutex&#xa;hijackedv bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-23">
+          <mxGeometry y="26" width="220" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-23">
+          <mxGeometry y="240" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-26" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-23">
+          <mxGeometry y="248" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-27" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-24" target="ruA95NtTYl-0B72FDkmp-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="-220" as="sourcePoint" />
+            <mxPoint x="1010" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-28" target="ruA95NtTYl-0B72FDkmp-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-28" value="serverHandler.ServeHttp" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1520" y="350" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2010" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-29" value="&lt;span&gt;ServeMux.&lt;/span&gt;Handler" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1950" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-32" value="默认DefaultServeMux(ServeMux)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1760" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-36" value="调用路由对于的&lt;br&gt;处理函数" style="html=1;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="1950" y="620" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
