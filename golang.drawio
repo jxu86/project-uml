@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T07:54:08.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bO9OYQQJp-H2HzzrfpGW" version="16.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-13T07:58:42.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="w-26ZxaYrjnR1vXEcivD" version="16.1.2" type="github" pages="2">
   <diagram id="Fawr2cNaJOEuSB37mbMz" name="Page-1">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4HPd5-pQT5bv2y7T06en" name="内置包">
-    <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ruA95NtTYl-0B72FDkmp-0" />
         <mxCell id="ruA95NtTYl-0B72FDkmp-1" parent="ruA95NtTYl-0B72FDkmp-0" />
@@ -484,6 +484,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="400" y="380" as="sourcePoint" />
             <mxPoint x="560" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-13" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-1">
+          <mxGeometry x="850" y="-140" width="390" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-14" value="Addr string&#xa;Handler Handler &#xa;TLSConfig *tls.Config&#xa;ReadTimeout time.Duration&#xa;ReadHeaderTimeout time.Duration&#xa;WriteTimeout time.Duration&#xa;IdleTimeout time.Duration&#xa;MaxHeaderBytes int&#xa;TLSNextProto map[string]func(*Server, *tls.Conn, Handler)&#xa;ConnState func(net.Conn, ConnState)&#xa;ErrorLog *log.Logger&#xa;BaseContext func(net.Listener) context.Context&#xa;ConnContext func(ctx context.Context, c net.Conn) context.Context&#xa;disableKeepAlives int32     &#xa;inShutdown        int32     &#xa;nextProtoOnce     sync.Once &#xa;nextProtoErr      error     &#xa;mu         sync.Mutex&#xa;listeners  map[*net.Listener]struct{}&#xa;activeConn map[*conn]struct{}&#xa;doneChan   chan struct{}&#xa;onShutdown []func()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-13">
+          <mxGeometry y="26" width="390" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-13">
+          <mxGeometry y="350" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ruA95NtTYl-0B72FDkmp-13">
+          <mxGeometry y="358" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ruA95NtTYl-0B72FDkmp-17" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ruA95NtTYl-0B72FDkmp-1" source="ruA95NtTYl-0B72FDkmp-14" target="ruA95NtTYl-0B72FDkmp-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="830" y="260" as="sourcePoint" />
+            <mxPoint x="990" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
