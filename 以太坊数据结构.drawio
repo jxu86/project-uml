@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T07:51:59.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="K1n0Ou-LzR-WilBGL9kJ" version="16.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-18T02:29:55.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="clqRnXmnWzjLzt8ys24o" version="16.1.2" type="github" pages="4">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="5918" dy="2608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6088" dy="2693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1991,7 +1991,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AwLprka83npS-vNDFZOM" name="流程图(整体)">
-    <mxGraphModel dx="5594" dy="3464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2168" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-0" />
         <mxCell id="fn0iNzFgPWtPh3gmGL_K-1" parent="fn0iNzFgPWtPh3gmGL_K-0" />
@@ -3282,6 +3282,36 @@
         </mxCell>
         <mxCell id="oZMsHWeV7AgNAB5zS4eY-17" value="处理请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
           <mxGeometry x="4750" y="-479" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Mp6AJ_u24ymjiAIF0jTW-0" target="Mp6AJ_u24ymjiAIF0jTW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-0" value="私钥&lt;br&gt;32byte，随机生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="3420" y="133" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Mp6AJ_u24ymjiAIF0jTW-1" target="Mp6AJ_u24ymjiAIF0jTW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-1" value="公钥&lt;br&gt;64byte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="3640" y="133" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fn0iNzFgPWtPh3gmGL_K-1" source="Mp6AJ_u24ymjiAIF0jTW-2" target="Mp6AJ_u24ymjiAIF0jTW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-2" value="压缩公钥&lt;br&gt;32byte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="3890" y="133" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-3" value="账户地址&lt;br&gt;20byte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="4110" y="133" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-5" value="椭圆曲线加密算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="3555" y="123" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-7" value="Keccak256" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="3790" y="123" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp6AJ_u24ymjiAIF0jTW-9" value="取最后20byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fn0iNzFgPWtPh3gmGL_K-1">
+          <mxGeometry x="4030" y="123" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
