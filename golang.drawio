@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:01:12.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xitlPhVXxTdEFmJPj8ag" version="16.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-09T02:30:08.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="NlHvsQSJP0w2n6U0YWNg" version="16.5.2" type="github" pages="3">
   <diagram id="zWAUOI7uXB58mfc3HVhZ" name="数据结构">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="59_2Vt7BAnoprPoY_IP--0" />
         <mxCell id="59_2Vt7BAnoprPoY_IP--1" parent="59_2Vt7BAnoprPoY_IP--0" />
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="1870" y="1130" width="651" height="224" as="geometry" />
+        </mxCell>
         <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
           <mxGeometry x="2539" y="970" width="621" height="500" as="geometry" />
         </mxCell>
@@ -1641,6 +1644,9 @@
         </mxCell>
         <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-47" value="span" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
           <mxGeometry x="2737" y="1231" width="35" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-49" value="&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;luxi sans&amp;#34; , &amp;#34;dejavu sans&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;mspan包含多个类型相同的span的一个双向链表&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="2035.75" y="1133" width="319.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
