@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:30:08.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="NlHvsQSJP0w2n6U0YWNg" version="16.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-09T02:33:37.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="1hZWUDZzUtQS-tMzv5da" version="16.5.2" type="github" pages="3">
   <diagram id="zWAUOI7uXB58mfc3HVhZ" name="数据结构">
     <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1647,6 +1647,24 @@
         </mxCell>
         <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-49" value="&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;luxi sans&amp;#34; , &amp;#34;dejavu sans&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;mspan包含多个类型相同的span的一个双向链表&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
           <mxGeometry x="2035.75" y="1133" width="319.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-50" value="spans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3280" y="1050" width="144" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-51" value="bitmap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3424" y="1050" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-52" value="arena" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3594" y="1050" width="290" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-53" value="512M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3322" y="1095" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-54" value="16G" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3479" y="1095" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqy_uOnuW0vUDSRYm9mQ-55" value="512G" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59_2Vt7BAnoprPoY_IP--1">
+          <mxGeometry x="3709" y="1095" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
