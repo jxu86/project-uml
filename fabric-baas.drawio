@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T08:29:49.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KE4AOnGq992BKktC9FZC" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-21T08:41:09.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="mOqtSspDXbbdLPTfJHPd" version="16.5.3" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1395" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PDXN6QRq_CzD62MbGftT-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4264" y="134" width="1229" height="796" as="geometry" />
+        </mxCell>
         <mxCell id="hW7hrUV0_uZZB12w6uu_-83" value="容器部署&lt;br&gt;节点信息获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3731" y="1871" width="86" height="20" as="geometry" />
         </mxCell>
@@ -489,6 +492,27 @@
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-29" value="https" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5022" y="356" width="39" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5240" y="379" width="162" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-31" value="消费者app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5282" y="375" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-32" value="账号申请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5265.5" y="423" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-33" value="交易签名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5265.5" y="478" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-34" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5265.5" y="533" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-35" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5157" y="464" width="82" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-36" value="https" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5176" y="447" width="39" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
