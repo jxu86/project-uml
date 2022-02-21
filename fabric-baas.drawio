@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:57:47.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m6uiEa3a71iTD-soW00S" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-21T08:04:02.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Kyi42qgA76kvBIzKct0-" version="16.5.3" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1395" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -430,7 +430,7 @@
         <mxCell id="PDXN6QRq_CzD62MbGftT-9" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5025" y="450" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="PDXN6QRq_CzD62MbGftT-10" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PDXN6QRq_CzD62MbGftT-10" value="积分清算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4938.5" y="516" width="111" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-11" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
