@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:55:40.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ZW8RVoPxyvoOTZ97y6QK" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:57:47.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m6uiEa3a71iTD-soW00S" version="16.5.3" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1395" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -392,7 +392,7 @@
           <mxGeometry x="4772" y="411" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ax7JosozGZXdQqjMwn0C-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4622.5" y="693" width="452" height="187" as="geometry" />
+          <mxGeometry x="4622.5" y="693" width="452" height="165" as="geometry" />
         </mxCell>
         <mxCell id="ax7JosozGZXdQqjMwn0C-2" value="区块链网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4809.5" y="689" width="78" height="30" as="geometry" />
@@ -401,13 +401,13 @@
           <mxGeometry x="4899" y="734" width="142" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ax7JosozGZXdQqjMwn0C-4" value="排序节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4669" y="826" width="94" height="40" as="geometry" />
+          <mxGeometry x="4669" y="797" width="94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ax7JosozGZXdQqjMwn0C-5" value="背书节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4809.5" y="826" width="94" height="40" as="geometry" />
+          <mxGeometry x="4809.5" y="797" width="94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-1" value="提交节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4947" y="826" width="94" height="40" as="geometry" />
+          <mxGeometry x="4947" y="797" width="94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-3" value="证书服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4669" y="734" width="142" height="40" as="geometry" />
