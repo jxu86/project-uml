@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:48:38.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="F3eG6OoXm1ZDwR4Mk25z" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:55:40.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ZW8RVoPxyvoOTZ97y6QK" version="16.5.3" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1395" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -386,10 +386,10 @@
           <mxGeometry x="3418" y="1178.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RbswuN7okZ3B2s8mm4-j-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4465" y="389" width="767" height="173" as="geometry" />
+          <mxGeometry x="4540" y="408" width="617" height="154" as="geometry" />
         </mxCell>
         <mxCell id="RbswuN7okZ3B2s8mm4-j-2" value="积分系统后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4772" y="390" width="153" height="30" as="geometry" />
+          <mxGeometry x="4772" y="411" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ax7JosozGZXdQqjMwn0C-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4622.5" y="693" width="452" height="187" as="geometry" />
@@ -417,6 +417,27 @@
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-5" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4833" y="562" width="31" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-6" value="账号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4561" y="453" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-7" value="积分发行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4714" y="453" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-8" value="积分兑换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4869.5" y="453" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-9" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5025" y="450" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-10" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4938.5" y="516" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-11" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4652" y="516" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="PDXN6QRq_CzD62MbGftT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PDXN6QRq_CzD62MbGftT-7" target="PDXN6QRq_CzD62MbGftT-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
