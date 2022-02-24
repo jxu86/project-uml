@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T06:19:44.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="peGgdiquWW1KnXf3V6N8" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-24T06:45:00.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jljQAAXWx-ZcfYYz6AIS" version="16.6.1" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PDXN6QRq_CzD62MbGftT-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4264" y="134" width="1826" height="796" as="geometry" />
+          <mxGeometry x="4264" y="134" width="2003" height="796" as="geometry" />
         </mxCell>
         <mxCell id="hW7hrUV0_uZZB12w6uu_-83" value="容器部署&lt;br&gt;节点信息获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3731" y="1871" width="86" height="20" as="geometry" />
@@ -522,6 +522,66 @@
         </mxCell>
         <mxCell id="PDXN6QRq_CzD62MbGftT-40" value="记录参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4468" y="725" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5547" y="395" width="617" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-2" value="积分系统后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5779" y="398" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5629.5" y="680" width="452" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-4" value="智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5906" y="721" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-5" value="排序节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5676" y="784" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-6" value="背书节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5816.5" y="784" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-7" value="提交节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5954" y="784" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-8" value="证书服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5676" y="721" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-9" value="fabric-sdk-go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5800" y="503" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-10" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5840" y="549" width="31" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-11" value="账号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5568" y="440" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-12" value="积分发行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5721" y="440" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-13" value="积分兑换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5876.5" y="440" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-14" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6032" y="437" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-15" value="积分清算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5945.5" y="503" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-16" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5659" y="503" width="111" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-17" value="http/websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5863" y="591" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-18" value="mongodb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="5540" y="681" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-19" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5554.5" y="549" width="31" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-20" value="api gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5547" y="346" width="618" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
