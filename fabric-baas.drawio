@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T06:45:00.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jljQAAXWx-ZcfYYz6AIS" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-24T07:07:06.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="y_03tEabeZrfdaEh61_m" version="16.6.1" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -582,6 +582,25 @@
         </mxCell>
         <mxCell id="pp3J_ahtMmmvUWGqLmT8-20" value="api gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5547" y="346" width="618" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-21" value="客户端APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="6885" y="307.5" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-22" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="7108" y="307.5" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-22">
+          <mxGeometry x="45" y="92.5" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-24" value="用户账户申请" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-23" parent="1" source="pp3J_ahtMmmvUWGqLmT8-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7173" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-25" value="返回公私钥" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-23" parent="1" target="pp3J_ahtMmmvUWGqLmT8-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7173" y="476" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
