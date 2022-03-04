@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T16:16:28.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kutixD-X5hj8nA7xRlfa" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:20:23.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Eg0GXkJCQTGfB0HJ48bc" version="16.6.1" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -754,12 +754,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-82" value="withdraw(contract, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-81" parent="1" source="pp3J_ahtMmmvUWGqLmT8-75">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-82" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-81" parent="1" source="pp3J_ahtMmmvUWGqLmT8-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10046" y="455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-81" parent="1" target="pp3J_ahtMmmvUWGqLmT8-75">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="send eth to receiver" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-81" parent="1" target="pp3J_ahtMmmvUWGqLmT8-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10046" y="531" as="targetPoint" />
           </mxGeometry>
