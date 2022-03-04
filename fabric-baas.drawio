@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T07:28:17.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8Mkia5LQwJ-OWXKpYWAz" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:16:28.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kutixD-X5hj8nA7xRlfa" version="16.6.1" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -725,6 +725,43 @@
         <mxCell id="pp3J_ahtMmmvUWGqLmT8-70" value="清算完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-68" parent="1" target="pp3J_ahtMmmvUWGqLmT8-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="8980" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-74" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="9643" y="252" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-75" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="9847" y="252" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-76" value="HashTimeLockETH&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10056" y="252" width="129" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-76">
+          <mxGeometry x="60" y="94" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-76">
+          <mxGeometry x="60" y="203" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-78" value="createContract(receiver, hashlock, timelock) and send eth" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-77" parent="1" source="pp3J_ahtMmmvUWGqLmT8-74">
+          <mxGeometry x="-0.0106" relative="1" as="geometry">
+            <mxPoint x="10046" y="346" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-79" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-77" parent="1" target="pp3J_ahtMmmvUWGqLmT8-74">
+          <mxGeometry x="0.5254" relative="1" as="geometry">
+            <mxPoint x="10046" y="422" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-82" value="withdraw(contract, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-81" parent="1" source="pp3J_ahtMmmvUWGqLmT8-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10046" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-81" parent="1" target="pp3J_ahtMmmvUWGqLmT8-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10046" y="531" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
