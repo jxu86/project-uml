@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T16:20:23.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Eg0GXkJCQTGfB0HJ48bc" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:36:35.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="gut-S1Qa4MfKV3rDwRiJ" version="16.6.1" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
     <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -730,6 +730,12 @@
         <mxCell id="pp3J_ahtMmmvUWGqLmT8-74" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="9643" y="252" width="100" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-84" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-74" target="pp3J_ahtMmmvUWGqLmT8-75">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="191" as="sourcePoint" />
+            <mxPoint x="210" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pp3J_ahtMmmvUWGqLmT8-75" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="9847" y="252" width="100" height="300" as="geometry" />
         </mxCell>
@@ -762,6 +768,94 @@
         <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="send eth to receiver" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-81" parent="1" target="pp3J_ahtMmmvUWGqLmT8-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10046" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-86" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10314" y="247" width="100" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-88" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10518" y="247" width="100" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-115" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-153" y="247" as="sourcePoint" />
+            <mxPoint x="50.5" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-89" value="HashTimeLockERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10727" y="247" width="129" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-89">
+          <mxGeometry x="59.5" y="128" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-103" value="createContract(receiver, erc20contract, amount, hashlock, timelock)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-102">
+          <mxGeometry x="-0.0106" relative="1" as="geometry">
+            <mxPoint x="-364" y="128.0000000000001" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-104" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-102">
+          <mxGeometry x="0.5254" relative="1" as="geometry">
+            <mxPoint x="-364" y="204" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-89">
+          <mxGeometry x="59.5" y="274" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-117" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="274" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-118" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-96" value="ERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10958" y="247" width="129" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+          <mxGeometry x="60" y="66" width="10" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+          <mxGeometry x="60" y="143" width="10" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+          <mxGeometry x="60" y="293" width="10" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-120" value="transfer(receiver, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-96" target="pp3J_ahtMmmvUWGqLmT8-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-167" y="293" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-121" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-96" source="pp3J_ahtMmmvUWGqLmT8-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161.5" y="331.95000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-100" value="approve(htlc address, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-99" parent="1" source="pp3J_ahtMmmvUWGqLmT8-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10948" y="313" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-101" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-96" parent="1" target="pp3J_ahtMmmvUWGqLmT8-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10445" y="352" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10689" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-112" value="transferFrom(sender, htlc addr, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-111" parent="1" source="pp3J_ahtMmmvUWGqLmT8-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10948" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-113" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-111" parent="1" target="pp3J_ahtMmmvUWGqLmT8-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10938" y="429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
