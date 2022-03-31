@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T03:50:59.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ibuO-qkdERrHkpOKwHjL" version="16.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-31T02:35:41.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="75tqGBM72gcZDDnHuoI3" version="17.1.3" type="github" pages="8">
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="1186" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -523,324 +523,324 @@
         <mxCell id="PDXN6QRq_CzD62MbGftT-40" value="记录参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4468" y="725" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5547" y="395" width="617" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-2" value="积分系统后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-2" value="积分系统后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5779" y="398" width="153" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5629.5" y="680" width="452" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-4" value="智能合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-4" value="智能合约" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5906" y="721" width="142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-5" value="排序节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-5" value="排序节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5676" y="784" width="94" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-6" value="背书节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-6" value="背书节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5816.5" y="784" width="94" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-7" value="提交节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-7" value="提交节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5954" y="784" width="94" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-8" value="证书服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-8" value="证书服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5676" y="721" width="142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-9" value="fabric-sdk-go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-9" value="fabric-sdk-go" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5800" y="503" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-10" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-10" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5840" y="549" width="31" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-11" value="账号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-11" value="账号管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5568" y="440" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-12" value="积分发行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-12" value="积分发行" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5721" y="440" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-13" value="积分兑换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-13" value="积分兑换" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5876.5" y="440" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-14" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-14" value="积分转让" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6032" y="437" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-15" value="积分清算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-15" value="积分清算" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5945.5" y="503" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-16" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-16" value="积分发放" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5659" y="503" width="111" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-17" value="http/websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-17" value="http/websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5863" y="591" width="88" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-18" value="mongodb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-18" value="mongodb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="5540" y="681" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-19" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-19" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5554.5" y="549" width="31" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-20" value="api gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-20" value="api gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5547" y="346" width="618" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-21" value="客户端APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-21" value="客户端APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="6885" y="307.5" width="100" height="379.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-22" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-22" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="7108" y="307.5" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-22">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-22" vertex="1">
           <mxGeometry x="45" y="92.5" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-22">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-22" vertex="1">
           <mxGeometry x="43" y="225.5" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-24" value="用户账户申请" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-23" parent="1" source="pp3J_ahtMmmvUWGqLmT8-21">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-24" value="用户账户申请" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-21" target="pp3J_ahtMmmvUWGqLmT8-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7173" y="400" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-25" value="返回公私钥" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-23" parent="1" target="pp3J_ahtMmmvUWGqLmT8-21">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-25" value="返回公私钥" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-23" target="pp3J_ahtMmmvUWGqLmT8-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7173" y="476" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-27" value="私钥加密备份" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-26" parent="1" source="pp3J_ahtMmmvUWGqLmT8-21">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-27" value="私钥加密备份" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-21" target="pp3J_ahtMmmvUWGqLmT8-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7081" y="533" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-28" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-26" parent="1" target="pp3J_ahtMmmvUWGqLmT8-21">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-28" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-26" target="pp3J_ahtMmmvUWGqLmT8-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7081" y="609" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-29" value="客户端APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-29" value="客户端APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="7746" y="288.5" width="117" height="379.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-29">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-29" vertex="1">
           <mxGeometry x="53.5" y="94.5" width="10" height="184.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-38" value="用户发起交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-37" parent="pp3J_ahtMmmvUWGqLmT8-29">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-38" value="用户发起交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-29" target="pp3J_ahtMmmvUWGqLmT8-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-72" y="94.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-46" value="用私钥给交易签名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-29">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-46" value="用私钥给交易签名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-29" vertex="1">
           <mxGeometry x="57" y="104.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-30" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-30" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="7969" y="288.5" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-30">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-30" vertex="1">
           <mxGeometry x="45" y="140.5" width="10" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-40" value="区块链服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-40" value="区块链服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="8195" y="287" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-40">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-40" vertex="1">
           <mxGeometry x="45" y="157" width="10" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-42" value="发送带签名的交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-41" parent="1" source="pp3J_ahtMmmvUWGqLmT8-29">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-42" value="发送带签名的交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-29" target="pp3J_ahtMmmvUWGqLmT8-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7944" y="398" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-48" value="发送交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-47" parent="1" source="pp3J_ahtMmmvUWGqLmT8-30">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-48" value="发送交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-30" target="pp3J_ahtMmmvUWGqLmT8-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="8170" y="444" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-49" value="返回交易hash id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-47" parent="1" target="pp3J_ahtMmmvUWGqLmT8-41">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-49" value="返回交易hash id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-47" target="pp3J_ahtMmmvUWGqLmT8-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="8170" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-43" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-41" parent="1" target="pp3J_ahtMmmvUWGqLmT8-29">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-43" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-41" target="pp3J_ahtMmmvUWGqLmT8-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7875" y="514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-53" value="商户管理平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-53" value="商户管理平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="8653" y="281.5" width="117" height="379.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-57" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-57" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9005" y="281.5" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-57">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-57" vertex="1">
           <mxGeometry x="45" y="93.5" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-57">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-57" vertex="1">
           <mxGeometry x="45" y="216.5" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-59" value="区块链服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-59" value="区块链服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9196" y="281" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-59">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-59" vertex="1">
           <mxGeometry x="45" y="105" width="10" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-59">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-59" vertex="1">
           <mxGeometry x="45" y="229" width="10" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-72" value="把商户积分转到发行方账户" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-59" target="pp3J_ahtMmmvUWGqLmT8-71">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-72" value="把商户积分转到发行方账户" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-59" target="pp3J_ahtMmmvUWGqLmT8-71" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-141.5" y="229" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-73" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-59" source="pp3J_ahtMmmvUWGqLmT8-71">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-73" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-59" source="pp3J_ahtMmmvUWGqLmT8-71" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-141.5" y="275.54999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-61" value="发行方管理平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-61" value="发行方管理平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="8838" y="281" width="100" height="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-63" value="积分清算" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-62" parent="1" source="pp3J_ahtMmmvUWGqLmT8-53">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-63" value="积分清算" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-53" target="pp3J_ahtMmmvUWGqLmT8-62" edge="1">
           <mxGeometry x="-0.5516" relative="1" as="geometry">
             <mxPoint x="8980" y="375" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-66" value="把商户积分授权给发行方" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-65" parent="1" source="pp3J_ahtMmmvUWGqLmT8-57">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-66" value="把商户积分授权给发行方" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-57" target="pp3J_ahtMmmvUWGqLmT8-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="9171" y="386" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-67" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-65" parent="1" target="pp3J_ahtMmmvUWGqLmT8-57">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-67" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-65" target="pp3J_ahtMmmvUWGqLmT8-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="9171" y="462" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-64" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-62" parent="1" target="pp3J_ahtMmmvUWGqLmT8-53">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-64" value="返回消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-62" target="pp3J_ahtMmmvUWGqLmT8-53" edge="1">
           <mxGeometry x="0.5811" relative="1" as="geometry">
             <mxPoint x="8980" y="451" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-69" value="同意清算" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-68" parent="1" source="pp3J_ahtMmmvUWGqLmT8-61">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-69" value="同意清算" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-61" target="pp3J_ahtMmmvUWGqLmT8-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="8980" y="498" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-70" value="清算完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-68" parent="1" target="pp3J_ahtMmmvUWGqLmT8-61">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-70" value="清算完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-68" target="pp3J_ahtMmmvUWGqLmT8-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="8980" y="574" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-74" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-74" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9643" y="252" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-84" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-74" target="pp3J_ahtMmmvUWGqLmT8-75">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-84" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-74" target="pp3J_ahtMmmvUWGqLmT8-75" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="50" y="191" as="sourcePoint" />
             <mxPoint x="210" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-75" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-75" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9847" y="252" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-76" value="HashTimeLockETH&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-76" value="HashTimeLockETH&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10056" y="252" width="129" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-76">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-76" vertex="1">
           <mxGeometry x="60" y="94" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-76">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-76" vertex="1">
           <mxGeometry x="60" y="203" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-78" value="createContract(receiver, hashlock, timelock) and send eth" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-77" parent="1" source="pp3J_ahtMmmvUWGqLmT8-74">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-78" value="createContract(receiver, hashlock, timelock) and send eth" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-74" target="pp3J_ahtMmmvUWGqLmT8-77" edge="1">
           <mxGeometry x="-0.0106" relative="1" as="geometry">
             <mxPoint x="10046" y="346" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-79" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-77" parent="1" target="pp3J_ahtMmmvUWGqLmT8-74">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-79" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-77" target="pp3J_ahtMmmvUWGqLmT8-74" edge="1">
           <mxGeometry x="0.5254" relative="1" as="geometry">
             <mxPoint x="10046" y="422" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-82" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-81" parent="1" source="pp3J_ahtMmmvUWGqLmT8-75">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-82" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-75" target="pp3J_ahtMmmvUWGqLmT8-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10046" y="455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="send eth to receiver" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-81" parent="1" target="pp3J_ahtMmmvUWGqLmT8-75">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-83" value="send eth to receiver" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-81" target="pp3J_ahtMmmvUWGqLmT8-75" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10046" y="531" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-86" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-86" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10227" y="244" width="100" height="406" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-88" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-88" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10431" y="244" width="100" height="421" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-115" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-88">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-115" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-88" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-153" y="247" as="sourcePoint" />
             <mxPoint x="50.5" y="247" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-89" value="HashTimeLockERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-89" value="HashTimeLockERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10640" y="244" width="129" height="429" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-89">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-89" vertex="1">
           <mxGeometry x="59.5" y="128" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-103" value="createContract(receiver, erc20contract, amount, hashlock, timelock)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-102">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-103" value="createContract(receiver, erc20contract, amount, hashlock, timelock)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-102" edge="1">
           <mxGeometry x="-0.0106" relative="1" as="geometry">
             <mxPoint x="-364" y="128.0000000000001" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-104" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-102">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-104" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-102" edge="1">
           <mxGeometry x="0.5254" relative="1" as="geometry">
             <mxPoint x="-364" y="204" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-89">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-89" vertex="1">
           <mxGeometry x="59.5" y="274" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-117" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-116">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-117" value="withdraw(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-116" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-160" y="274" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-118" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-116">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-118" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-89" source="pp3J_ahtMmmvUWGqLmT8-116" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-160" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-96" value="ERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-96" value="ERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10871" y="244" width="129" height="383" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-96" vertex="1">
           <mxGeometry x="60" y="66" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-96" vertex="1">
           <mxGeometry x="60" y="143" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-96">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-96" vertex="1">
           <mxGeometry x="60" y="293" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-120" value="transfer(receiver, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-96" target="pp3J_ahtMmmvUWGqLmT8-119">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-120" value="transfer(receiver, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-96" target="pp3J_ahtMmmvUWGqLmT8-119" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-167" y="293" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-121" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-96" source="pp3J_ahtMmmvUWGqLmT8-119">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-121" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-96" source="pp3J_ahtMmmvUWGqLmT8-119" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-161.5" y="331.95000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-100" value="approve(htlc address, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-99" parent="1" source="pp3J_ahtMmmvUWGqLmT8-86">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-100" value="approve(htlc address, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-86" target="pp3J_ahtMmmvUWGqLmT8-99" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10861" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-101" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-96" parent="1" target="pp3J_ahtMmmvUWGqLmT8-86">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-101" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-96" target="pp3J_ahtMmmvUWGqLmT8-86" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10358" y="349" as="targetPoint" />
             <Array as="points">
@@ -848,111 +848,111 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-112" value="transferFrom(sender, htlc addr, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="pp3J_ahtMmmvUWGqLmT8-111" parent="1" source="pp3J_ahtMmmvUWGqLmT8-89">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-112" value="transferFrom(sender, htlc addr, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-89" target="pp3J_ahtMmmvUWGqLmT8-111" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10861" y="387" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-113" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="pp3J_ahtMmmvUWGqLmT8-111" parent="1" target="pp3J_ahtMmmvUWGqLmT8-102">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-113" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-111" target="pp3J_ahtMmmvUWGqLmT8-102" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10851" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-123" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-123" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9611" y="673" width="100" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-125" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-125" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="9815" y="673" width="100" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-126" value="HashTimeLockETH&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-126" value="HashTimeLockETH&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10024" y="673" width="129" height="376" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-126">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-126" vertex="1">
           <mxGeometry x="60" y="94" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-126">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-126" vertex="1">
           <mxGeometry x="60" y="259" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-129" value="createContract(receiver, hashlock, timelock) and send eth" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-123" target="pp3J_ahtMmmvUWGqLmT8-127">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-129" value="createContract(receiver, hashlock, timelock) and send eth" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-123" target="pp3J_ahtMmmvUWGqLmT8-127" edge="1">
           <mxGeometry x="-0.0106" relative="1" as="geometry">
             <mxPoint x="10014" y="767" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-130" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-127" target="pp3J_ahtMmmvUWGqLmT8-123">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-130" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-127" target="pp3J_ahtMmmvUWGqLmT8-123" edge="1">
           <mxGeometry x="0.5254" relative="1" as="geometry">
             <mxPoint x="10014" y="843" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-131" value="refund(contractId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-123" target="pp3J_ahtMmmvUWGqLmT8-128">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-131" value="refund(contractId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-123" target="pp3J_ahtMmmvUWGqLmT8-128" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="9864.5" y="932" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-132" value="refund eth" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-128" target="pp3J_ahtMmmvUWGqLmT8-123">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-132" value="refund eth" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-128" target="pp3J_ahtMmmvUWGqLmT8-123" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="9864.5" y="1008" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-133" value="time lock&amp;nbsp;has expired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-133" value="time lock&amp;nbsp;has expired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="9724" y="862" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-135" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-135" value="Sender Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10250" y="736" width="100" height="406" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-136" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-136" value="Receiver Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10454" y="736" width="100" height="421" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-138" value="HashTimeLockERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-138" value="HashTimeLockERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10663" y="736" width="129" height="429" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-138">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-138" vertex="1">
           <mxGeometry x="59.5" y="128" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-140" value="createContract(receiver, erc20contract, amount, hashlock, timelock)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-138" target="pp3J_ahtMmmvUWGqLmT8-139">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-140" value="createContract(receiver, erc20contract, amount, hashlock, timelock)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-138" target="pp3J_ahtMmmvUWGqLmT8-139" edge="1">
           <mxGeometry x="-0.0106" relative="1" as="geometry">
             <mxPoint x="-364" y="128.0000000000001" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-141" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-138" source="pp3J_ahtMmmvUWGqLmT8-139">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-141" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-138" source="pp3J_ahtMmmvUWGqLmT8-139" edge="1">
           <mxGeometry x="0.5254" relative="1" as="geometry">
             <mxPoint x="-364" y="204" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-138">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-138" vertex="1">
           <mxGeometry x="59.5" y="274" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-145" value="ERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-145" value="ERC20&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10894" y="736" width="129" height="383" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-145">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-145" vertex="1">
           <mxGeometry x="60" y="66" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-145">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-145" vertex="1">
           <mxGeometry x="60" y="143" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-148" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pp3J_ahtMmmvUWGqLmT8-145">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-148" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pp3J_ahtMmmvUWGqLmT8-145" vertex="1">
           <mxGeometry x="60" y="293" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-149" value="transfer(sender, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-145" target="pp3J_ahtMmmvUWGqLmT8-148">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-149" value="transfer(sender, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-145" target="pp3J_ahtMmmvUWGqLmT8-148" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-167" y="293" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-150" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="pp3J_ahtMmmvUWGqLmT8-145" source="pp3J_ahtMmmvUWGqLmT8-148">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-150" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="pp3J_ahtMmmvUWGqLmT8-145" source="pp3J_ahtMmmvUWGqLmT8-148" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-161.5" y="331.95000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-151" value="approve(htlc address, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-135" target="pp3J_ahtMmmvUWGqLmT8-146">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-151" value="approve(htlc address, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-135" target="pp3J_ahtMmmvUWGqLmT8-146" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10884" y="802" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-152" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-145" target="pp3J_ahtMmmvUWGqLmT8-135">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-152" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-145" target="pp3J_ahtMmmvUWGqLmT8-135" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10381" y="841" as="targetPoint" />
             <Array as="points">
@@ -960,88 +960,134 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-153" value="transferFrom(sender, htlc addr, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-138" target="pp3J_ahtMmmvUWGqLmT8-147">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-153" value="transferFrom(sender, htlc addr, amount)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-138" target="pp3J_ahtMmmvUWGqLmT8-147" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10884" y="879" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-154" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-147" target="pp3J_ahtMmmvUWGqLmT8-139">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-154" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-147" target="pp3J_ahtMmmvUWGqLmT8-139" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10874" y="918" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-155" value="time lock&amp;nbsp;has expired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-155" value="time lock&amp;nbsp;has expired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10361" y="952" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-143" value="refund(contractId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="pp3J_ahtMmmvUWGqLmT8-142" source="pp3J_ahtMmmvUWGqLmT8-135">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-143" value="refund(contractId)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-135" target="pp3J_ahtMmmvUWGqLmT8-142" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10503" y="1010" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-144" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="pp3J_ahtMmmvUWGqLmT8-142" target="pp3J_ahtMmmvUWGqLmT8-135">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-144" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pp3J_ahtMmmvUWGqLmT8-142" target="pp3J_ahtMmmvUWGqLmT8-135" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10503" y="1086" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-157" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-157" value="gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11197" y="858" width="523" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11197" y="892" width="523" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-159" value="koa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-159" value="koa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11263.5" y="930.87" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-160" value="web3js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-160" value="web3js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11350.5" y="930.87" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-162" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-162" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11197" y="1054" width="525" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-163" value="Ethereum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-163" value="Ethereum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="11429.5" y="1053" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-164" value="HashTimeLockETH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-164" value="HashTimeLockETH" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11235" y="1096" width="118" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-165" value="HashTimeLockERC20" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-165" value="HashTimeLockERC20" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11377" y="1096" width="153" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-166" value="HashTimeLockERC721" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-166" value="HashTimeLockERC721" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11541" y="1096" width="153" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-167" value="ERC20" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-167" value="ERC20" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11285" y="1138" width="153" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-168" value="ERC721" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-168" value="ERC721" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11477" y="1140" width="153" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-169" value="web-server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-169" value="web-server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="11411.75" y="892" width="95.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-170" value="logger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-170" value="logger" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11436" y="930.87" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-171" value="error" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-171" value="error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11521.5" y="930.87" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-172" value="... ..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-172" value="... ..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11608.5" y="930.87" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-173" value="app/web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-173" value="app/web" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11195" y="755" width="522" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-174" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-174" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11450" y="985" width="27" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-175" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-175" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11450" y="789" width="27" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-176" value="https" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-176" value="https" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="11470" y="808.5" width="41" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pp3J_ahtMmmvUWGqLmT8-177" value="https/ws" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pp3J_ahtMmmvUWGqLmT8-177" value="https/ws" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="11470" y="1004.5" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-1" value="Sender Account&lt;br&gt;(backend)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10335" y="1391" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-2" value="&amp;nbsp;send secret and contractId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="sSrMbgVqa35jwAGZnPfD-1" target="sSrMbgVqa35jwAGZnPfD-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="191" as="sourcePoint" />
+            <mxPoint x="210" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-3" value="Receiver Account&lt;br&gt;(dapp)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10539" y="1391" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-4" value="ER721&lt;br&gt;contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10748" y="1391" width="129" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="sSrMbgVqa35jwAGZnPfD-4">
+          <mxGeometry x="60" y="94" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="sSrMbgVqa35jwAGZnPfD-4">
+          <mxGeometry x="60" y="203" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-7" value="newLevelContract(receiver, hashlock)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="sSrMbgVqa35jwAGZnPfD-1" target="sSrMbgVqa35jwAGZnPfD-5">
+          <mxGeometry x="-0.0106" relative="1" as="geometry">
+            <mxPoint x="10738" y="1485" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-8" value="return contractId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="sSrMbgVqa35jwAGZnPfD-5" target="sSrMbgVqa35jwAGZnPfD-1">
+          <mxGeometry x="0.5254" relative="1" as="geometry">
+            <mxPoint x="10738" y="1561" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-9" value="levelUp(contractId, secret)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="sSrMbgVqa35jwAGZnPfD-3" target="sSrMbgVqa35jwAGZnPfD-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10738" y="1594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-10" value="update user level" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="sSrMbgVqa35jwAGZnPfD-6" target="sSrMbgVqa35jwAGZnPfD-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10738" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSrMbgVqa35jwAGZnPfD-15" value="&lt;div&gt;&lt;b&gt;const secret = random32()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;const hashlock = sha256(secret)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1、后端随机生产一个(secret,hashlock)对&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2、向合约发送一个用户升级的合约&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3、后端通知用户升级，带上secret和contractId&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4、用户使用secret和contractId可以调用levelUp进行升级&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10420" y="1274" width="328" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
