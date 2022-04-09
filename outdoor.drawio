@@ -1,38 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T09:59:56.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="DRM-O9VT7NyUOROfr2Ij" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-09T03:00:12.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="Mxn4JekYZpInzqdCTI3v" version="17.4.1" type="github">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="Page-1">
     <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-1" value="MetaMask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-2" value="Ronin wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-3" value="以太坊" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-4" value="Ronin" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-5" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="660" width="190" height="20" as="geometry" />
+          <mxGeometry x="190" y="660" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-6" value="bridge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="345" y="630" width="60" height="30" as="geometry" />
+          <mxGeometry x="255" y="630" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-7" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="710" width="30" height="60" as="geometry" />
+          <mxGeometry x="90" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-8" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="710" width="30" height="60" as="geometry" />
+          <mxGeometry x="445" y="710" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-9" value="ETH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="600" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="600" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l5mRDjIrKEeMqlYPJMqX-10" value="WETH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="600" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5mRDjIrKEeMqlYPJMqX-11" value="AXS(NFT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5mRDjIrKEeMqlYPJMqX-12" value="SLP(ERC20)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5mRDjIrKEeMqlYPJMqX-13" value="任务奖励" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="710" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
