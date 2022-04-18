@@ -1,74 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T01:12:08.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="VShMejr20a9_HLUu10q2" version="17.4.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-04-18T01:26:15.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="uQxk0_eDNczflfedFu3K" version="17.4.5" type="github" pages="9">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1426" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CYs-B54Utdxm15onuGL4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="400" width="510" height="180" as="geometry" />
+          <mxGeometry x="25" y="592" width="510" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-2" value="电子账单合约" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="410" width="110" height="40" as="geometry" />
+          <mxGeometry x="354" y="600" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYs-B54Utdxm15onuGL4-3" target="CYs-B54Utdxm15onuGL4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-3" value="block1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="500" width="70" height="30" as="geometry" />
+          <mxGeometry x="55" y="692" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYs-B54Utdxm15onuGL4-4" target="CYs-B54Utdxm15onuGL4-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-4" value="block2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="500" width="70" height="30" as="geometry" />
+          <mxGeometry x="165" y="692" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-6" value="block3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="500" width="70" height="30" as="geometry" />
+          <mxGeometry x="275" y="692" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-7" value="blockN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="500" width="70" height="30" as="geometry" />
+          <mxGeometry x="435" y="692" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-11" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYs-B54Utdxm15onuGL4-6" target="CYs-B54Utdxm15onuGL4-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="390" y="514.5" as="sourcePoint" />
-            <mxPoint x="450" y="514.5" as="targetPoint" />
+            <mxPoint x="365" y="706.5" as="sourcePoint" />
+            <mxPoint x="425" y="706.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-12" value="fabric" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="25" y="592" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-13" value="mongodb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="400" width="70" height="80" as="geometry" />
+          <mxGeometry x="711" y="592" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-14" value="文件存储&lt;br&gt;(IPFS)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="551" y="592" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="801" height="150" as="geometry" />
+          <mxGeometry x="337" y="342" width="488" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-16" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290.5" y="302" width="29" height="98" as="geometry" />
+          <mxGeometry x="391.5" y="494" width="29" height="98" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-17" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635.5" y="302" width="29" height="98" as="geometry" />
+          <mxGeometry x="596" y="492" width="29" height="98" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-18" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770.5" y="300" width="29" height="98" as="geometry" />
+          <mxGeometry x="731" y="490" width="29" height="98" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-19" value="fabric-sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="257.5" y="259" width="95" height="32" as="geometry" />
+          <mxGeometry x="358.5" y="442" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-20" value="ipfs-sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="602.5" y="259" width="95" height="32" as="geometry" />
+          <mxGeometry x="563.5" y="442" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-21" value="mongo-sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="737.5" y="259" width="95" height="32" as="geometry" />
+          <mxGeometry x="698.5" y="442" width="95" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="CYs-B54Utdxm15onuGL4-22" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="317" y="336" width="60" height="30" as="geometry" />
+        <mxCell id="CYs-B54Utdxm15onuGL4-22" value="客户ID&lt;br&gt;合同ID&lt;br&gt;账单ID&lt;br&gt;账单指纹数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="427" y="512.5" width="90" height="61" as="geometry" />
         </mxCell>
         <mxCell id="CYs-B54Utdxm15onuGL4-23" value="电子账单(pdf)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="658" y="340" width="62" height="30" as="geometry" />
+          <mxGeometry x="622" y="532" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="266" y="730" as="sourcePoint" />
+            <mxPoint x="667" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-26" value="数据缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="763.5" y="532" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="342" width="292" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-28" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158.5" y="494" width="29" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-30" value="server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="551.5" y="342" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-31" value="权限管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="388" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-32" value="上链请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="388" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-33" value="区块链管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="388" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-34" value="智能合约管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="388" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-35" value="节点管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="442" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-36" value="通道管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="442" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-37" value="BAAS平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="143" y="342" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-38" value="读数请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="673" y="388" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-39" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="242" width="486" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-40" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="283" width="23" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-41" value="UMD-OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="141" width="486" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-42" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="183" width="23" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="CYs-B54Utdxm15onuGL4-43" value="http" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="197.5" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
