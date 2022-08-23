@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T03:11:13.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Y03vTucdNgoPyf7b8e2f" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T03:15:57.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="77aCSS16of6SwRB9QAL0" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3551,6 +3551,12 @@
         <mxCell id="YHKVZJuKnmbqTEayuTzR-40" value="ERC20" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3110" y="430" width="130" height="860" as="geometry" />
         </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-76" value="approve amount to&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;OwnableDelegateProxy address&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1430" y="450" as="sourcePoint" />
+            <mxPoint x="60" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-41" value="ERC721" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3350" y="430" width="130" height="860" as="geometry" />
         </mxCell>
@@ -3591,6 +3597,12 @@
         <mxCell id="YHKVZJuKnmbqTEayuTzR-70" value="return&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;proxy&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-68">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2251" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-77" value="setApprovalForAll to&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;OwnableDelegateProxy address&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="YHKVZJuKnmbqTEayuTzR-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1680" y="918" as="sourcePoint" />
+            <mxPoint x="3180" y="918" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
