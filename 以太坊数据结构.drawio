@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T02:43:19.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8gYJNWbSLubz89e1SuYr" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T03:11:13.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Y03vTucdNgoPyf7b8e2f" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3533,8 +3533,20 @@
         <mxCell id="YHKVZJuKnmbqTEayuTzR-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YHKVZJuKnmbqTEayuTzR-38">
           <mxGeometry x="60" y="180" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-73" value="delegatecall initialize&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-38" target="YHKVZJuKnmbqTEayuTzR-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="150" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-39" value="AuthenticateProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2860" y="430" width="130" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-74" value="delegatecall initialize&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-160" y="340" as="sourcePoint" />
+            <mxPoint x="64.5" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-40" value="ERC20" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3110" y="430" width="130" height="860" as="geometry" />
