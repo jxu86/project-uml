@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T06:02:33.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oKobE8L0g2H7kdK6M4CH" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T07:05:57.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HNt5tFoyNp5gtsVS8wyT" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3384,7 +3384,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UZZ9ndVJQJs9WHKIWsa1" name="opensea">
-    <mxGraphModel dx="1188" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3410,7 +3410,7 @@
           <mxGeometry x="160" y="590" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="560" height="120" as="geometry" />
+          <mxGeometry x="310" y="360" width="410" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-7" value="Order Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="430" width="130" height="40" as="geometry" />
@@ -3647,6 +3647,18 @@
             <mxPoint x="2930" y="1060" as="sourcePoint" />
             <mxPoint x="3174.5" y="1060" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-91" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-92" value="Wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-93" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-95" value="web3/ethers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
