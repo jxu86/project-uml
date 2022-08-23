@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T01:59:38.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="21u_hhcX24wpqEHnScgA" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T02:11:55.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eDfCFFQudDTZXKaUZ5Oe" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3394,14 +3394,20 @@
         <mxCell id="YHKVZJuKnmbqTEayuTzR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="590" width="570" height="290" as="geometry" />
         </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-2" target="YHKVZJuKnmbqTEayuTzR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-2" value="WyvernRegistry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="378" y="660" width="125" height="30" as="geometry" />
+          <mxGeometry x="375" y="700" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-3" target="YHKVZJuKnmbqTEayuTzR-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-3" value="WyvernExchange" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="600" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-4" value="StaticMarket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="377.5" y="720" width="125" height="30" as="geometry" />
+          <mxGeometry x="927.5" y="435" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-5" value="Wyvern Protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="590" width="110" height="30" as="geometry" />
@@ -3443,7 +3449,7 @@
           <mxGeometry x="503" y="435" width="87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-17" value="approve to OwnableDelegateProxy address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="630" width="240" height="30" as="geometry" />
+          <mxGeometry x="870" y="640" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-18" value="setApprovalForAll to OwnableDelegateProxy address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="700" width="290" height="30" as="geometry" />
@@ -3462,6 +3468,15 @@
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-24" value="blockchain contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1070" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-29" value="OwnableDelegateProxy delegateProxy = registry.proxies(maker)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="670" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-29" target="YHKVZJuKnmbqTEayuTzR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-31" value="call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="660" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
