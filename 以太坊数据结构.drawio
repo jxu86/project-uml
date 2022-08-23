@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T02:12:51.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5r5rHeQI3sBbn6Qmh7Eo" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T02:24:46.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G1AzjHahoh2NVqLVWXBL" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3474,6 +3474,45 @@
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-31" value="call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" y="660" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-32" value="WyvernExchange" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-33" value="WyvernRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-35" value="WyvernRegistry new()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-290" y="80" as="sourcePoint" />
+            <mxPoint x="60" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;StaticMarket&lt;/span&gt;&amp;nbsp;new()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-33" target="YHKVZJuKnmbqTEayuTzR-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-280" y="100" as="sourcePoint" />
+            <mxPoint x="70" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-34" value="StaticMarket" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-36" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;WyvernExchange&lt;/span&gt;&amp;nbsp;new(WyvernRegistry.address)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1630" y="550" as="sourcePoint" />
+            <mxPoint x="1980" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-38" value="OwnableDelegateProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-39" value="AuthenticateProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-40" value="ERC20" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-41" value="ERC721" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="430" width="130" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
