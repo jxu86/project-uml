@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T02:27:58.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dAsbncaBjX0MnhG9UwGB" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-23T02:37:08.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ou1xxNqx2bIK_IrVYFWw" version="20.0.4" type="github" pages="5">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3384,7 +3384,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UZZ9ndVJQJs9WHKIWsa1" name="opensea">
-    <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3479,31 +3479,50 @@
           <mxGeometry x="1920" y="430" width="130" height="490" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-33" value="WyvernRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="430" width="130" height="490" as="geometry" />
+          <mxGeometry x="2140" y="430" width="215" height="490" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-35" value="registry = WyvernRegistry new()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-33">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-290" y="80" as="sourcePoint" />
+            <mxPoint x="-460" y="80" as="sourcePoint" />
             <mxPoint x="60" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;StaticMarket&lt;/span&gt;&amp;nbsp;new()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="YHKVZJuKnmbqTEayuTzR-33" target="YHKVZJuKnmbqTEayuTzR-34">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-280" y="100" as="sourcePoint" />
+            <mxPoint x="-460" y="100" as="sourcePoint" />
             <mxPoint x="70" y="100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry x="102.5" y="160" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-48" value="registry.registerProxy({from: account_a})" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="YHKVZJuKnmbqTEayuTzR-47" parent="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-49" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;return proxy&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="YHKVZJuKnmbqTEayuTzR-47" parent="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-56" value="proxies[user] = proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry x="112.5" y="230" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-34" value="StaticMarket" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2380" y="430" width="130" height="490" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-36" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;WyvernExchange&lt;/span&gt;&amp;nbsp;new(registry.address)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1630" y="550" as="sourcePoint" />
+            <mxPoint x="1680" y="550" as="sourcePoint" />
             <mxPoint x="1980" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-38" value="OwnableDelegateProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2630" y="430" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YHKVZJuKnmbqTEayuTzR-38">
+          <mxGeometry x="60" y="180" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YHKVZJuKnmbqTEayuTzR-39" value="AuthenticateProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2860" y="430" width="130" height="490" as="geometry" />
@@ -3514,16 +3533,43 @@
         <mxCell id="YHKVZJuKnmbqTEayuTzR-41" value="ERC721" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3350" y="430" width="130" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="YHKVZJuKnmbqTEayuTzR-42" value="registry.registerProxy({from: account_a})" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="YHKVZJuKnmbqTEayuTzR-33">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1730" y="610" as="sourcePoint" />
-            <mxPoint x="1980" y="610" as="targetPoint" />
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-53" value="new OwnableDelegateProxy()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="YHKVZJuKnmbqTEayuTzR-52" parent="1" source="YHKVZJuKnmbqTEayuTzR-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2620" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YHKVZJuKnmbqTEayuTzR-44" value="registry.registerProxy({from: account_b})" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="YHKVZJuKnmbqTEayuTzR-33">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1730" y="650" as="sourcePoint" />
-            <mxPoint x="1980" y="650" as="targetPoint" />
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-54" value="return&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;proxy&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="YHKVZJuKnmbqTEayuTzR-52" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2250" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2243.5" y="730" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-65" value="registry.registerProxy({from: account_b})" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="YHKVZJuKnmbqTEayuTzR-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1681" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-66" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;return proxy&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1681" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-67" value="proxies[user] = proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2253.5" y="800" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2691" y="750" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-69" value="new OwnableDelegateProxy()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="YHKVZJuKnmbqTEayuTzR-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2248" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHKVZJuKnmbqTEayuTzR-70" value="return&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;proxy&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="YHKVZJuKnmbqTEayuTzR-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2251" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
