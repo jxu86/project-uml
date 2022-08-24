@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:50:28.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_ROCH0BgTH2yQz_H1bjW" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:25:59.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Uxhe2qgfF0RYkHKFDXje" version="20.0.4" type="github" pages="6">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="8065" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3668,6 +3668,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iB2KyqdxRrRcyigJi8-y-1" target="iB2KyqdxRrRcyigJi8-y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-1" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="246" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-2" value="Impementation&lt;br&gt;V1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="246" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-5" value="Impementation&lt;br&gt;V2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-6" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iB2KyqdxRrRcyigJi8-y-1" target="iB2KyqdxRrRcyigJi8-y-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="292" y="409" as="sourcePoint" />
+            <mxPoint x="452" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-7" value="delegate call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="246" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-8" value="delegate call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="289" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-9" value="data/state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-10" value="logic contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="216" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2KyqdxRrRcyigJi8-y-11" value="ProxyAdmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
