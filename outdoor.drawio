@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T08:53:46.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="n8xui0YD7fjHDhPHbv_T" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:06:43.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Vervl195-st8qVsFo309" version="20.5.3" type="github" pages="2">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,10 +47,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9yqZtUDmEBGA_TpwAHp6" name="nft">
-    <mxGraphModel dx="-4734" dy="31" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-4734" dy="31" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7010" y="1730" width="480" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="SBADPoyqRUexrbtkdWdX-2" value="H5应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="7005" y="1255" width="100" height="313" as="geometry" />
         </mxCell>
@@ -241,55 +244,82 @@
         <mxCell id="ns2G1WMZ1MoI5Ai1DpPL-22" value="&lt;b&gt;说明:&lt;br&gt;1、FreeWhiteList和WhiteList开关通过合约接口获取&lt;br&gt;2、FreeWhiteList和WhiteList名单为提供的名单文件&lt;br&gt;3、&lt;span style=&quot;text-align: center;&quot;&gt;FreeWhiteListMint、&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;WhiteListMint和&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;PublicMint都是合约提供的接口&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="8430" y="1420" width="400" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-1" value="是否还有FreeWhiteList 可mint数量" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-1" value="是否还有FreeWhiteList 可mint数量" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="8020" y="1840" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.3333" relative="1" as="geometry">
             <mxPoint x="8079.5" y="2020" as="targetPoint" />
             <mxPoint x="8079.5" y="1930" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="8200" y="1710" as="targetPoint" />
             <mxPoint x="8140" y="1884.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-4" value="是否还有WhiteList &lt;br&gt;可mint数量" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-4" value="是否还有WhiteList &lt;br&gt;可mint数量" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="8260" y="1840" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.3333" relative="1" as="geometry">
             <mxPoint x="8319.5" y="2020" as="targetPoint" />
             <mxPoint x="8319.5" y="1930" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="8440" y="1710" as="targetPoint" />
             <mxPoint x="8380" y="1884.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-7" value="1、PublicMint开关&lt;br&gt;是否开启" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-7" value="1、PublicMint开关&lt;br&gt;是否开启" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="8500" y="1660" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ns2G1WMZ1MoI5Ai1DpPL-20">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ns2G1WMZ1MoI5Ai1DpPL-20" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="8559.5" y="1840" as="targetPoint" />
             <mxPoint x="8559.5" y="1750" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="8740" y="1704.5" as="targetPoint" />
             <mxPoint x="8620" y="1704.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-10" value="mint按钮为灰" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="v_YuV3Fn7gCJfXXzYhZE-10" value="mint按钮为灰" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="8740" y="1685" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZwrfbvyDsjFXQsk3WkRF-2" target="ZwrfbvyDsjFXQsk3WkRF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-2" value="cdn.example.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7290" y="1770" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-3" value="EC2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7265" y="1890" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZwrfbvyDsjFXQsk3WkRF-4" target="ZwrfbvyDsjFXQsk3WkRF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-4" value="example.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7290" y="1630" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-5" value="xxxxx.cloudfront.net" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7045" y="1770" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-9" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7335" y="1890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-13" value="域名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7105" y="1750" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwrfbvyDsjFXQsk3WkRF-14" value="源域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7352.5" y="1750" width="55" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
