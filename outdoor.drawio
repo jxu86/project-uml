@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T03:18:28.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AnNA6OsqLUH-iivNcNoj" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-05T03:21:42.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-En_rIIh5GAixJLMlOI9" version="20.6.0" type="github" pages="2">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9yqZtUDmEBGA_TpwAHp6" name="nft">
-    <mxGraphModel dx="-4734" dy="31" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-4494" dy="31" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -661,6 +661,30 @@
         </mxCell>
         <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-79" value="publicsale 阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10932" y="1242" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-80" value="是否可售" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="9406.5" y="1177" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-81" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="my9v3Bh3eH3ZEqp1TAeJ-80" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="9633" y="1197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-82" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="my9v3Bh3eH3ZEqp1TAeJ-80" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="9447" y="1359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-83" value="sold out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9636" y="1167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-90" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="9432" y="1109" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="my9v3Bh3eH3ZEqp1TAeJ-91" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="my9v3Bh3eH3ZEqp1TAeJ-90" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9447" y="1177" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
