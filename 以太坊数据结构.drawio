@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T01:28:24.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="c4S8CcnVG2JOscr4C3pN" version="21.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-19T01:38:19.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uCoAGxW13VJVItySkVil" version="21.0.2" type="github" pages="7">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="7488" dy="3386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3769,8 +3769,11 @@
         <mxCell id="Z_ZalfziwUwlauMvfrYm-6" value="后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-7" value="合约生成器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-7" value="ipfs api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-8" value="1、上传图片&lt;br&gt;2、发布合约&lt;br&gt;3、写metadata uri到已发布合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="240" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
