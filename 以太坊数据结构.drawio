@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T01:38:19.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uCoAGxW13VJVItySkVil" version="21.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-22T10:33:02.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mOqvFL-uOjOdOibNuN7W" version="21.0.2" type="github" pages="7">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
-    <mxGraphModel dx="7488" dy="3386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7414" dy="3333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3747,33 +3747,36 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5ntbD8AoZmrtSJlwflNT" name="通用ERC1155-721发布工具">
-    <mxGraphModel dx="1194" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="390" width="620" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-1" value="前端vue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-1" value="前端vue" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="210" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-2" value="合约生成器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-2" value="合约生成器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-3" value="MetaMask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-3" value="MetaMask" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-4" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-4" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="225" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-6" value="后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-6" value="后端服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-7" value="ipfs api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-7" value="ipfs api" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z_ZalfziwUwlauMvfrYm-8" value="1、上传图片&lt;br&gt;2、发布合约&lt;br&gt;3、写metadata uri到已发布合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Z_ZalfziwUwlauMvfrYm-8" value="1、上传图片&lt;br&gt;2、发布合约&lt;br&gt;3、写metadata uri到已发布合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tV8lx6HapQwJ0Km7kLRN-1" value="图片上传模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
