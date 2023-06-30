@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T07:26:21.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ysON2LjabVuLlqTBhhcl" version="21.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-30T01:04:31.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="q_ZG5HrPHSG1lMMHI914" version="21.5.2" type="github" pages="4">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2314" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -729,6 +729,35 @@
         </mxCell>
         <mxCell id="P9gYsAd5TudfXafa9yx5-12" value="Register Extension" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5vjtujUZweryKE2i9d0F" name="ens">
+    <mxGraphModel dx="643" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BfuvWeS442X_nibdu8bk-1" value="ETHRegistrarController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-2" value="BaseRegistrarImplementation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-3" value="ReverseRegistrar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-4" value="ENSRegistryWithFallback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-5" value="ExponentialPremiumPriceOracle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-6" value="NameWrapper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BfuvWeS442X_nibdu8bk-7" value="PublicResolver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
