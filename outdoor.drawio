@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T02:41:09.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KZosbNuuukxmzVDf-hgi" version="21.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-25T06:23:02.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ab9zG56XQkBGrUIS-9hT" version="21.6.2" type="github" pages="5">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2314" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -792,6 +792,22 @@
         <mxCell id="BfuvWeS442X_nibdu8bk-2" value="BaseRegistrarImplementation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="870" width="180" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BfuvWeS442X_nibdu8bk-3" target="BfuvWeS442X_nibdu8bk-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1070" />
+              <mxPoint x="995" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BfuvWeS442X_nibdu8bk-3" target="BfuvWeS442X_nibdu8bk-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="990" />
+              <mxPoint x="110" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BfuvWeS442X_nibdu8bk-3" value="ReverseRegistrar" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="870" width="180" height="50" as="geometry" />
         </mxCell>
@@ -887,6 +903,12 @@
         </mxCell>
         <mxCell id="8Ze7hihv8yQE_TdJrFW6-20" value="NameRegistered" style="text;html=1;strokeColor=none;fillColor=#33FF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="680" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-22" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="975" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-24" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="960" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
