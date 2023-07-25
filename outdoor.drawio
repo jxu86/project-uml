@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T06:23:02.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ab9zG56XQkBGrUIS-9hT" version="21.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-25T06:36:27.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NyPBxg4d6ykOangdAqiP" version="21.6.2" type="github" pages="5">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2314" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -800,12 +800,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-25" value="setSubnodeRecord" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Ze7hihv8yQE_TdJrFW6-21">
+          <mxGeometry x="-0.84" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8Ze7hihv8yQE_TdJrFW6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BfuvWeS442X_nibdu8bk-3" target="BfuvWeS442X_nibdu8bk-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="285" y="990" />
               <mxPoint x="110" y="990" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Ze7hihv8yQE_TdJrFW6-26" value="setName" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Ze7hihv8yQE_TdJrFW6-23">
+          <mxGeometry x="0.0089" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BfuvWeS442X_nibdu8bk-3" value="ReverseRegistrar" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
