@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T02:43:29.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ngd8A6CMQs8__s9Ze2JW" version="21.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-20T02:47:19.078Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6GCDVnrAVD3vVSYKvLhy" version="21.7.4" type="github" pages="6">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2314" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1182,7 +1182,10 @@
           <mxGeometry x="130" y="770" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qo5jfV1QAjYJy4rws3eu-9" value="Document&lt;br&gt;对象" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="580" y="760" width="80" height="100" as="geometry" />
+          <mxGeometry x="670" y="760" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qo5jfV1QAjYJy4rws3eu-11" value="文档分割" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="760" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
