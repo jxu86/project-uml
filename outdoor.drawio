@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T02:03:30.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="D8_Bw4m1BJXU_5MSGqYI" version="21.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-22T02:06:22.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mS6sNUZVQDmqdoDDgHeR" version="21.7.4" type="github" pages="6">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="2314" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1279,6 +1279,9 @@
         </mxCell>
         <mxCell id="qo5jfV1QAjYJy4rws3eu-51" value="抽血类，定义接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4610" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo5jfV1QAjYJy4rws3eu-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qo5jfV1QAjYJy4rws3eu-28" target="qo5jfV1QAjYJy4rws3eu-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
