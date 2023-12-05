@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T05:36:02.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2ERDivNgEGixSe7w4lrj" version="20.0.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-12-05T07:35:12.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sNzvr8m9H2eTGrPjbi7k" version="22.1.5" type="github" pages="9">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
-    <mxGraphModel dx="1426" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="2037" dy="1107" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1447,11 +1447,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RfFjwkwxKOC06eNrNvxe-1" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RfFjwkwxKOC06eNrNvxe-1" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3335" y="1618" width="121" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RfFjwkwxKOC06eNrNvxe-4" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RfFjwkwxKOC06eNrNvxe-4" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3055" y="1284" width="32" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="56FCorieZXpw5KLPZ9eV-1" value="k8s yaml&amp;nbsp;generate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="153" width="185" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="56FCorieZXpw5KLPZ9eV-3" value="k8s node deploy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="285" width="185" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="56FCorieZXpw5KLPZ9eV-4" value="k8s source manage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="285" width="185" height="76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
