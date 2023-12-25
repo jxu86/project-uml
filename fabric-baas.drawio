@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T09:07:11.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UM2jDudlLxEEAY4Nflk2" version="22.1.11" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-25T09:08:28.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Tm6S5mYfL-NlLiTBK6Vn" version="22.1.11" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2383,6 +2383,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="1060" height="820" as="geometry" />
+        </mxCell>
         <mxCell id="qZ5FxmAP0MODzmdU6w3B-2" value="NFS共享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -2475,6 +2478,9 @@
         </mxCell>
         <mxCell id="qZ5FxmAP0MODzmdU6w3B-50" value="记录用户信息&lt;br&gt;链信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="345" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-52" value="架构图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="544" y="110" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
