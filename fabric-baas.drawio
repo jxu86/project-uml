@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T07:35:12.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sNzvr8m9H2eTGrPjbi7k" version="22.1.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-12-25T09:02:46.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1gu2grbjIYPc4kCkdJTI" version="22.1.11" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
-    <mxGraphModel dx="1674" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4O332dbZxjz2SZ_RIFVR" name="框架">
-    <mxGraphModel dx="1674" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1453,20 +1453,20 @@
         <mxCell id="RfFjwkwxKOC06eNrNvxe-4" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3055" y="1284" width="32" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="56FCorieZXpw5KLPZ9eV-1" value="k8s yaml&amp;nbsp;generate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="56FCorieZXpw5KLPZ9eV-1" value="k8s yaml&amp;nbsp;generate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1910" y="153" width="185" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="56FCorieZXpw5KLPZ9eV-3" value="k8s node deploy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="56FCorieZXpw5KLPZ9eV-3" value="k8s node deploy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1910" y="285" width="185" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="56FCorieZXpw5KLPZ9eV-4" value="k8s source manage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="56FCorieZXpw5KLPZ9eV-4" value="k8s source manage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2158" y="285" width="185" height="76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Ht5ad0jB9F0IEHcvdERb" name="文件目录">
-    <mxGraphModel dx="1186" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="K3c31UwAeXaa2C5wNBHY-0" />
         <mxCell id="K3c31UwAeXaa2C5wNBHY-1" parent="K3c31UwAeXaa2C5wNBHY-0" />
@@ -1603,7 +1603,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8GjAsE2chLzr-aMcd3bZ" name="model">
-    <mxGraphModel dx="1426" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="XqXB5q3zeNF1mttw59RG-0" />
         <mxCell id="XqXB5q3zeNF1mttw59RG-1" parent="XqXB5q3zeNF1mttw59RG-0" />
@@ -1641,7 +1641,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8rHBjVj3i79vVFGWgyCA" name="广燃">
-    <mxGraphModel dx="1426" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-0" />
         <mxCell id="DP0BoOvjuz9fBtDQ0MuO-1" parent="DP0BoOvjuz9fBtDQ0MuO-0" />
@@ -1799,7 +1799,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pdX5bzEQzG7CWqRKHpTK" name="Page-5">
-    <mxGraphModel dx="1426" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="VXjScnxC10xIwdsxcVGJ-0" />
         <mxCell id="VXjScnxC10xIwdsxcVGJ-1" parent="VXjScnxC10xIwdsxcVGJ-0" />
@@ -1849,7 +1849,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCv79utN9RzwSItYEBk-" name="国土">
-    <mxGraphModel dx="1678" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3_beQVz15otzNYUmEsoD-0" />
         <mxCell id="3_beQVz15otzNYUmEsoD-1" parent="3_beQVz15otzNYUmEsoD-0" />
@@ -1971,7 +1971,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0B614n7uoS4thd3-2PFX" name="UML">
-    <mxGraphModel dx="576" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="p-g2kgIH9BAlV8fViz1H-0" />
         <mxCell id="p-g2kgIH9BAlV8fViz1H-1" parent="p-g2kgIH9BAlV8fViz1H-0" />
@@ -2210,7 +2210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sqZRdiRNK1HSt_rs7rkJ" name="状态">
-    <mxGraphModel dx="1426" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F7BWOIQFrFu0xW-HazVX-0" />
         <mxCell id="F7BWOIQFrFu0xW-HazVX-1" parent="F7BWOIQFrFu0xW-HazVX-0" />
@@ -2374,6 +2374,47 @@
         </mxCell>
         <mxCell id="hVtPyTMaxeYJ0Ftx7HXe-1" value="删除" style="text;html=1;strokeColor=#FF6666;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="F7BWOIQFrFu0xW-HazVX-1" vertex="1">
           <mxGeometry x="395" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AT83AWJfvCs8NhzJC2Ro" name="fiscobcos">
+    <mxGraphModel dx="1674" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-2" value="NFS共享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-3" value="fiscobcos-k8s-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-7" value="生成证书&lt;br&gt;生成配置文件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-12" value="生成bcos区块链节点&lt;br&gt;删除bcos区块链节点&lt;br&gt;读取节点信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="405" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-15" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="200" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-16" value="读取区块链配置信息&lt;br&gt;读取证书信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-19" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="460" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-20" value="k8s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="550" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-21" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ5FxmAP0MODzmdU6w3B-22" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="320" width="15" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
