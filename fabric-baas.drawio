@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T05:41:35.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QE_m0_y_Mfi78SQO1NxN" version="22.1.11" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-28T05:45:23.277Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="u6Q9l5DTaeAlExvZAdAB" version="22.1.11" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2604,6 +2604,12 @@
         </mxCell>
         <mxCell id="5JFF25YKWiNoesJWkYMz-40" value="链根证书" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2260" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5JFF25YKWiNoesJWkYMz-41" value="agency.crt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="695" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5JFF25YKWiNoesJWkYMz-42" value="机构证书" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="730" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
