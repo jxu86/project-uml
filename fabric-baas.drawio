@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T02:05:34.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nyLoL9ZdVQ5m0p4Gn6FT" version="22.1.17" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-10T02:17:23.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Iu5XmtkP8qyOdtiF8lTr" version="22.1.17" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2379,11 +2379,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AT83AWJfvCs8NhzJC2Ro" name="fiscobcos">
-    <mxGraphModel dx="1116" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1594" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5400" y="420" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qZ5FxmAP0MODzmdU6w3B-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -2788,23 +2788,38 @@
         <mxCell id="Hp2eYljjg3GwW7-3albw-55" value="gmennode.key" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4590" y="555" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-1" value="ca.crt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-1" value="ca.crt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5420" y="456.21" width="60" height="23.79" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-2" value="Fisco Bcos 证书体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-2" value="Fisco Bcos 证书体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5480" y="370" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-4" value="chain cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-4" value="chain cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5525" y="420" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-5" value="ca.key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-5" value="ca.key" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5490" y="456.21" width="60" height="23.79" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-6" value="ca.srl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-6" value="ca.srl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5560" y="456.21" width="60" height="23.79" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-7" value="cert.cnf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-7" value="cert.cnf" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5630" y="456.21" width="60" height="23.79" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5280" y="590" width="170" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-2" value="sdk.crt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5300" y="626.21" width="60" height="23.79" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kiIPViVUV54ht3p8Hm8e-3" target="VepsiCr66wO_XYXvhRLZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-3" value="sdk cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5335" y="590" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-4" value="sdk.key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5370" y="626.21" width="60" height="23.79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
