@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T02:26:14.644Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oP6-4Lp2P2otaJNzKYjM" version="22.1.17" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-10T02:30:59.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ifP40MjQA06dUzRR8Mh0" version="22.1.17" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2836,8 +2836,20 @@
         <mxCell id="kiIPViVUV54ht3p8Hm8e-11" value="ssl.key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5640" y="626.21" width="60" height="23.79" as="geometry" />
         </mxCell>
-        <mxCell id="kiIPViVUV54ht3p8Hm8e-12" value="node.pem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-12" value="ssl.nodeid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5710" y="626.21" width="60" height="23.79" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5850" y="450" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-16" value="node.pem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5860" y="486.21000000000004" width="70" height="23.79" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-17" value="account cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5897.5" y="450" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kiIPViVUV54ht3p8Hm8e-18" value="node.nodeid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5940" y="486.21000000000004" width="80" height="23.79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
