@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T02:17:23.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Iu5XmtkP8qyOdtiF8lTr" version="22.1.17" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-10T02:18:21.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hn_IhP6ILeUslpHktMwe" version="22.1.17" type="github" pages="10">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2791,7 +2791,7 @@
         <mxCell id="VepsiCr66wO_XYXvhRLZ-1" value="ca.crt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5420" y="456.21" width="60" height="23.79" as="geometry" />
         </mxCell>
-        <mxCell id="VepsiCr66wO_XYXvhRLZ-2" value="Fisco Bcos 证书体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="VepsiCr66wO_XYXvhRLZ-2" value="Fisco Bcos V3 RSA证书体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5480" y="370" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VepsiCr66wO_XYXvhRLZ-4" value="chain cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
