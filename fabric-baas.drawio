@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T01:15:46.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="somktirTBF_d5tFqSUwe" version="23.1.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-03-14T02:45:37.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FEu3z-iDh5FDmkd-ZGF_" version="24.0.0" type="github" pages="11">
   <diagram id="jpyE-2TypS0CLBz9KzHh" name="电子账单">
     <mxGraphModel dx="1674" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3080,6 +3080,14 @@
         <mxCell id="mo6zeKD0f_gyfdcHc_Nx-4" value="SDK连接根证书" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3693" y="751.2099999999999" width="60" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vyEJQR3zz9RYvr1RMiCd" name="k8s">
+    <mxGraphModel dx="1674" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
