@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T08:11:03.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5Q6UNKOk7zN1rGMe8v9X" version="24.1.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-28T08:12:35.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GWUefDhB5lZE85BDmRZK" version="24.1.0" type="github" pages="8">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="7414" dy="3357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3747,7 +3747,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5ntbD8AoZmrtSJlwflNT" name="通用ERC1155-721发布工具">
-    <mxGraphModel dx="2314" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3775,14 +3775,14 @@
         <mxCell id="Z_ZalfziwUwlauMvfrYm-8" value="1、上传图片&lt;br&gt;2、发布合约&lt;br&gt;3、写metadata uri到已发布合约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="240" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tV8lx6HapQwJ0Km7kLRN-1" value="图片上传模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tV8lx6HapQwJ0Km7kLRN-1" value="图片上传模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Q5e2PcJkdm5E72WYIfXJ" name="Ton">
-    <mxGraphModel dx="9220" dy="5085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4570" dy="2871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3881,6 +3881,9 @@
         </mxCell>
         <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-46" value="Jetton Master Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-285" y="-130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U6p3OaT5u0oXrxwJs5We-1" value="1、发布Jetton合约&lt;div&gt;2、&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="450" width="630" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
