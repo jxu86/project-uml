@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T14:44:01.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Wy00cI0Ku9OMqEJZomSh" version="24.1.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-28T08:07:51.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gfnpO-Cr3-e7tMBh1WJY" version="24.1.0" type="github" pages="8">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="7414" dy="3357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3782,7 +3782,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q5e2PcJkdm5E72WYIfXJ" name="Ton">
-    <mxGraphModel dx="1856" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3082" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3857,6 +3857,30 @@
         </mxCell>
         <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-35" value="TokenTransferInternal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-36" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="-130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8h-ZPwk3Jk8LK4O6v8aR-38" target="8h-ZPwk3Jk8LK4O6v8aR-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-38" value="Jetton&lt;div&gt;Master&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8h-ZPwk3Jk8LK4O6v8aR-40" target="8h-ZPwk3Jk8LK4O6v8aR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-40" value="Wallet" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-44" value="Mint All Token To&amp;nbsp;&lt;div&gt;Vesting Wallet&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-45" value="Mint All" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8h-ZPwk3Jk8LK4O6v8aR-46" value="Jetton Master Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="-130" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
