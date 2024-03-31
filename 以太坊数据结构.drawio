@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T04:42:38.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VsTfbq-7KxBHi2BERJhD" version="24.2.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-31T04:43:17.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5s5HHu771xHnAifQqlI1" version="24.2.1" type="github" pages="8">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="7414" dy="3357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3926,6 +3926,9 @@
         </mxCell>
         <mxCell id="UnpDsQuLR_2TN5ct6xbe-19" value="1、锁定24个月&lt;div&gt;2、&lt;span style=&quot;background-color: initial;&quot;&gt;2024年5月开始，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;每个月释放锁定量的4.166%&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="505" y="1310" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UnpDsQuLR_2TN5ct6xbe-20" value="Wallet Addres，不锁定" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="840" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
