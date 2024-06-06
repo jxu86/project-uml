@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T13:05:32.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ijbCLnU0d5EnIOm1xwSW" version="24.4.15" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-06T13:08:07.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OVsYyjE2uA_NScwPb9kS" version="24.4.15" type="github" pages="8">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6774" dy="2997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4239,6 +4239,9 @@
         <mxCell id="iDfJ96EOLBZ-EkErwyLm-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;NotCoinDetail&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id = xxx&lt;br&gt;Address&amp;nbsp;= xxxx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;JettonWalletAddress = xxxx&amp;nbsp;&lt;br&gt;Coins&amp;nbsp;= 100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CType = &quot;recharge&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;States = &quot;order&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TranId = &quot;001&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2660" y="1640" width="180" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="iDfJ96EOLBZ-EkErwyLm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDfJ96EOLBZ-EkErwyLm-3" target="iDfJ96EOLBZ-EkErwyLm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iDfJ96EOLBZ-EkErwyLm-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;NotCoinDetail&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id = xxx&lt;br&gt;Address&amp;nbsp;= xxxx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;JettonWalletAddress = xxxx&amp;nbsp;&lt;br&gt;Coins&amp;nbsp;= 100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CType = &quot;recharge&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;States = &quot;sendSuccess&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TranId = &quot;001&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3020" y="1530" width="180" height="150" as="geometry" />
         </mxCell>
@@ -4256,6 +4259,18 @@
         </mxCell>
         <mxCell id="iDfJ96EOLBZ-EkErwyLm-9" value="rechargeSendFeedback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2870" y="1690" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDfJ96EOLBZ-EkErwyLm-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;NotCoinDetail&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id = xxx&lt;br&gt;Address&amp;nbsp;= xxxx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;JettonWalletAddress = xxxx&amp;nbsp;&lt;br&gt;Coins&amp;nbsp;= 100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CType = &quot;recharge&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;States = &quot;active&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TranId = &quot;001&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TransactionHash = &quot;xxxx&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="1530" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iDfJ96EOLBZ-EkErwyLm-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3300" y="1460" as="sourcePoint" />
+            <mxPoint x="3300" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDfJ96EOLBZ-EkErwyLm-13" value="data sync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="1508" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
