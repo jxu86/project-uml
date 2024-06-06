@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T13:08:07.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OVsYyjE2uA_NScwPb9kS" version="24.4.15" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-06T13:09:23.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kuZRrnjVA8c8zlb2orUN" version="24.4.15" type="github" pages="8">
   <diagram id="dX4XTRBZ6Wp5YaVVU2Ya" name="数据结构">
     <mxGraphModel dx="6774" dy="2997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4271,6 +4271,9 @@
         </mxCell>
         <mxCell id="iDfJ96EOLBZ-EkErwyLm-13" value="data sync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3300" y="1508" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDfJ96EOLBZ-EkErwyLm-14" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;NotCoinDetail&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id = xxx&lt;br&gt;Address&amp;nbsp;= xxxx&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;JettonWalletAddress = xxxx&amp;nbsp;&lt;br&gt;Coins&amp;nbsp;= 100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CType = &quot;recharge&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;States = &quot;noOrder&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TranId = &quot;001&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TransactionHash = &quot;xxxx&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="1730" width="180" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
