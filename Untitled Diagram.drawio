@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T01:31:25.424Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DoXNL-BWCplvmPGsl4ON" version="24.4.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T01:33:27.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tH9zA-zWs6gwmykKZND7" version="24.4.15" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,46 +23,46 @@
           <mxGeometry x="430" y="240" width="30" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-1" value="web前端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1105" y="150" width="340" height="60" as="geometry" />
+          <mxGeometry x="1150" y="150" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-2" value="python后端服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1105" y="430" width="340" height="60" as="geometry" />
+          <mxGeometry x="1150" y="430" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-3" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="210" width="30" height="220" as="geometry" />
+          <mxGeometry x="1255" y="210" width="30" height="220" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-4" value="websocket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry x="1275" y="295" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-5" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="210" width="30" height="220" as="geometry" />
+          <mxGeometry x="1375" y="210" width="30" height="220" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-6" value="http" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="300" width="60" height="30" as="geometry" />
+          <mxGeometry x="1395" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-9" value="ROS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="930" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-10" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="300" width="60" height="80" as="geometry" />
+          <mxGeometry x="1830" y="420" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;" parent="1" vertex="1">
-          <mxGeometry x="1445" y="325" width="155" height="30" as="geometry" />
+          <mxGeometry x="1495" y="445" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-13" value="Robot" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="1185" y="730" width="260" height="100" as="geometry" />
+          <mxGeometry x="1190" y="720" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-14" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="670" width="800" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-1" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="540" width="90" height="40" as="geometry" />
+          <mxGeometry x="1155" y="570" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-2" value="图像识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="540" width="90" height="40" as="geometry" />
+          <mxGeometry x="1275" y="570" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-3" value="机械手控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="540" width="90" height="40" as="geometry" />
+          <mxGeometry x="1395" y="570" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
