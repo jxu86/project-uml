@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T01:38:42.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zT0bLXhcSUdFVGAreHYa" version="24.4.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T01:41:34.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F1vAD8abRuzDz7L5XU4s" version="24.4.15" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1Bx2e8oar3cCMUDuemxb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="420" width="800" height="230" as="geometry" />
+          <mxGeometry x="910" y="420" width="800" height="350" as="geometry" />
         </mxCell>
         <mxCell id="RyoMVnNRmUopJ9R-RflP-1" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="310" width="610" height="70" as="geometry" />
@@ -50,10 +50,10 @@
           <mxGeometry x="1495" y="445" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-13" value="Robot" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="720" width="260" height="100" as="geometry" />
+          <mxGeometry x="1190" y="850" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-14" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="670" width="800" height="30" as="geometry" />
+          <mxGeometry x="910" y="800" width="800" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-1" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1155" y="570" width="90" height="40" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry x="1275" y="570" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-3" value="机械手控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1395" y="570" width="90" height="40" as="geometry" />
+          <mxGeometry x="1360" y="660" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-5" value="1、三个摄像头的图像实时显示&lt;div&gt;2、命令按键(分闸、合闸等)&lt;/div&gt;&lt;div&gt;3、语音控制&lt;/div&gt;&lt;div&gt;4、机械臂状态显示&lt;/div&gt;&lt;div&gt;5、操作日志&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1507.5" y="110" width="310" height="160" as="geometry" />
