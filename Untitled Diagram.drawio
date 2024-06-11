@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T08:56:44.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="g67e5WQvDENJ-g1EynpV" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T09:03:16.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9VCWduBxK5G67mAP72Ml" version="24.5.1" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="51TuapQmKdHdHZVCJIDi-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="1120" width="310" height="130" as="geometry" />
+          <mxGeometry x="1500" y="1230" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1Bx2e8oar3cCMUDuemxb-14" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="710" width="800" height="30" as="geometry" />
@@ -80,22 +80,25 @@
           <mxGeometry x="2020" y="80.5" width="488" height="669" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-2" value="语音播报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="1170" width="90" height="50" as="geometry" />
+          <mxGeometry x="1560" y="1280" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-4" value="语音相关服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1812.5" y="1120" width="95" height="30" as="geometry" />
+          <mxGeometry x="1612.5" y="1230" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-5" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="1170" width="90" height="50" as="geometry" />
+          <mxGeometry x="1670" y="1280" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-6" value="图像识别模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="1120" width="115" height="50" as="geometry" />
+          <mxGeometry x="2150" y="1310" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-7" value="摄像头模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="1210" width="115" height="50" as="geometry" />
+          <mxGeometry x="2010" y="1310" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-8" value="机械手控制模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="1390" width="115" height="50" as="geometry" />
+          <mxGeometry x="1860" y="1310" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51TuapQmKdHdHZVCJIDi-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1492.5" y="1070" width="777.5" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
