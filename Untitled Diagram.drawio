@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T09:03:16.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9VCWduBxK5G67mAP72Ml" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T09:05:09.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="o9fO6ZwZC6AJzonLdBGD" version="24.5.1" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1492.5" y="1070" width="777.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="51TuapQmKdHdHZVCJIDi-10" value="检测当前机械臂&lt;div&gt;状态模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2035" y="1140" width="115" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
