@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T08:35:35.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jRq_EGBYZC9bhChKmjsD" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T08:56:44.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="g67e5WQvDENJ-g1EynpV" version="24.5.1" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,6 +87,15 @@
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-5" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1870" y="1170" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51TuapQmKdHdHZVCJIDi-6" value="图像识别模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="1120" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51TuapQmKdHdHZVCJIDi-7" value="摄像头模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="1210" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51TuapQmKdHdHZVCJIDi-8" value="机械手控制模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1390" width="115" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
