@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T01:54:08.009Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RMMOZzq9jxkkxvDCLOy_" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T01:56:11.765Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="B4f7AjeCkph4A4zZngTZ" version="24.5.1" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="dxYwu7DKMdKghps5UNOo-3" value="机械手控制" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="590" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dxYwu7DKMdKghps5UNOo-5" value="1、三个摄像头的图像实时显示&lt;div&gt;2、一键机器人初始化&lt;br&gt;&lt;div&gt;3、命令按键(分闸、合闸等)，根据机械臂状态判断当前可执行的命令按键&lt;/div&gt;&lt;div&gt;4、语音控制&lt;span style=&quot;background-color: initial;&quot;&gt;(分闸、合闸等)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5、机械臂当前状态显示&lt;/div&gt;&lt;div&gt;6、操作日志&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dxYwu7DKMdKghps5UNOo-5" value="1、三个摄像头的图像实时显示&lt;div&gt;2、一键机器人初始化&lt;br&gt;&lt;div&gt;3、命令按键(分闸、合闸等)，根据机械臂状态判断当前可执行的命令按键&lt;/div&gt;&lt;div&gt;4、语音控制&lt;span style=&quot;background-color: initial;&quot;&gt;(分闸、合闸等)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5、机械臂当前状态显示&lt;/div&gt;&lt;div&gt;6、操作日志(执行的命令，操作结果，时间等)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1507.5" y="110" width="482.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dxYwu7DKMdKghps5UNOo-17" value="机械手初始化&lt;div&gt;控制&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
