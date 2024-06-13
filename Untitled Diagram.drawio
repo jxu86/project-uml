@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:41:34.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="AX3P7QmiTGWKLVUIv851" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T06:08:38.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fpX-2CtB6VIscEt1uK1Y" version="24.5.3" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="51TuapQmKdHdHZVCJIDi-2" value="语音播报" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1703.75" y="1120" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="51TuapQmKdHdHZVCJIDi-5" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="51TuapQmKdHdHZVCJIDi-5" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1830" y="1120" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-6" value="图像识别模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
