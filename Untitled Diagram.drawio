@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T07:35:39.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="m54ALuSWrVQK-zdi2Ug0" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T07:37:53.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="D1buXUmKVe49Ek8qQ1A5" version="24.5.4" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1969" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -478,6 +478,11 @@
         <mxCell id="ukFmjabKcMlzdvge1FG7-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.184;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-184" target="ukFmjabKcMlzdvge1FG7-185">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-207" value="开始命令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukFmjabKcMlzdvge1FG7-179">
+          <mxGeometry x="-0.253" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ukFmjabKcMlzdvge1FG7-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ukFmjabKcMlzdvge1FG7-193">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -486,6 +491,11 @@
             </Array>
             <mxPoint x="5609.94" y="685.25" as="sourcePoint" />
             <mxPoint x="6109.9400000000005" y="780.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-208" value="开始命令后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukFmjabKcMlzdvge1FG7-182">
+          <mxGeometry x="-0.0541" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ukFmjabKcMlzdvge1FG7-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-184" target="ukFmjabKcMlzdvge1FG7-161">
@@ -522,6 +532,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-206" value="结束命令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukFmjabKcMlzdvge1FG7-203">
+          <mxGeometry x="-0.3076" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ukFmjabKcMlzdvge1FG7-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-190" target="ukFmjabKcMlzdvge1FG7-164">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5340" y="-50" as="targetPoint" />
@@ -551,6 +566,12 @@
         </mxCell>
         <mxCell id="ukFmjabKcMlzdvge1FG7-200" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;播报当前执行命令&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5840" y="625" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-209" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;当前状态信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6220" y="610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-210" value="播报命令执行结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6430" y="758" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
