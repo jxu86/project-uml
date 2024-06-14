@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T07:33:54.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="uX68sg9TZhmrTKgP9SgL" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T07:34:22.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gpsvmkj4JhtMvpBwvUao" version="24.5.4" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1969" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
         <mxCell id="ukFmjabKcMlzdvge1FG7-177" value="判断当前状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5600" y="465.25" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ukFmjabKcMlzdvge1FG7-178" value="status msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="ukFmjabKcMlzdvge1FG7-178" value="当前命令信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="5870" y="609.9985714285716" as="geometry">
             <mxPoint x="74" y="-122" as="offset" />
           </mxGeometry>
