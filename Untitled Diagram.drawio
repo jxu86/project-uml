@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T06:08:38.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fpX-2CtB6VIscEt1uK1Y" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T04:03:10.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u8-BLuhlU7YfOaNiJ0-X" version="24.5.4" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
     <mxGraphModel dx="1674" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ukFmjabKcMlzdvge1FG7-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="140" width="240" height="310" as="geometry" />
+        </mxCell>
         <mxCell id="51TuapQmKdHdHZVCJIDi-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1640" y="1070" width="650" height="140" as="geometry" />
         </mxCell>
@@ -105,6 +108,105 @@
         </mxCell>
         <mxCell id="41UiEySVKyl7DJAsFA56-5" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2011.88" y="1320" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-2" value="启动摄像头" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="210" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-3" value="启动机械臂" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="290" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-5" value="初始化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-7" target="ukFmjabKcMlzdvge1FG7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-7" target="ukFmjabKcMlzdvge1FG7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-7" value="等待命令输入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3180" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-11" target="ukFmjabKcMlzdvge1FG7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-11" value="按键命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-12" target="ukFmjabKcMlzdvge1FG7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-12" value="语音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-15" target="ukFmjabKcMlzdvge1FG7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-15" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-17" target="ukFmjabKcMlzdvge1FG7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-17" value="命令识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-20" target="ukFmjabKcMlzdvge1FG7-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-20" value="命令控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3100" y="749.5" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-21" target="ukFmjabKcMlzdvge1FG7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-21" value="状态识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2990" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-23" value="机械臂推理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="360" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-25" target="ukFmjabKcMlzdvge1FG7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-25" value="图像识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-26" target="ukFmjabKcMlzdvge1FG7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-26" value="Robot" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3130" y="900" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-27" value="语音播报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3510" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-28" target="ukFmjabKcMlzdvge1FG7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-28" value="摄像头数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="740" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-32" target="ukFmjabKcMlzdvge1FG7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-32" target="ukFmjabKcMlzdvge1FG7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-32" value="判断当前状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="585" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-39" value="执行当前命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="690" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-41" value="执行命令失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3415" y="595" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ukFmjabKcMlzdvge1FG7-20" target="ukFmjabKcMlzdvge1FG7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-45" value="播报当前执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="660" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
