@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T06:53:25.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9lxB4ED9Bx0lanpEe3iK" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T06:56:23.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nT_qRLsXlCHsUHtGGGf7" version="24.5.4" type="github">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="Page-1">
-    <mxGraphModel dx="1594" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1969" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -348,6 +348,9 @@
         </mxCell>
         <mxCell id="ukFmjabKcMlzdvge1FG7-97" value="状态有改变就进行播报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4550" y="460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukFmjabKcMlzdvge1FG7-98" value="ROS NODE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4490" y="-20.25" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
