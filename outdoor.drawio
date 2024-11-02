@@ -1638,7 +1638,16 @@
           <mxGeometry x="60" y="320" width="390" height="320" as="geometry" />
         </mxCell>
         <mxCell id="jJTGNaZ7SB0ycB5pdAtq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="390" height="320" as="geometry" />
+          <mxGeometry x="750" y="300" width="390" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-4" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-5" value="推荐策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-6" value="后台管理系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="130" width="250" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
