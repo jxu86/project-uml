@@ -1689,10 +1689,10 @@
           <mxGeometry x="2657.5" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Le0LTXNDKt8KpweOGhf-14" value="https://www.cnblogs.com/yangsy0915/p/5222705.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="480" width="310" height="30" as="geometry" />
+          <mxGeometry x="3060" y="480" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5Le0LTXNDKt8KpweOGhf-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3430" y="830" width="680" height="80" as="geometry" />
+          <mxGeometry x="3430" y="830" width="920" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5Le0LTXNDKt8KpweOGhf-16" value="用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3450" y="850" width="110" height="40" as="geometry" />
@@ -1729,6 +1729,18 @@
         </mxCell>
         <mxCell id="5Le0LTXNDKt8KpweOGhf-29" value="交互查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3710" y="685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4130" y="680" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-33" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4185" y="755" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-35" value="用户画像标签存储" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-36" value="元数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4240" y="710" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
