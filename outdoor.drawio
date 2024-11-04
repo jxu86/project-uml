@@ -1627,27 +1627,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Cp6SIZLJKTkeXkueVfNm" name="keitokun">
-    <mxGraphModel dx="1596" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-1" value="Line MiniApp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="140" width="250" height="90" as="geometry" />
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-1" value="Line MiniApp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2000" y="560" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="390" height="320" as="geometry" />
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="490" width="390" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="300" width="390" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-4" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-4" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-5" value="推荐策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-5" value="推荐策略" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-6" value="后台管理系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJTGNaZ7SB0ycB5pdAtq-6" value="后台管理系统" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="130" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-1" value="标签管理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-2" value="用户标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.linkflowtech.com/upload/img/20221121/202211212207567135.png;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="290" width="651.2" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="500" width="760" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="560" width="150" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-6" value="数据采集" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2435" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-7" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-8" value="Import" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="560" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-10" value="数据整合/标签计算" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2657.5" y="530" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
