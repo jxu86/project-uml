@@ -1766,6 +1766,15 @@
         <mxCell id="5Le0LTXNDKt8KpweOGhf-45" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4280" y="430" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4420" y="300" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-47" value="标签/用户群分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4454" y="320" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Le0LTXNDKt8KpweOGhf-48" value="产品策略匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4454" y="370" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
