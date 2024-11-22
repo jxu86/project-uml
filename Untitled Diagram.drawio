@@ -1141,16 +1141,43 @@
           <mxGeometry x="5622" y="-523" width="163" height="56" as="geometry" />
         </mxCell>
         <mxCell id="qIEC4wVARMxANMdvh82k-1" value="电网管理平台服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6190" y="2274" width="144" height="51" as="geometry" />
+          <mxGeometry x="6193" y="2274" width="144" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="qIEC4wVARMxANMdvh82k-2" value="瓦特机器人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6190" y="2392" width="144" height="51" as="geometry" />
+        <mxCell id="qIEC4wVARMxANMdvh82k-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6164.5" y="2392" width="201" height="89" as="geometry" />
         </mxCell>
         <mxCell id="qIEC4wVARMxANMdvh82k-3" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6256.5" y="2327" width="17" height="65" as="geometry" />
         </mxCell>
         <mxCell id="qIEC4wVARMxANMdvh82k-4" value="https" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="6266" y="2343" width="44" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-5" value="电网管理平台服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6495" y="2274" width="144" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6428" y="2389" width="278" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-7" value="瓦特机器人" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6534" y="2543" width="66" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-8" value="电网管理平台APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6505" y="2389" width="128" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-9" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6558.5" y="2324" width="17" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-11" value="开关柜局部放电&lt;div&gt;检测模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6513" y="2492" width="108" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-12" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6558.5" y="2427" width="17" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-13" value="开关柜局部放电&lt;div&gt;检测模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6212" y="2392" width="108" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="qIEC4wVARMxANMdvh82k-14" value="瓦特机器人" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6232" y="2461" width="66" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
