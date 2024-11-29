@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2" pages="2">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="robot">
-    <mxGraphModel dx="459" dy="1337" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="645" dy="1432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1282,7 +1282,7 @@
           <mxGeometry x="7446.25" y="2370.5" width="51" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ctc3qq8zXMhzxBMfeEma-1" value="局放检测设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7986" y="2343" width="117" height="39" as="geometry" />
+          <mxGeometry x="7986" y="2340" width="117" height="39" as="geometry" />
         </mxCell>
         <mxCell id="Ctc3qq8zXMhzxBMfeEma-2" value="瓦特机器人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7949" y="2453" width="191" height="39" as="geometry" />
@@ -1301,6 +1301,12 @@
         </mxCell>
         <mxCell id="Ctc3qq8zXMhzxBMfeEma-8" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;2、工单请求&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="7927" y="2511" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctc3qq8zXMhzxBMfeEma-9" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="8003" y="2381" width="11" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctc3qq8zXMhzxBMfeEma-10" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;4、工单ID&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="7962" y="2398.5" width="45" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
