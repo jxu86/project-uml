@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3" pages="2">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="robot">
-    <mxGraphModel dx="744" dy="1453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="2236" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1327,19 +1327,19 @@
           <mxGeometry x="7942" y="2490.5" width="11" height="72" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8925.5" y="2229" width="118" height="196.5" as="geometry" />
+          <mxGeometry x="8212.25" y="2716.75" width="118" height="196.5" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tweetscotty/128/twitterbot.png" vertex="1" parent="1">
-          <mxGeometry x="8722" y="2246.5" width="179" height="179" as="geometry" />
+          <mxGeometry x="8008.75" y="2734.25" width="179" height="179" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-4" value="设备信息感应区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8957" y="2238.5" width="55" height="34" as="geometry" />
+          <mxGeometry x="8243.75" y="2726.25" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-5" value="数据采集感应区1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8957" y="2288.5" width="55" height="34" as="geometry" />
+          <mxGeometry x="8243.75" y="2776.25" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-7" value="数据采集感应区2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8957" y="2338" width="55" height="34" as="geometry" />
+          <mxGeometry x="8243.75" y="2825.75" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-9" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="8019" y="2378.5" width="11" height="72" as="geometry" />
@@ -1376,6 +1376,9 @@
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-22" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8292" y="2378.5" width="11" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="St2STzYSDXmQYnOl_zwe-23" value="开关柜01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8243.75" y="2686.75" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
