@@ -1365,7 +1365,7 @@
         <mxCell id="St2STzYSDXmQYnOl_zwe-18" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8205" y="2381" width="11" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="St2STzYSDXmQYnOl_zwe-19" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;13、返回数据采集&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;感应区1采集&lt;/font&gt;&lt;span style=&quot;font-size: 6px; background-color: initial;&quot;&gt;成功状态&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="St2STzYSDXmQYnOl_zwe-19" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;13、返回数据采集&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;感应区2采集&lt;/font&gt;&lt;span style=&quot;font-size: 6px; background-color: initial;&quot;&gt;成功状态&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="8340" y="2395" width="75" height="41" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-20" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
