@@ -1327,19 +1327,19 @@
           <mxGeometry x="7983" y="2493" width="11" height="72" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8712.5" y="2230.5" width="118" height="196.5" as="geometry" />
+          <mxGeometry x="8925.5" y="2229" width="118" height="196.5" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tweetscotty/128/twitterbot.png" vertex="1" parent="1">
-          <mxGeometry x="8509" y="2248" width="179" height="179" as="geometry" />
+          <mxGeometry x="8722" y="2246.5" width="179" height="179" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-4" value="设备信息感应区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8744" y="2240" width="55" height="34" as="geometry" />
+          <mxGeometry x="8957" y="2238.5" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-5" value="数据采集感应区1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8744" y="2290" width="55" height="34" as="geometry" />
+          <mxGeometry x="8957" y="2288.5" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-7" value="数据采集感应区2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8744" y="2339.5" width="55" height="34" as="geometry" />
+          <mxGeometry x="8957" y="2338" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="St2STzYSDXmQYnOl_zwe-9" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="8060" y="2381" width="11" height="72" as="geometry" />
