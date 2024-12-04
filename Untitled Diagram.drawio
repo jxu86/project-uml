@@ -1647,11 +1647,20 @@
         <mxCell id="sFrLiXVnGeTNsIEFX5A7-14" value="具身智能决策大模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1993.75" y="617.5" width="126" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="oL_PNbR8eqsR6dlZKqGR-1" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3176" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="oL_PNbR8eqsR6dlZKqGR-1" value="大瓦特智能体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3557" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oL_PNbR8eqsR6dlZKqGR-5" value="&lt;span style=&quot;color: rgb(36, 41, 46); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 600; color: rgb(36, 41, 46); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-ai-assistant-role=&quot;selection&quot; data-spm-anchor-id=&quot;a2c6h.12873639.article-detail.i1.3ee57308XJz3p2&quot;&gt;Agent = LLM + 规划技能 + 记忆 + 工具使用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2796" y="8" width="352" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL_PNbR8eqsR6dlZKqGR-6" value="... ..." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="3681" y="379" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oL_PNbR8eqsR6dlZKqGR-7" value="大瓦特机器人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3797" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL_PNbR8eqsR6dlZKqGR-8" value="固定回答+动作.json" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3672" y="353" width="122" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
