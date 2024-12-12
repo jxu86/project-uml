@@ -1684,10 +1684,10 @@
           <mxGeometry x="6015" y="443.5" width="76" height="36" as="geometry" />
         </mxCell>
         <mxCell id="c-LbCvvXauyqlIQiKSw8-7" value="TTS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6060" y="495.25" width="76" height="36" as="geometry" />
+          <mxGeometry x="6052.5" y="536" width="76" height="36" as="geometry" />
         </mxCell>
         <mxCell id="_mhCe7MC579evzCG4osm-1" value="大瓦特机器人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5639" y="418" width="191" height="88" as="geometry" />
+          <mxGeometry x="5639" y="418" width="191" height="147" as="geometry" />
         </mxCell>
         <mxCell id="j8yTxLuJ11GDUC7JmoJW-1" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5457" y="448" width="182" height="28" as="geometry" />
@@ -1703,6 +1703,9 @@
         </mxCell>
         <mxCell id="j8yTxLuJ11GDUC7JmoJW-10" value="大模型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6161" y="493" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j8yTxLuJ11GDUC7JmoJW-12" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="5830" y="508" width="182" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
