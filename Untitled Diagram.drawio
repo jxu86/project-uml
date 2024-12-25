@@ -1714,10 +1714,10 @@
           <mxGeometry x="7042" y="394" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="suw1HPprh3CgVvZDFG00-3" value="外网在线ASR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6983" y="179.5" width="101" height="47" as="geometry" />
+          <mxGeometry x="6998" y="187.5" width="101" height="47" as="geometry" />
         </mxCell>
         <mxCell id="suw1HPprh3CgVvZDFG00-4" value="外网在线TTS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7124" y="178" width="101" height="47" as="geometry" />
+          <mxGeometry x="7111" y="187.5" width="101" height="47" as="geometry" />
         </mxCell>
         <mxCell id="suw1HPprh3CgVvZDFG00-5" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=45;" vertex="1" parent="1">
           <mxGeometry x="7037" y="250" width="71" height="19" as="geometry" />
