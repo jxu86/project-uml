@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4" pages="7">
   <diagram id="2wFq1d6wciqyABH6eyaj" name="gamefi">
     <mxGraphModel dx="1596" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1627,7 +1627,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Cp6SIZLJKTkeXkueVfNm" name="keitokun">
-    <mxGraphModel dx="1513" dy="342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1787,14 +1787,68 @@
         <mxCell id="5Le0LTXNDKt8KpweOGhf-52" value="后台管理系统" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4701" y="178" width="456" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sYdEdSFHaRMADrw5GTjc-1" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sYdEdSFHaRMADrw5GTjc-1" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5462" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sYdEdSFHaRMADrw5GTjc-2" value="APP Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sYdEdSFHaRMADrw5GTjc-2" value="APP Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5462" y="157" width="422" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sYdEdSFHaRMADrw5GTjc-3" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sYdEdSFHaRMADrw5GTjc-3" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5636" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-1" target="Al8x3uUKSQ-wbLqkdSef-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-1" target="Al8x3uUKSQ-wbLqkdSef-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-1" target="Al8x3uUKSQ-wbLqkdSef-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-1" target="Al8x3uUKSQ-wbLqkdSef-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-1" value="Asset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6409" y="35" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-2" value="GameItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6201" y="191" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-3" target="Al8x3uUKSQ-wbLqkdSef-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-3" target="Al8x3uUKSQ-wbLqkdSef-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Al8x3uUKSQ-wbLqkdSef-3" target="Al8x3uUKSQ-wbLqkdSef-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-3" value="Giftbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6335" y="191" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-4" value="Sweater" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6479" y="191" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-5" value="Keito" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6612" y="191" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-12" value="GameItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6204.5" y="337" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-13" value="GameItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6095" y="489" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-14" value="Sweater" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6336.5" y="337" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-15" value="GameItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5965" y="638" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-16" value="Sweater" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6223" y="489" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Al8x3uUKSQ-wbLqkdSef-17" value="Keito" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6465.5" y="337" width="110" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
