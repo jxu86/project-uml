@@ -1476,6 +1476,12 @@
         <mxCell id="UULTGhkQqqyvuL7Owa6T-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="机器人2" vertex="1">
           <mxGeometry height="30" width="60" x="8210" y="1566" as="geometry" />
         </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="8341" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-28" parent="1" style="shape=doubleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="21" width="73" x="8261" y="1391.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
