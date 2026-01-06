@@ -1438,10 +1438,43 @@
           <mxGeometry height="37" width="88" x="8061" y="1166" as="geometry" />
         </mxCell>
         <mxCell id="UULTGhkQqqyvuL7Owa6T-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="108" width="507" x="7752" y="1362" as="geometry" />
+          <mxGeometry height="108" width="507" x="7750" y="1348" as="geometry" />
         </mxCell>
         <mxCell id="UULTGhkQqqyvuL7Owa6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="管理平台前端" vertex="1">
           <mxGeometry height="30" width="100" x="7957" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="126" width="300" x="7752" y="1568" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="管理平台后端" vertex="1">
+          <mxGeometry height="30" width="103" x="7952" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-12" parent="1" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="109" width="31" x="7988" y="1236.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ASR" vertex="1">
+          <mxGeometry height="29" width="57" x="7776" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TTS" vertex="1">
+          <mxGeometry height="29" width="57" x="7843" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="动作接口" vertex="1">
+          <mxGeometry height="29" width="57" x="7908" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="表情接口" vertex="1">
+          <mxGeometry height="29" width="57" x="7971" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航接口" vertex="1">
+          <mxGeometry height="29" width="57" x="7776" y="1644" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="机器人1" vertex="1">
+          <mxGeometry height="30" width="60" x="7881.5" y="1568" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="... ..." vertex="1">
+          <mxGeometry height="126" width="300" x="8090" y="1566" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="机器人2" vertex="1">
+          <mxGeometry height="30" width="60" x="8210" y="1566" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
