@@ -1437,6 +1437,12 @@
         <mxCell id="UULTGhkQqqyvuL7Owa6T-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设备管理" vertex="1">
           <mxGeometry height="37" width="88" x="8061" y="1166" as="geometry" />
         </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="108" width="507" x="7752" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="UULTGhkQqqyvuL7Owa6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="管理平台前端" vertex="1">
+          <mxGeometry height="30" width="100" x="7957" y="1128" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
