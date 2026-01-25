@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="2">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="robot">
-    <mxGraphModel dx="1233" dy="1693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1110" dy="1656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1697,6 +1697,39 @@
         </mxCell>
         <mxCell id="6D4nES1ifgBapFLSsnH_-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="样本服务" vertex="1">
           <mxGeometry height="30.5" width="100" x="7622" y="198.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物联网平台" vertex="1">
+          <mxGeometry height="66" width="320" x="6887.88" y="-587" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="各类数字化应用平台" vertex="1">
+          <mxGeometry height="66" width="320" x="6890.13" y="-865" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="电力具身智能管控平台" vertex="1">
+          <mxGeometry height="66" width="320" x="6887.88" y="-726" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-4" parent="1" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="27" x="7033.13" y="-798" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-5" parent="1" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="27" x="7033.13" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="双足人形机器人" vertex="1">
+          <mxGeometry height="60" width="120" x="7375" y="-652" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="轮臂机器人" vertex="1">
+          <mxGeometry height="60" width="120" x="7375" y="-583" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="四足机器人" vertex="1">
+          <mxGeometry height="60" width="120" x="7374.75" y="-514" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-9" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;" value="" vertex="1">
+          <mxGeometry height="24" width="106" x="7239.5" y="-565" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-10" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=-20;" value="" vertex="1">
+          <mxGeometry height="24" width="106" x="7236.5" y="-607" as="geometry" />
+        </mxCell>
+        <mxCell id="8K6jkQ9RaiYuaCEUNvC_-11" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=30;" value="" vertex="1">
+          <mxGeometry height="24" width="106" x="7233.5" y="-516" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
