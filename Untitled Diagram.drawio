@@ -1764,7 +1764,7 @@
         <mxCell id="vdmrDFwvvLE4SzpQfBb1-8" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vdmrDFwvvLE4SzpQfBb1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="统一密码服务平台" vertex="1">
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="数字身份与访问管理平台" vertex="1">
           <mxGeometry height="38" width="153" x="6215" y="-682" as="geometry" />
         </mxCell>
         <mxCell id="vdmrDFwvvLE4SzpQfBb1-6" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-1">
