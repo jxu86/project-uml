@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="2">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="robot">
-    <mxGraphModel dx="790" dy="1536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="1605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1745,6 +1745,39 @@
         </mxCell>
         <mxCell id="8K6jkQ9RaiYuaCEUNvC_-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;统一认证、统一权限、&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;统一用户、统一审计&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="107" x="7059.25" y="-781" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-7" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vdmrDFwvvLE4SzpQfBb1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-9" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-11" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vdmrDFwvvLE4SzpQfBb1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" value="电力具身之智能管控平台" vertex="1">
+          <mxGeometry height="85" width="245" x="6337" y="-847" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="本系统" vertex="1">
+          <mxGeometry height="30" width="60" x="6429.5" y="-847" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-8" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="统一密码服务平台" vertex="1">
+          <mxGeometry height="38" width="153" x="6215" y="-682" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-6" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="数据资产管理平台" vertex="1">
+          <mxGeometry height="38" width="153" x="6383" y="-682" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-10" edge="1" parent="1" source="vdmrDFwvvLE4SzpQfBb1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vdmrDFwvvLE4SzpQfBb1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdmrDFwvvLE4SzpQfBb1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="物联网平台" vertex="1">
+          <mxGeometry height="38" width="153" x="6550" y="-682" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
