@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="2">
   <diagram id="IR0QDoFTpoQ6l2Y1bwrg" name="robot">
-    <mxGraphModel dx="1009" dy="1605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="793" dy="1497" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1778,6 +1778,36 @@
         </mxCell>
         <mxCell id="vdmrDFwvvLE4SzpQfBb1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="物联网平台" vertex="1">
           <mxGeometry height="38" width="153" x="6550" y="-682" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-7" edge="1" parent="1" source="sN6a8qivgJH3X0ae1qUJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sN6a8qivgJH3X0ae1qUJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="99" width="170" x="8068" y="-366" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="仿真IV区" vertex="1">
+          <mxGeometry height="33" width="85" x="8110.5" y="-333" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="内网" vertex="1">
+          <mxGeometry height="30" width="60" x="8123" y="-371" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="8415" y="-346.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="人形机器人" vertex="1">
+          <mxGeometry height="30" width="80" x="8439" y="-333" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="66" width="9" x="8294.75" y="-349.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="网页认证" vertex="1">
+          <mxGeometry height="30" width="60" x="8269.25" y="-376.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="66" width="9" x="8359.5" y="-349.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="零信认证" vertex="1">
+          <mxGeometry height="30" width="60" x="8334" y="-376.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
