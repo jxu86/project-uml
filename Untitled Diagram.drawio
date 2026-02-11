@@ -1783,31 +1783,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="99" width="170" x="8068" y="-366" as="geometry" />
+          <mxGeometry height="99" width="170" x="8013" y="-364.5" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="仿真IV区" vertex="1">
-          <mxGeometry height="33" width="85" x="8110.5" y="-333" as="geometry" />
+          <mxGeometry height="33" width="85" x="8055.5" y="-331.5" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="内网" vertex="1">
-          <mxGeometry height="30" width="60" x="8123" y="-371" as="geometry" />
+          <mxGeometry height="30" width="60" x="8068" y="-369.5" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="8415" y="-346.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="8360" y="-345" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="人形机器人" vertex="1">
-          <mxGeometry height="30" width="80" x="8439" y="-333" as="geometry" />
+          <mxGeometry height="30" width="80" x="8384" y="-331.5" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="66" width="9" x="8294.75" y="-349.5" as="geometry" />
+          <mxGeometry height="66" width="9" x="8239.75" y="-348" as="geometry" />
         </mxCell>
-        <mxCell id="sN6a8qivgJH3X0ae1qUJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="网页认证" vertex="1">
-          <mxGeometry height="30" width="60" x="8269.25" y="-376.5" as="geometry" />
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="网行为系统" vertex="1">
+          <mxGeometry height="30" width="69.75" x="8205.12" y="-375" as="geometry" />
         </mxCell>
         <mxCell id="sN6a8qivgJH3X0ae1qUJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="66" width="9" x="8359.5" y="-349.5" as="geometry" />
+          <mxGeometry height="66" width="9" x="8304.5" y="-348" as="geometry" />
         </mxCell>
-        <mxCell id="sN6a8qivgJH3X0ae1qUJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="零信认证" vertex="1">
-          <mxGeometry height="30" width="60" x="8334" y="-376.5" as="geometry" />
+        <mxCell id="sN6a8qivgJH3X0ae1qUJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="零信任认证" vertex="1">
+          <mxGeometry height="30" width="77" x="8270" y="-375" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
